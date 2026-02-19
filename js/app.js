@@ -722,5 +722,32 @@ const SHKApp = {
   },
 };
 
+// Mobile sidebar drawer
+function initSidebarDrawer() {
+  const toggle = document.getElementById('menu-toggle');
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+  if (!toggle || !sidebar || !overlay) return;
+
+  function openDrawer() {
+    sidebar.classList.add('open');
+    overlay.classList.remove('hidden');
+    toggle.classList.add('active');
+  }
+  function closeDrawer() {
+    sidebar.classList.remove('open');
+    overlay.classList.add('hidden');
+    toggle.classList.remove('active');
+  }
+
+  toggle.addEventListener('click', () => {
+    sidebar.classList.contains('open') ? closeDrawer() : openDrawer();
+  });
+  overlay.addEventListener('click', closeDrawer);
+}
+
 // Initialize app when DOM is ready
-document.addEventListener('DOMContentLoaded', () => SHKApp.init());
+document.addEventListener('DOMContentLoaded', () => {
+  SHKApp.init();
+  initSidebarDrawer();
+});

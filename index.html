@@ -12,6 +12,9 @@
   <div id="app">
     <!-- Header -->
     <header id="header">
+      <button id="menu-toggle" class="menu-toggle" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
       <div class="header-left">
         <h1>SHK</h1>
         <span class="subtitle">筋骨神経データベース</span>
@@ -99,6 +102,9 @@
         <div id="detail-content"></div>
       </aside>
     </div>
+
+    <!-- Sidebar overlay -->
+    <div id="sidebar-overlay" class="sidebar-overlay hidden"></div>
 
     <!-- Reverse lookup modal -->
     <div id="lookup-modal" class="modal hidden">
