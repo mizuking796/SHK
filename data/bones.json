@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "b_frontal",
+    "name_ja": "前頭骨",
+    "name_en": "Frontal bone",
+    "region": "head_neck",
+    "landmarks": [
+      "前頭結節",
+      "眉弓",
+      "鼻部",
+      "眼窩部"
+    ],
+    "description": "頭蓋冠の前部を構成する扁平骨。前頭鱗・眼窩部・鼻部からなり、前頭洞を含む。",
+    "trivia": "新生児では左右2枚に分かれており、前頭縫合により癒合する。約5%の成人で残存する（人種により2〜8%と幅がある）。"
+  },
+  {
+    "id": "b_parietal",
+    "name_ja": "頭頂骨",
+    "name_en": "Parietal bone",
+    "region": "head_neck",
+    "landmarks": [
+      "頭頂結節",
+      "上側頭線",
+      "下側頭線"
+    ],
+    "description": "頭蓋冠の側上部を構成する左右一対の扁平骨。矢状縫合で正中結合する。",
+    "trivia": "頭頂骨は出産時の産道通過で重なり合う（応形機能）。乳児の大泉門は両側の頭頂骨と前頭骨の間に位置する。"
+  },
+  {
+    "id": "b_temporal",
+    "name_ja": "側頭骨",
+    "name_en": "Temporal bone",
+    "region": "head_neck",
+    "landmarks": [
+      "乳様突起",
+      "茎状突起",
+      "頬骨突起",
+      "外耳孔",
+      "下顎窩",
+      "側頭骨鱗部"
+    ],
+    "description": "頭蓋の側面下部を構成する複雑な骨。鱗部・鼓室部・乳突部・岩様部・茎状突起からなる。",
+    "trivia": "側頭骨の錐体部は人体で最も硬い骨で、内耳を保護する。中耳には人体最小の3つの耳小骨が収められている。"
+  },
+  {
+    "id": "b_occipital",
+    "name_ja": "後頭骨",
+    "name_en": "Occipital bone",
+    "region": "head_neck",
+    "landmarks": [
+      "外後頭隆起",
+      "上項線",
+      "下項線",
+      "大後頭孔",
+      "後頭顆"
+    ],
+    "description": "頭蓋の後下部を構成する扁平骨。大後頭孔を取り囲み、脊髄と脳を連絡する。",
+    "trivia": "後頭骨の大後頭孔は直径約3cmで、脳幹・脊髄移行部、椎骨動脈、副神経が通過する重要な構造。"
+  },
+  {
+    "id": "b_sphenoid",
+    "name_ja": "蝶形骨",
+    "name_en": "Sphenoid bone",
+    "region": "head_neck",
+    "landmarks": [
+      "大翼",
+      "小翼",
+      "翼状突起",
+      "外側翼突板",
+      "内側翼突板"
+    ],
+    "description": "頭蓋底の中央に位置し蝶が翼を広げた形状の骨。トルコ鞍に下垂体が収まる。",
+    "trivia": "蝶形骨はほぼ全ての頭蓋骨と関節し「頭蓋のキーストーン」と呼ばれる。"
+  },
+  {
+    "id": "b_ethmoid",
+    "name_ja": "篩骨",
+    "name_en": "Ethmoid bone",
+    "region": "head_neck",
+    "landmarks": [
+      "篩板",
+      "鶏冠"
+    ],
+    "description": "鼻腔の天井と内壁を構成する軽量な骨。篩板・垂直板・上鼻甲介・中鼻甲介を含む。",
+    "trivia": "篩骨は人体で最も軽い骨の一つ。篩板には嗅神経が通る多数の小孔があり、頭部外傷で髄液漏の原因となりうる。"
+  },
+  {
+    "id": "b_maxilla",
+    "name_ja": "上顎骨",
+    "name_en": "Maxilla",
+    "region": "head_neck",
+    "landmarks": [
+      "前頭突起",
+      "頬骨突起",
+      "歯槽突起",
+      "口蓋突起",
+      "眼窩下孔"
+    ],
+    "description": "顔面の中央部を構成する左右一対の骨。上顎歯の歯槽、鼻腔底、眼窩底を形成する。",
+    "trivia": "上顎洞は副鼻腔最大の空洞で、上顎臼歯の歯根と近接する。抜歯で上顎洞穿孔が起きることがある。"
+  },
+  {
+    "id": "b_mandible",
+    "name_ja": "下顎骨",
+    "name_en": "Mandible",
+    "region": "head_neck",
+    "landmarks": [
+      "下顎体",
+      "下顎枝",
+      "下顎角",
+      "筋突起",
+      "関節突起",
+      "下顎頭",
+      "オトガイ隆起",
+      "オトガイ孔",
+      "咬筋粗面",
+      "翼突筋粗面",
+      "顎舌骨線",
+      "顎二腹筋窩"
+    ],
+    "description": "顔面骨で最大・最強の骨。体部と左右の枝からなり、下顎歯を支持する。頭蓋で唯一の可動骨。",
+    "trivia": "下顎骨は出生後も著しく変化する骨で、歯の萌出・脱落に伴い形態が大きく変わる。"
+  },
+  {
+    "id": "b_zygomatic",
+    "name_ja": "頬骨",
+    "name_en": "Zygomatic bone",
+    "region": "head_neck",
+    "landmarks": [
+      "頬骨弓"
+    ],
+    "description": "頬の隆起を形成する菱形の骨。眼窩外壁・側頭窩の一部を構成する。",
+    "trivia": "頬骨は顔面の輪郭を決定する重要な骨で、頬骨弓骨折は顔面外傷で2番目に多い骨折部位。"
+  },
+  {
+    "id": "b_nasal",
+    "name_ja": "鼻骨",
+    "name_en": "Nasal bone",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "鼻根部を形成する左右一対の小さな扁平骨。鼻背の骨性部分を構成する。",
+    "trivia": "鼻骨骨折は顔面骨折で最も頻度が高い。鼻の下半分は軟骨で支持されている。"
+  },
+  {
+    "id": "b_lacrimal",
+    "name_ja": "涙骨",
+    "name_en": "Lacrimal bone",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "眼窩の内壁前部を構成する人体最小の顔面骨。涙嚢窩を形成する。",
+    "trivia": "涙骨は約1cm×2cmの爪ほどの大きさで、紙のように薄い。"
+  },
+  {
+    "id": "b_palatine",
+    "name_ja": "口蓋骨",
+    "name_en": "Palatine bone",
+    "region": "head_neck",
+    "landmarks": [
+      "水平板",
+      "垂直板"
+    ],
+    "description": "硬口蓋の後部と鼻腔の外壁を構成するL字型の骨。水平板と垂直板からなる。",
+    "trivia": "口蓋骨は解剖学で最も理解しにくい骨の一つとされる。"
+  },
+  {
+    "id": "b_inferior_nasal_concha",
+    "name_ja": "下鼻甲介",
+    "name_en": "Inferior nasal concha",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "鼻腔外壁から突出する薄い渦巻状の独立骨。吸気の加温・加湿・浄化を助ける。",
+    "trivia": "上・中鼻甲介は篩骨の一部だが、下鼻甲介のみが独立した骨として存在する。"
+  },
+  {
+    "id": "b_vomer",
+    "name_ja": "鋤骨",
+    "name_en": "Vomer",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "鼻中隔の後下部を構成する薄い平板状の骨。鋤に似た形状からその名がついた。",
+    "trivia": "鋤骨の名前はラテン語のvomer（鋤）に由来する。鼻中隔弯曲の多くはこの骨の弯曲による。"
+  },
+  {
+    "id": "b_hyoid",
+    "name_ja": "舌骨",
+    "name_en": "Hyoid bone",
+    "region": "head_neck",
+    "landmarks": [
+      "舌骨体",
+      "大角",
+      "小角"
+    ],
+    "description": "頸部前面に位置するU字型の骨。他の骨と直接関節せず、筋と靭帯のみで懸垂される。",
+    "trivia": "舌骨は人体で唯一、他の骨と関節しない骨。法医学では絞殺の証拠として舌骨骨折の有無が検査される。"
+  },
+  {
+    "id": "b_malleus",
+    "name_ja": "槌骨",
+    "name_en": "Malleus",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "中耳の耳小骨で最外側に位置する。鼓膜に付着し、音振動を砧骨に伝達する。",
+    "trivia": "槌骨は長さ約8mmで人体最小の骨の一つ。ハンマーの形に似ていることから命名された。"
+  },
+  {
+    "id": "b_incus",
+    "name_ja": "砧骨",
+    "name_en": "Incus",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "中耳の耳小骨で槌骨と鐙骨の間に位置する。音振動の伝達経路の中間を担う。",
+    "trivia": "砧骨は金床に似た形状で、耳小骨の中で最も重い（約25mg）。"
+  },
+  {
+    "id": "b_stapes",
+    "name_ja": "鐙骨",
+    "name_en": "Stapes",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "中耳の耳小骨で最内側に位置する。底板が卵円窓に嵌合し内耳に音振動を伝達する。",
+    "trivia": "鐙骨は人体最小の骨で、高さ約3mm・重さ約3mg。耳硬化症では固着して難聴を引き起こす。"
+  },
+  {
+    "id": "b_c1",
+    "name_ja": "環椎（C1）",
+    "name_en": "Atlas (C1)",
+    "region": "head_neck",
+    "landmarks": [
+      "前弓",
+      "後弓",
+      "側塊",
+      "横突起",
+      "後結節",
+      "前結節"
+    ],
+    "description": "第1頸椎（環椎）は椎体を持たない環状の骨。後頭骨を支持し、うなずき運動を可能にする。",
+    "trivia": "Atlasの名はギリシャ神話で天空を支える巨人アトラスに由来する。脊柱で唯一椎体と棘突起を持たない。"
+  },
+  {
+    "id": "b_c2",
+    "name_ja": "軸椎（C2）",
+    "name_en": "Axis (C2)",
+    "region": "head_neck",
+    "landmarks": [
+      "歯突起",
+      "椎体",
+      "棘突起",
+      "横突起"
+    ],
+    "description": "第2頸椎（軸椎）は上方に突出する歯突起を特徴とする。環椎の回旋軸として機能する。",
+    "trivia": "歯突起は発生学的には環椎の椎体が軸椎と癒合したもの。歯突起骨折は頸椎外傷で2番目に多い。"
+  },
+  {
+    "id": "b_c3",
+    "name_ja": "第3頸椎",
+    "name_en": "C3",
+    "region": "head_neck",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起"
+    ],
+    "description": "典型的な頸椎の形態を持つ椎骨。横突孔に椎骨動脈が通過する。",
+    "trivia": "C3-C7の頸椎には鉤状突起がありルシュカ関節を形成する。この関節の骨棘が神経根症の原因となりうる。"
+  },
+  {
+    "id": "b_c4",
+    "name_ja": "第4頸椎",
+    "name_en": "C4",
+    "region": "head_neck",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起"
+    ],
+    "description": "第4頸椎。横隔神経（C3-C5）の主要起始レベルで、呼吸機能に重要。",
+    "trivia": "C4以上の脊髄損傷では人工呼吸器が必要となることが多い。"
+  },
+  {
+    "id": "b_c5",
+    "name_ja": "第5頸椎",
+    "name_en": "C5",
+    "region": "head_neck",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起"
+    ],
+    "description": "第5頸椎。腕神経叢の上位幹が形成されるレベル。頸椎症性脊髄症の好発部位。",
+    "trivia": "C6/C7間は頸椎で最も椎間板ヘルニアが起こりやすい部位で、次いでC5/C6間に多い。"
+  },
+  {
+    "id": "b_c6",
+    "name_ja": "第6頸椎",
+    "name_en": "C6",
+    "region": "head_neck",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "前結節（頸動脈結節）"
+    ],
+    "description": "第6頸椎。前結節が大きく発達しシャシニャック結節と呼ばれる。",
+    "trivia": "C6の前結節は救急医療で頸動脈の止血点として使用される。輪状軟骨のレベルに対応する。"
+  },
+  {
+    "id": "b_c7",
+    "name_ja": "隆椎（C7）",
+    "name_en": "C7 (vertebra prominens)",
+    "region": "head_neck",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起"
+    ],
+    "description": "第7頸椎（隆椎）。棘突起が長く非分岐で、頸部後面で容易に触知できる。",
+    "trivia": "首を前屈すると最も突出して触れる棘突起がC7で、椎骨カウントの起点となる。"
+  },
+  {
+    "id": "b_t1",
+    "name_ja": "第1胸椎",
+    "name_en": "T1",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第1胸椎。頸胸移行部に位置し、第1肋骨と関節する。",
+    "trivia": "T1は腕神経叢の最下位の根を出し、手内在筋の支配に関与する。"
+  },
+  {
+    "id": "b_t2",
+    "name_ja": "第2胸椎",
+    "name_en": "T2",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第2胸椎。第2肋骨と関節する典型的な胸椎。",
+    "trivia": "胸椎は肋骨との結合により最も安定した脊柱区分で、椎間板ヘルニアの頻度は全体の1%未満。"
+  },
+  {
+    "id": "b_t3",
+    "name_ja": "第3胸椎",
+    "name_en": "T3",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第3胸椎。肩甲棘のレベルに位置する。",
+    "trivia": "T3の棘突起は肩甲棘の内側端とほぼ同じ高さで、背部の触診ランドマーク。"
+  },
+  {
+    "id": "b_t4",
+    "name_ja": "第4胸椎",
+    "name_en": "T4",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第4胸椎。胸骨角のレベルに対応し、大動脈弓の高さに位置する。",
+    "trivia": "T4-T5レベルは交通事故での大動脈損傷の好発部位。"
+  },
+  {
+    "id": "b_t5",
+    "name_ja": "第5胸椎",
+    "name_en": "T5",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第5胸椎。心臓の後方に位置する。",
+    "trivia": "T5レベルは気管分岐部に相当し、気管支鏡検査の重要なランドマーク。"
+  },
+  {
+    "id": "b_t6",
+    "name_ja": "第6胸椎",
+    "name_en": "T6",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第6胸椎。胸椎後弯の頂点付近に位置する。",
+    "trivia": "胸椎の生理的後弯は20〜45°が正常範囲で、過度の後弯は「円背」と呼ばれる。"
+  },
+  {
+    "id": "b_t7",
+    "name_ja": "第7胸椎",
+    "name_en": "T7",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第7胸椎。肩甲骨下角のレベルに位置する。",
+    "trivia": "T7の棘突起は肩甲骨下角の高さで、聴診の位置決めなどの臨床的ランドマーク。"
+  },
+  {
+    "id": "b_t8",
+    "name_ja": "第8胸椎",
+    "name_en": "T8",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第8胸椎。第8肋骨と関節する。",
+    "trivia": "T8以下の肋骨は仮肋に分類される。"
+  },
+  {
+    "id": "b_t9",
+    "name_ja": "第9胸椎",
+    "name_en": "T9",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第9胸椎。横突起の肋骨関節面が不明瞭になり始めるレベル。",
+    "trivia": "第8肋骨以下は胸骨との直接結合を持たず、下位になるほど可動性が増す。"
+  },
+  {
+    "id": "b_t10",
+    "name_ja": "第10胸椎",
+    "name_en": "T10",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第10胸椎。臍のレベルに対応する。",
+    "trivia": "T10の皮膚分節は臍に対応し、脊髄損傷のレベル判定に使われる重要なランドマーク。"
+  },
+  {
+    "id": "b_t11",
+    "name_ja": "第11胸椎",
+    "name_en": "T11",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第11胸椎。浮遊肋と関節する。横突起の肋骨窩を欠く。",
+    "trivia": "T11-T12は胸腰移行部として脊椎圧迫骨折の好発部位。"
+  },
+  {
+    "id": "b_t12",
+    "name_ja": "第12胸椎",
+    "name_en": "T12",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "肋骨窩"
+    ],
+    "description": "第12胸椎。胸腰移行部に位置し、椎体の形態が腰椎に近づく。",
+    "trivia": "T12は関節面の方向が変わる部位。脊柱の屈曲・伸展と回旋の移行点。"
+  },
+  {
+    "id": "b_l1",
+    "name_ja": "第1腰椎",
+    "name_en": "L1",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "乳頭突起",
+      "副突起"
+    ],
+    "description": "第1腰椎。脊髄円錐の下端がL1-L2レベルに位置する。",
+    "trivia": "成人の脊髄はL1-L2で終わるため、L2以下の腰椎穿刺は脊髄を損傷しない。"
+  },
+  {
+    "id": "b_l2",
+    "name_ja": "第2腰椎",
+    "name_en": "L2",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "乳頭突起",
+      "副突起"
+    ],
+    "description": "第2腰椎。腰椎穿刺の上位ランドマーク。馬尾が走行する。",
+    "trivia": "L2以下は馬尾神経のみが走行し、馬尾症候群として上位とは異なる症状を呈する。"
+  },
+  {
+    "id": "b_l3",
+    "name_ja": "第3腰椎",
+    "name_en": "L3",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "乳頭突起",
+      "副突起"
+    ],
+    "description": "第3腰椎。腰椎の中央に位置し、腎臓下端のレベルに対応する。腰椎椎体は上位から下位に向かって大きくなる。"
+  },
+  {
+    "id": "b_l4",
+    "name_ja": "第4腰椎",
+    "name_en": "L4",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "乳頭突起",
+      "副突起"
+    ],
+    "description": "第4腰椎。L4-L5間は椎間板ヘルニアの最好発部位。",
+    "trivia": "L4-L5間のヘルニアは腰椎ヘルニアの約50%を占め、L5神経根症状を呈する。 ヤコビー線（両側腸骨稜頂点の連結線）はL4棘突起レベルを通過し、腰椎穿刺の刺入部位決定に使用される。"
+  },
+  {
+    "id": "b_l5",
+    "name_ja": "第5腰椎",
+    "name_en": "L5",
+    "region": "trunk",
+    "landmarks": [
+      "椎体",
+      "棘突起",
+      "横突起",
+      "乳頭突起",
+      "副突起"
+    ],
+    "description": "第5腰椎。最大の椎体を持ち、仙骨との移行部で大きな剪断力を受ける。",
+    "trivia": "L5椎弓の疲労骨折（腰椎分離症）はスポーツ選手に多い。"
+  },
+  {
+    "id": "b_sacrum",
+    "name_ja": "仙骨",
+    "name_en": "Sacrum",
+    "region": "pelvis",
+    "landmarks": [
+      "岬角",
+      "仙骨翼",
+      "前仙骨孔",
+      "後仙骨孔",
+      "正中仙骨稜",
+      "耳状面"
+    ],
+    "description": "5個の仙椎が癒合した三角形の骨。骨盤の後壁を構成し脊柱と下肢を連結する。",
+    "trivia": "仙骨の「仙」はsacred boneに由来し、古代では神聖な骨と考えられていた。"
+  },
+  {
+    "id": "b_coccyx",
+    "name_ja": "尾骨",
+    "name_en": "Coccyx",
+    "region": "pelvis",
+    "landmarks": [],
+    "description": "3-5個の尾椎が癒合した小さな骨。骨盤底筋群の付着部となる。",
+    "trivia": "尾骨は進化の過程で退化した尾の痕跡で「尾てい骨」の通称で知られる。"
+  },
+  {
+    "id": "b_sternum",
+    "name_ja": "胸骨",
+    "name_en": "Sternum",
+    "region": "trunk",
+    "landmarks": [
+      "胸骨柄",
+      "胸骨体",
+      "剣状突起",
+      "胸骨角",
+      "鎖骨切痕"
+    ],
+    "description": "胸郭前面正中に位置する扁平骨。胸骨柄・胸骨体・剣状突起の3部からなる。",
+    "trivia": "胸骨角（ルイ角）は第2肋骨の高さにあり、肋骨カウントの起点となる最重要ランドマーク。"
+  },
+  {
+    "id": "b_rib1",
+    "name_ja": "第1肋骨",
+    "name_en": "Rib 1",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "最も短く幅広い肋骨。鎖骨下動静脈と腕神経叢が上面を通過する。",
+    "trivia": "第1肋骨の前斜角筋結節で鎖骨下動脈が圧迫されると胸郭出口症候群を生じる。"
+  },
+  {
+    "id": "b_rib2",
+    "name_ja": "第2肋骨",
+    "name_en": "Rib 2",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第2肋骨。胸骨角のレベルで胸骨と関節し肋骨カウントの基準となる。",
+    "trivia": "第2肋骨は胸骨角の位置で確実に同定できる。"
+  },
+  {
+    "id": "b_rib3",
+    "name_ja": "第3肋骨",
+    "name_en": "Rib 3",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第3肋骨。典型的な真肋で直接胸骨に関節する。",
+    "trivia": "第1-7肋骨は真肋に分類される。"
+  },
+  {
+    "id": "b_rib4",
+    "name_ja": "第4肋骨",
+    "name_en": "Rib 4",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第4肋骨。乳頭のレベルに位置する典型的な真肋。",
+    "trivia": "男性の乳頭は通常第4肋間に位置する。"
+  },
+  {
+    "id": "b_rib5",
+    "name_ja": "第5肋骨",
+    "name_en": "Rib 5",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第5肋骨。典型的な真肋の形態を持つ。",
+    "trivia": "肋骨は呼吸のたびに動く、非常に頻繁に運動する骨。"
+  },
+  {
+    "id": "b_rib6",
+    "name_ja": "第6肋骨",
+    "name_en": "Rib 6",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第6肋骨。典型的な真肋の形態を持つ。",
+    "trivia": "肋骨骨折は胸部外傷で最も多い骨折で、第5-8肋骨に好発する。"
+  },
+  {
+    "id": "b_rib7",
+    "name_ja": "第7肋骨",
+    "name_en": "Rib 7",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第7肋骨。真肋の最下位。",
+    "trivia": "第7肋骨は真肋と仮肋の境界にあたる。"
+  },
+  {
+    "id": "b_rib8",
+    "name_ja": "第8肋骨",
+    "name_en": "Rib 8",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第8肋骨。仮肋に分類され間接的に胸骨と連結する。",
+    "trivia": "第8-10肋骨は仮肋と呼ばれ、上位の肋軟骨に結合する。"
+  },
+  {
+    "id": "b_rib9",
+    "name_ja": "第9肋骨",
+    "name_en": "Rib 9",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第9肋骨。仮肋の一つ。",
+    "trivia": "肋骨の先天的な数の変異（頸肋や腰肋）は約0.5-1%の人に見られる。"
+  },
+  {
+    "id": "b_rib10",
+    "name_ja": "第10肋骨",
+    "name_en": "Rib 10",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭",
+      "肋骨結節",
+      "肋骨角"
+    ],
+    "description": "第10肋骨。仮肋の最下位。浮遊肋となる場合もある。",
+    "trivia": "第10肋骨は約5%の人で浮遊肋となる変異を持つ。"
+  },
+  {
+    "id": "b_rib11",
+    "name_ja": "第11肋骨",
+    "name_en": "Rib 11",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭"
+    ],
+    "description": "第11肋骨。浮遊肋に分類され前方で連結しない。",
+    "trivia": "浮遊肋は前方が自由端で、腎臓の後方保護に寄与する。"
+  },
+  {
+    "id": "b_rib12",
+    "name_ja": "第12肋骨",
+    "name_en": "Rib 12",
+    "region": "trunk",
+    "landmarks": [
+      "肋骨頭"
+    ],
+    "description": "第12肋骨。最も短い浮遊肋で個人差が大きい。",
+    "trivia": "第12肋骨は最も短く時に6cmに満たない。腎臓手術のランドマーク。"
+  },
+  {
+    "id": "b_clavicle",
+    "name_ja": "鎖骨",
+    "name_en": "Clavicle",
+    "region": "upper_limb",
+    "landmarks": [
+      "胸骨端",
+      "肩峰端",
+      "外側1/3",
+      "内側2/3"
+    ],
+    "description": "体幹と上肢を連結する唯一の骨。S字型カーブを持つ長骨。",
+    "trivia": "鎖骨は人体で最も骨折しやすい骨で全骨折の約5%を占める。膜内骨化で形成される数少ない長骨。"
+  },
+  {
+    "id": "b_scapula",
+    "name_ja": "肩甲骨",
+    "name_en": "Scapula",
+    "region": "upper_limb",
+    "landmarks": [
+      "肩甲棘",
+      "肩峰",
+      "関節窩",
+      "烏口突起",
+      "上角",
+      "下角",
+      "外側縁",
+      "内側縁",
+      "棘上窩",
+      "棘下窩",
+      "肩甲下窩"
+    ],
+    "description": "背部上外側に位置する三角形の扁平骨。関節窩・肩峰・烏口突起・肩甲棘を持つ。",
+    "trivia": "肩甲骨は17の筋が付着する。胸郭上を滑走する「浮遊骨」で鎖骨のみで体幹と連結する。"
+  },
+  {
+    "id": "b_humerus",
+    "name_ja": "上腕骨",
+    "name_en": "Humerus",
+    "region": "upper_limb",
+    "landmarks": [
+      "上腕骨頭",
+      "大結節",
+      "小結節",
+      "結節間溝",
+      "三角筋粗面",
+      "橈骨神経溝",
+      "内側上顆",
+      "外側上顆",
+      "内側顆上稜",
+      "外側顆上稜",
+      "滑車",
+      "小頭",
+      "肘頭窩"
+    ],
+    "description": "上肢最大の長骨。近位に球状の骨頭、遠位に滑車と小頭を持つ。",
+    "trivia": "上腕骨骨幹部の橈骨神経溝には橈骨神経が走行し、骨折時の橈骨神経麻痺は約10%に合併する。"
+  },
+  {
+    "id": "b_radius",
+    "name_ja": "橈骨",
+    "name_en": "Radius",
+    "region": "upper_limb",
+    "landmarks": [
+      "橈骨頭",
+      "橈骨頸",
+      "橈骨粗面",
+      "骨間縁",
+      "茎状突起",
+      "リスター結節"
+    ],
+    "description": "前腕の外側（母指側）に位置する長骨。回内・回外の軸となる。",
+    "trivia": "橈骨遠位端骨折（コーレス骨折）は転倒時に最も多い骨折の一つで高齢女性に多い。"
+  },
+  {
+    "id": "b_ulna",
+    "name_ja": "尺骨",
+    "name_en": "Ulna",
+    "region": "upper_limb",
+    "landmarks": [
+      "肘頭",
+      "鉤状突起",
+      "滑車切痕",
+      "尺骨粗面",
+      "骨間縁",
+      "茎状突起",
+      "回外筋稜"
+    ],
+    "description": "前腕の内側（小指側）に位置する長骨。肘関節の安定性を提供する。",
+    "trivia": "尺骨の肘頭は肘の「とんがり」で、防御時に外傷を受けやすい（パリー骨折）。"
+  },
+  {
+    "id": "b_scaphoid",
+    "name_ja": "舟状骨",
+    "name_en": "Scaphoid",
+    "region": "upper_limb",
+    "landmarks": [
+      "舟状骨結節"
+    ],
+    "description": "手根骨近位列の最外側の舟形の骨。",
+    "trivia": "舟状骨骨折は手根骨骨折で最多。血行が遠位から近位のため無腐性壊死を起こしやすい。"
+  },
+  {
+    "id": "b_lunate",
+    "name_ja": "月状骨",
+    "name_en": "Lunate",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手根骨近位列の中央の半月形の骨。",
+    "trivia": "月状骨は手根骨脱臼で最も脱臼しやすい。キーンベック病は血行障害による壊死。"
+  },
+  {
+    "id": "b_triquetrum",
+    "name_ja": "三角骨",
+    "name_en": "Triquetrum",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手根骨近位列の最内側のピラミッド形の骨。",
+    "trivia": "三角骨骨折は手根骨骨折で舟状骨に次いで2番目に多い。"
+  },
+  {
+    "id": "b_pisiform",
+    "name_ja": "豆状骨",
+    "name_en": "Pisiform",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手根骨で最小の種子骨。尺側手根屈筋腱内に存在する。",
+    "trivia": "豆状骨は手根骨で唯一の種子骨で、豆状骨はギヨン管の尺側壁を構成し、尺骨神経と尺骨動脈がこの管を通過する。"
+  },
+  {
+    "id": "b_trapezium",
+    "name_ja": "大菱形骨",
+    "name_en": "Trapezium",
+    "region": "upper_limb",
+    "landmarks": [
+      "大菱形骨結節"
+    ],
+    "description": "手根骨遠位列の最外側。第1中手骨との鞍関節を形成する。",
+    "trivia": "大菱形骨の鞍関節は母指の対立運動を可能にし、精密把握の解剖学的基盤。"
+  },
+  {
+    "id": "b_trapezoid",
+    "name_ja": "小菱形骨",
+    "name_en": "Trapezoid",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手根骨遠位列で最小の楔形の骨。",
+    "trivia": "小菱形骨は手根骨で最も骨折が稀で、全体の約2%程度。"
+  },
+  {
+    "id": "b_capitate",
+    "name_ja": "有頭骨",
+    "name_en": "Capitate",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手根骨で最大の骨。手の支柱。",
+    "trivia": "有頭骨は手関節の力学的中心で、手根骨で最初に骨化が始まる。"
+  },
+  {
+    "id": "b_hamate",
+    "name_ja": "有鉤骨",
+    "name_en": "Hamate",
+    "region": "upper_limb",
+    "landmarks": [
+      "有鉤骨鉤"
+    ],
+    "description": "手根骨遠位列の最内側。掌側の鉤（ハムルス）が特徴。",
+    "trivia": "有鉤骨の鉤はゴルフやテニスで疲労骨折を起こすことがある。"
+  },
+  {
+    "id": "b_mc1",
+    "name_ja": "第1中手骨",
+    "name_en": "Metacarpal 1",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "母指の中手骨。他より短く太い。対立運動を可能にする。",
+    "trivia": "第1中手骨基部の骨折（ベネット骨折）は手術的整復が必要なことが多い。"
+  },
+  {
+    "id": "b_mc2",
+    "name_ja": "第2中手骨",
+    "name_en": "Metacarpal 2",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "示指の中手骨。手根中手関節が最も固定される。",
+    "trivia": "第2中手骨は手で最も長い中手骨。"
+  },
+  {
+    "id": "b_mc3",
+    "name_ja": "第3中手骨",
+    "name_en": "Metacarpal 3",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "中指の中手骨。有頭骨と直接関節し手の中央の支柱。",
+    "trivia": "第3中手骨基部の茎状突起は短橈側手根伸筋の付着部。"
+  },
+  {
+    "id": "b_mc4",
+    "name_ja": "第4中手骨",
+    "name_en": "Metacarpal 4",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "環指の中手骨。有鉤骨と関節する。",
+    "trivia": "第4・第5中手骨の手根中手関節はわずかに可動性を持つ。"
+  },
+  {
+    "id": "b_mc5",
+    "name_ja": "第5中手骨",
+    "name_en": "Metacarpal 5",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "小指の中手骨。最も可動性のある手根中手関節を持つ。",
+    "trivia": "第5中手骨頸部骨折はボクサー骨折と呼ばれ拳で殴打した際に好発する。"
+  },
+  {
+    "id": "b_thumb_pp",
+    "name_ja": "母指基節骨",
+    "name_en": "Proximal phalanx of thumb",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "母指の基節骨。",
+    "trivia": "母指は2本の指骨のみで構成され他の指の3本より1本少ない。"
+  },
+  {
+    "id": "b_thumb_dp",
+    "name_ja": "母指末節骨",
+    "name_en": "Distal phalanx of thumb",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "母指の末節骨。精密把握の末端構造。",
+    "trivia": "末節骨先端の粗面は指腹の脂肪組織を支持し触覚の精密な感知を可能にする。"
+  },
+  {
+    "id": "b_index_pp",
+    "name_ja": "示指基節骨",
+    "name_en": "Proximal phalanx of index",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "示指の基節骨。精密把握で母指と対向する。",
+    "trivia": "示指は全ての指で最も独立した運動が可能で固有の示指伸筋を持つ。"
+  },
+  {
+    "id": "b_index_mp",
+    "name_ja": "示指中節骨",
+    "name_en": "Middle phalanx of index",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "示指の中節骨。浅指屈筋腱が付着する。",
+    "trivia": "中節骨には浅指屈筋腱が分かれて付着しその間を深指屈筋腱が通過する（カンパーの交叉）。"
+  },
+  {
+    "id": "b_index_dp",
+    "name_ja": "示指末節骨",
+    "name_en": "Distal phalanx of index",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "示指の末節骨。深指屈筋腱が付着する。",
+    "trivia": "末節骨の骨折はドアに指を挟むなどの直達外力で生じることが多い。"
+  },
+  {
+    "id": "b_middle_pp",
+    "name_ja": "中指基節骨",
+    "name_en": "Proximal phalanx of middle",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "中指の基節骨。最も長い指の基部。",
+    "trivia": "中指は通常最も長い指で手の到達範囲を最大化する。"
+  },
+  {
+    "id": "b_middle_mp",
+    "name_ja": "中指中節骨",
+    "name_en": "Middle phalanx of middle",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "中指の中節骨。PIP関節を構成する。",
+    "trivia": "指の長さの比率は遺伝的に決定され出生前のホルモン環境と相関するとされる。"
+  },
+  {
+    "id": "b_middle_dp",
+    "name_ja": "中指末節骨",
+    "name_en": "Distal phalanx of middle",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "中指の末節骨。",
+    "trivia": "指紋は胎生3-4ヶ月で形成され末節骨の構造が皮膚パターンに影響する。"
+  },
+  {
+    "id": "b_ring_pp",
+    "name_ja": "環指基節骨",
+    "name_en": "Proximal phalanx of ring",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "環指の基節骨。",
+    "trivia": "環指の名前は古代から指輪をはめる習慣に由来する。"
+  },
+  {
+    "id": "b_ring_mp",
+    "name_ja": "環指中節骨",
+    "name_en": "Middle phalanx of ring",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "環指の中節骨。",
+    "trivia": "デュピュイトラン拘縮は手掌腱膜の線維化で環指と小指のPIP関節屈曲拘縮を起こす。"
+  },
+  {
+    "id": "b_ring_dp",
+    "name_ja": "環指末節骨",
+    "name_en": "Distal phalanx of ring",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "環指の末節骨。",
+    "trivia": "マレットフィンガーは末節骨背側への伸筋腱の断裂でDIP関節が伸展できなくなる。"
+  },
+  {
+    "id": "b_little_pp",
+    "name_ja": "小指基節骨",
+    "name_en": "Proximal phalanx of little",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "小指の基節骨。",
+    "trivia": "小指を失うと握力の約50%が低下するとされる。"
+  },
+  {
+    "id": "b_little_mp",
+    "name_ja": "小指中節骨",
+    "name_en": "Middle phalanx of little",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "小指の中節骨。手指骨の中で最小。",
+    "trivia": "小指のPIP関節は屈曲拘縮を最も起こしやすい部位の一つ。"
+  },
+  {
+    "id": "b_little_dp",
+    "name_ja": "小指末節骨",
+    "name_en": "Distal phalanx of little",
+    "region": "upper_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "小指の末節骨。",
+    "trivia": "小指の先天的な短縮（短指症）や弯曲（弯指症）は比較的よく見られる先天異常。"
+  },
+  {
+    "id": "b_ilium",
+    "name_ja": "腸骨",
+    "name_en": "Ilium",
+    "region": "pelvis",
+    "landmarks": [
+      "腸骨稜",
+      "上前腸骨棘",
+      "下前腸骨棘",
+      "上後腸骨棘",
+      "下後腸骨棘",
+      "腸骨窩",
+      "殿筋面"
+    ],
+    "description": "寛骨の上部を構成する大きな扇形の骨。多くの筋の付着部。",
+    "trivia": "腸骨稜からの骨移植は整形外科で最も一般的な骨採取部位。"
+  },
+  {
+    "id": "b_ischium",
+    "name_ja": "坐骨",
+    "name_en": "Ischium",
+    "region": "pelvis",
+    "landmarks": [
+      "坐骨結節",
+      "坐骨棘",
+      "坐骨枝"
+    ],
+    "description": "寛骨の後下部を構成する骨。坐骨結節は座位で体重を支える。",
+    "trivia": "坐骨結節は座位で直接体重を受ける部位で長時間座位で褥瘡が発生しやすい。"
+  },
+  {
+    "id": "b_pubis",
+    "name_ja": "恥骨",
+    "name_en": "Pubis",
+    "region": "pelvis",
+    "landmarks": [
+      "恥骨結合",
+      "恥骨結節",
+      "恥骨櫛",
+      "上枝",
+      "下枝"
+    ],
+    "description": "寛骨の前下部を構成する骨。恥骨結合で左右が軟骨結合する。",
+    "trivia": "恥骨結合は妊娠後期にリラキシンにより弛緩し分娩を容易にする。"
+  },
+  {
+    "id": "b_femur",
+    "name_ja": "大腿骨",
+    "name_en": "Femur",
+    "region": "lower_limb",
+    "landmarks": [
+      "大腿骨頭",
+      "大腿骨頸",
+      "大転子",
+      "小転子",
+      "転子間線",
+      "殿筋粗面",
+      "粗線",
+      "内側顆",
+      "外側顆",
+      "内側上顆",
+      "外側上顆",
+      "膝蓋面",
+      "内転筋結節"
+    ],
+    "description": "人体最大・最長・最強の長骨。",
+    "trivia": "大腿骨は体重の約30倍の荷重に耐える。大腿骨頸部骨折は高齢者の寝たきりの主因。"
+  },
+  {
+    "id": "b_patella",
+    "name_ja": "膝蓋骨",
+    "name_en": "Patella",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "尖"
+    ],
+    "description": "人体最大の種子骨。大腿四頭筋腱内に存在し膝伸展機構の効率を高める。",
+    "trivia": "膝蓋骨は大腿四頭筋の力学的効率を約50%向上させる。分裂膝蓋骨は約2%に見られる。"
+  },
+  {
+    "id": "b_tibia",
+    "name_ja": "脛骨",
+    "name_en": "Tibia",
+    "region": "lower_limb",
+    "landmarks": [
+      "内側顆",
+      "外側顆",
+      "脛骨粗面",
+      "ヒラメ筋線",
+      "骨間縁",
+      "内果"
+    ],
+    "description": "下腿の内側に位置する長骨で体重支持の主軸。",
+    "trivia": "脛骨前面は「弁慶の泣き所」で、骨折時に開放骨折になりやすい。"
+  },
+  {
+    "id": "b_fibula",
+    "name_ja": "腓骨",
+    "name_en": "Fibula",
+    "region": "lower_limb",
+    "landmarks": [
+      "腓骨頭",
+      "腓骨頸",
+      "骨間縁",
+      "外果"
+    ],
+    "description": "下腿の外側に位置する細長い骨。筋の付着部と足関節の安定性に寄与。",
+    "trivia": "腓骨は体重の約6%しか支持しないため骨移植ドナーとして使用できる。"
+  },
+  {
+    "id": "b_calcaneus",
+    "name_ja": "踵骨",
+    "name_en": "Calcaneus",
+    "region": "lower_limb",
+    "landmarks": [
+      "踵骨隆起",
+      "載距突起",
+      "腓骨筋滑車"
+    ],
+    "description": "足根骨で最大の骨。アキレス腱が付着する踵骨隆起を持つ。",
+    "trivia": "踵骨は歩行時に体重の約1.25倍、走行時に約3倍の衝撃を受ける。"
+  },
+  {
+    "id": "b_talus",
+    "name_ja": "距骨",
+    "name_en": "Talus",
+    "region": "lower_limb",
+    "landmarks": [
+      "距骨滑車",
+      "距骨頭",
+      "距骨頸"
+    ],
+    "description": "足関節の要で筋の直接付着がない特異な骨。",
+    "trivia": "距骨は体表面の約60%が関節軟骨で覆われ、筋肉が一切付着しない。血行が乏しく骨折後の壊死リスクが高い。"
+  },
+  {
+    "id": "b_navicular_foot",
+    "name_ja": "舟状骨（足）",
+    "name_en": "Navicular",
+    "region": "lower_limb",
+    "landmarks": [
+      "舟状骨粗面"
+    ],
+    "description": "足根骨の内側に位置する舟形の骨。",
+    "trivia": "舟状骨の粗面には後脛骨筋が付着する。外脛骨が存在する人は約10-15%。"
+  },
+  {
+    "id": "b_med_cuneiform",
+    "name_ja": "内側楔状骨",
+    "name_en": "Medial cuneiform",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "楔状骨の中で最大。足部内側縦アーチの要石。",
+    "trivia": "内側楔状骨の位置異常は扁平足の原因となりうる。"
+  },
+  {
+    "id": "b_int_cuneiform",
+    "name_ja": "中間楔状骨",
+    "name_en": "Intermediate cuneiform",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "3つの楔状骨の中で最小。",
+    "trivia": "中間楔状骨は足のアーチの安定化に寄与する。"
+  },
+  {
+    "id": "b_lat_cuneiform",
+    "name_ja": "外側楔状骨",
+    "name_en": "Lateral cuneiform",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "楔状骨の最外側に位置し第3中足骨と関節する。",
+    "trivia": "リスフラン関節の安定性に重要で、この関節の損傷は見逃されやすい。"
+  },
+  {
+    "id": "b_cuboid",
+    "name_ja": "立方骨",
+    "name_en": "Cuboid",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "足根骨の外側に位置する立方形の骨。",
+    "trivia": "立方骨の下面を長腓骨筋腱が通過する。くるみ割り骨折は足の外側柱の短縮を起こす。"
+  },
+  {
+    "id": "b_mt1",
+    "name_ja": "第1中足骨",
+    "name_en": "Metatarsal 1",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "母趾の中足骨。最も短く太い。下面に2個の種子骨を持つ。",
+    "trivia": "第1中足骨頭の種子骨は荷重分散と腱の滑車として機能する。"
+  },
+  {
+    "id": "b_mt2",
+    "name_ja": "第2中足骨",
+    "name_en": "Metatarsal 2",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第2中足骨。最も長い中足骨でリスフラン関節の楔石。",
+    "trivia": "第2中足骨は行軍骨折（疲労骨折）の好発部位。"
+  },
+  {
+    "id": "b_mt3",
+    "name_ja": "第3中足骨",
+    "name_en": "Metatarsal 3",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第3中足骨。外側楔状骨と関節する。",
+    "trivia": "中足骨は足部の前方荷重を分散する横アーチを形成する。"
+  },
+  {
+    "id": "b_mt4",
+    "name_ja": "第4中足骨",
+    "name_en": "Metatarsal 4",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第4中足骨。立方骨と関節する。",
+    "trivia": "第4・5中足骨基部は比較的可動性があり足部の地面への適応に寄与。"
+  },
+  {
+    "id": "b_mt5",
+    "name_ja": "第5中足骨",
+    "name_en": "Metatarsal 5",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "小趾の中足骨。基部外側に短腓骨筋が付着する。",
+    "trivia": "第5中足骨基部のJones骨折は足の捻挫と間違えられやすい。"
+  },
+  {
+    "id": "b_great_toe_pp",
+    "name_ja": "母趾基節骨",
+    "name_en": "Proximal phalanx of great toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "母趾の基節骨。蹴り出し時に重要。",
+    "trivia": "母趾は歩行時の推進力の約40%を担い、切断すると歩行効率が著しく低下する。"
+  },
+  {
+    "id": "b_great_toe_dp",
+    "name_ja": "母趾末節骨",
+    "name_en": "Distal phalanx of great toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "母趾の末節骨。長母趾屈筋腱が付着する。",
+    "trivia": "痛風発作は母趾MTP関節に最も多く発生する。"
+  },
+  {
+    "id": "b_2nd_toe_pp",
+    "name_ja": "第2趾基節骨",
+    "name_en": "Proximal phalanx of 2nd toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第2趾の基節骨。",
+    "trivia": "第2趾が母趾より長い形態（ギリシャ型の足）は日本人の約25%に見られる。"
+  },
+  {
+    "id": "b_2nd_toe_mp",
+    "name_ja": "第2趾中節骨",
+    "name_en": "Middle phalanx of 2nd toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第2趾の中節骨。",
+    "trivia": "ハンマートウは中節骨PIP関節での屈曲変形で不適切な靴が主な原因。"
+  },
+  {
+    "id": "b_2nd_toe_dp",
+    "name_ja": "第2趾末節骨",
+    "name_en": "Distal phalanx of 2nd toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "第2趾の末節骨。",
+    "trivia": "足趾の末節骨は手指のものより著しく小さく退化傾向を示す。"
+  },
+  {
+    "id": "b_3rd_toe_pp",
+    "name_ja": "第3趾基節骨",
+    "name_en": "Proximal phalanx of 3rd toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第3趾の基節骨。",
+    "trivia": "第3趾は足趾の中央に位置し立位のバランス維持に寄与する。"
+  },
+  {
+    "id": "b_3rd_toe_mp",
+    "name_ja": "第3趾中節骨",
+    "name_en": "Middle phalanx of 3rd toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第3趾の中節骨。",
+    "trivia": "モートン神経腫は第3-第4趾間に最も多く発生する。"
+  },
+  {
+    "id": "b_3rd_toe_dp",
+    "name_ja": "第3趾末節骨",
+    "name_en": "Distal phalanx of 3rd toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "第3趾の末節骨。",
+    "trivia": "足趾の爪の成長速度は手指の約半分（月約1.5mm）。"
+  },
+  {
+    "id": "b_4th_toe_pp",
+    "name_ja": "第4趾基節骨",
+    "name_en": "Proximal phalanx of 4th toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第4趾の基節骨。",
+    "trivia": "第4趾は独立した運動が最も制限されている足趾の一つ。"
+  },
+  {
+    "id": "b_4th_toe_mp",
+    "name_ja": "第4趾中節骨",
+    "name_en": "Middle phalanx of 4th toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "第4趾の中節骨。",
+    "trivia": "足趾の中節骨は進化の過程で退化傾向にある。"
+  },
+  {
+    "id": "b_4th_toe_dp",
+    "name_ja": "第4趾末節骨",
+    "name_en": "Distal phalanx of 4th toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "第4趾の末節骨。",
+    "trivia": "巻き爪は母趾に最も多いが第4・5趾にも発生する。"
+  },
+  {
+    "id": "b_5th_toe_pp",
+    "name_ja": "第5趾基節骨",
+    "name_en": "Proximal phalanx of 5th toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "小趾の基節骨。",
+    "trivia": "小趾の基節骨は家具の角にぶつける骨として最もなじみ深い骨の一つ。"
+  },
+  {
+    "id": "b_5th_toe_mp",
+    "name_ja": "第5趾中節骨",
+    "name_en": "Middle phalanx of 5th toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "体",
+      "頭"
+    ],
+    "description": "小趾の中節骨。欠損や末節骨との癒合が多い。",
+    "trivia": "約40%の人で第5趾の中節骨と末節骨が癒合しており正常変異とされる。"
+  },
+  {
+    "id": "b_5th_toe_dp",
+    "name_ja": "第5趾末節骨",
+    "name_en": "Distal phalanx of 5th toe",
+    "region": "lower_limb",
+    "landmarks": [
+      "底",
+      "粗面"
+    ],
+    "description": "小趾の末節骨。足趾骨で最小。",
+    "trivia": "人体の骨の総数は通常206個だが第5趾の骨癒合などにより個人差がある。"
+  },
+  {
+    "id": "b_thoracolumbar_fascia",
+    "name_ja": "胸腰筋膜",
+    "name_en": "Thoracolumbar fascia",
+    "region": "back",
+    "landmarks": [],
+    "description": "背部から腰部にかけて広がる強靭な筋膜。多くの体幹筋の付着部。",
+    "trivia": "胸腰筋膜はコア安定性の重要な構成要素で腰痛との関連が研究されている。"
+  },
+  {
+    "id": "b_iliotibial_band",
+    "name_ja": "腸脛靭帯",
+    "name_en": "Iliotibial band",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "大腿外側を縦走する強靭な線維帯。",
+    "trivia": "腸脛靭帯摩擦症候群（ランナーズニー）はランナーに多い膝外側の痛み。"
+  },
+  {
+    "id": "b_flexor_retinaculum_hand",
+    "name_ja": "屈筋支帯（手）",
+    "name_en": "Flexor retinaculum (hand)",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手根管の屋根を形成する強靭な靭帯。",
+    "trivia": "手根管症候群の手術ではこの屈筋支帯を切開して正中神経の圧迫を解除する。"
+  },
+  {
+    "id": "b_extensor_retinaculum_hand",
+    "name_ja": "伸筋支帯（手）",
+    "name_en": "Extensor retinaculum (hand)",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "手関節背側で伸筋腱を保持する横走する線維帯。",
+    "trivia": "伸筋支帯の第1区画の腱鞘炎がドケルバン病で母指の使い過ぎで発症する。"
+  },
+  {
+    "id": "b_inguinal_ligament",
+    "name_ja": "鼠径靭帯",
+    "name_en": "Inguinal ligament",
+    "region": "trunk",
+    "landmarks": [],
+    "description": "上前腸骨棘から恥骨結節に至る靭帯。鼠径管の床を形成する。",
+    "trivia": "鼠径靭帯の下を大腿動静脈・大腿神経が通過する。鼠径ヘルニアの発生部位。"
+  },
+  {
+    "id": "b_interosseous_membrane_forearm",
+    "name_ja": "前腕骨間膜",
+    "name_en": "Interosseous membrane (forearm)",
+    "region": "upper_limb",
+    "landmarks": [],
+    "description": "橈骨と尺骨を結ぶ線維膜。回内・回外時に連結を維持する。",
+    "trivia": "前腕骨間膜は橈骨から尺骨への荷重伝達に重要。"
+  },
+  {
+    "id": "b_interosseous_membrane_leg",
+    "name_ja": "下腿骨間膜",
+    "name_en": "Interosseous membrane (leg)",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "脛骨と腓骨を結ぶ線維膜。前室と後室を隔てる。",
+    "trivia": "コンパートメント症候群では筋膜内圧上昇で壊死を起こしうる。"
+  },
+  {
+    "id": "b_plantar_aponeurosis",
+    "name_ja": "足底腱膜",
+    "name_en": "Plantar aponeurosis",
+    "region": "lower_limb",
+    "landmarks": [],
+    "description": "踵骨から各趾基部に広がる強靭な線維組織。足底アーチ支持に重要。",
+    "trivia": "足底腱膜炎は踵の痛みの最も一般的な原因で朝の最初の数歩が最も痛い。"
+  },
+  {
+    "id": "b_linea_alba",
+    "name_ja": "白線",
+    "name_en": "Linea alba",
+    "region": "trunk",
+    "landmarks": [],
+    "description": "剣状突起から恥骨結合に至る正中の白い腱様構造。",
+    "trivia": "妊娠時にはホルモンの影響で色素沈着が起こり白線が茶色の線として可視化される。"
+  },
+  {
+    "id": "b_rectus_sheath",
+    "name_ja": "腹直筋鞘",
+    "name_en": "Rectus sheath",
+    "region": "trunk",
+    "landmarks": [],
+    "description": "腹直筋を包む腱膜性の鞘。",
+    "trivia": "弓状線より下方では腹直筋鞘の後葉が欠如し腹横筋膜のみで覆われる。"
+  },
+  {
+    "id": "b_thyroid_cartilage",
+    "name_ja": "甲状軟骨",
+    "name_en": "Thyroid cartilage",
+    "region": "head_neck",
+    "landmarks": [
+      "甲状切痕",
+      "上角",
+      "下角",
+      "斜線"
+    ],
+    "description": "喉頭軟骨中最大の硝子軟骨で、左右の板（甲状軟骨板）が正中で前方に突出し喉頭隆起（のど仏）を形成する。内面には声帯靱帯・前庭靱帯が付着し、声門の骨格を構成する。",
+    "trivia": "喉頭隆起は男性で思春期にテストステロンの影響で顕著に成長し、声帯が長くなることで声変わりが起こる。英語名の由来はギリシャ語のthyreos（盾）。"
+  },
+  {
+    "id": "b_cricoid_cartilage",
+    "name_ja": "輪状軟骨",
+    "name_en": "Cricoid cartilage",
+    "region": "head_neck",
+    "landmarks": [
+      "弓",
+      "板"
+    ],
+    "description": "喉頭軟骨中唯一の完全な環状硝子軟骨で、前方は狭い弓、後方は広い板からなる。気道の形態維持に不可欠で、上方は甲状軟骨・披裂軟骨と、下方は第1気管軟骨と連結する。",
+    "trivia": "輪状軟骨は気道の中で唯一の完全環状構造であり、損傷すると気道狭窄を起こす。救急医療のSellick法（輪状軟骨圧迫）は誤嚥防止のため食道を圧迫する手技。"
+  },
+  {
+    "id": "b_arytenoid_cartilage",
+    "name_ja": "披裂軟骨",
+    "name_en": "Arytenoid cartilage",
+    "region": "head_neck",
+    "landmarks": [
+      "声帯突起",
+      "筋突起"
+    ],
+    "description": "輪状軟骨板の上面に乗る左右一対のピラミッド状硝子軟骨。声帯突起には声帯靱帯が、筋突起には後輪状披裂筋・外側輪状披裂筋が付着し、声帯の開閉を制御する。",
+    "trivia": "披裂軟骨のわずか数ミリの動きで声帯の緊張・弛緩が調整され、発声のピッチや音量が精密に制御される。名称はギリシャ語のarytaina（ひしゃく）に由来。"
+  },
+  {
+    "id": "b_epiglottis",
+    "name_ja": "喉頭蓋",
+    "name_en": "Epiglottis",
+    "region": "head_neck",
+    "landmarks": [
+      "喉頭蓋茎"
+    ],
+    "description": "舌根後方に位置する葉状の弾性軟骨。喉頭蓋茎で甲状軟骨内面に付着する。嚥下時に後方に倒れ喉頭口を覆い、食物の気道への侵入を防ぐ蓋として機能する。",
+    "trivia": "急性喉頭蓋炎（特にインフルエンザ菌b型による小児例）は喉頭蓋が急速に腫脹し数時間で窒息に至りうる救急疾患。Hibワクチンの普及で激減した。"
+  },
+  {
+    "id": "b_pharyngeal_raphe",
+    "name_ja": "咽頭縫線",
+    "name_en": "Pharyngeal raphe",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "咽頭後壁の正中を縦走する線維性結合組織帯。上方は咽頭結節（後頭骨底部）から起始し、左右の咽頭収縮筋が正中で合流する付着部となる。",
+    "trivia": "咽頭縫線は咽頭収縮筋の起始・停止として嚥下運動に重要な構造だが、後咽頭膿瘍では正中の縫線により膿瘍が片側に偏位する傾向がある。"
+  },
+  {
+    "id": "b_palatine_aponeurosis",
+    "name_ja": "口蓋腱膜",
+    "name_en": "Palatine aponeurosis",
+    "region": "head_neck",
+    "landmarks": [],
+    "description": "口蓋帆張筋の腱が口蓋翼鈎を回り込んだ後に扇状に広がる腱膜で、軟口蓋の骨格をなす。口蓋帆挙筋や口蓋垂筋などの軟口蓋筋群の付着部となる。",
+    "trivia": "口蓋腱膜は発声時の鼻咽腔閉鎖に重要な構造。口蓋裂の手術では、この腱膜の正常な再建が鼻咽腔閉鎖機能の回復と正常な構音獲得の鍵となる。"
+  }
+]

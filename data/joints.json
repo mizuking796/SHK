@@ -1,0 +1,675 @@
+[
+  {
+    "id": "j_tmj",
+    "name_ja": "顎関節",
+    "name_en": "Temporomandibular joint",
+    "type": "condyloid",
+    "bones": [
+      "b_temporal",
+      "b_mandible"
+    ],
+    "motions": [
+      "elevation",
+      "depression",
+      "protraction",
+      "retraction",
+      "lateral_excursion"
+    ],
+    "region": "head_neck",
+    "description": "側頭骨の下顎窩と下顎骨の下顎頭で構成される滑膜関節。関節円板を持ち、開口・閉口・側方運動を可能にする。",
+    "trivia": "顎関節は人体で最も頻繁に使用される関節の一つで、1日に約2000回動く。顎関節症は人口の約5〜12%に見られる。"
+  },
+  {
+    "id": "j_atlanto_occipital",
+    "name_ja": "環椎後頭関節",
+    "name_en": "Atlanto-occipital joint",
+    "type": "condyloid",
+    "bones": [
+      "b_occipital",
+      "b_c1"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "lateral_flexion"
+    ],
+    "region": "head_neck",
+    "description": "後頭骨の後頭顆と環椎の上関節面で構成される楕円関節。主にうなずき運動（屈曲・伸展）を担う。",
+    "trivia": "この関節での屈曲・伸展は約25°で、日常の「はい」のうなずき動作の大部分を担当する。"
+  },
+  {
+    "id": "j_atlanto_axial",
+    "name_ja": "環軸関節",
+    "name_en": "Atlantoaxial joint",
+    "type": "pivot",
+    "bones": [
+      "b_c1",
+      "b_c2"
+    ],
+    "motions": [
+      "rotation"
+    ],
+    "region": "head_neck",
+    "description": "環椎と軸椎の間の3つの関節（正中環軸関節1つ＋外側環軸関節2つ）の総称。軸椎の歯突起を軸とした回旋が主運動。",
+    "trivia": "頸部回旋の約50%はこの関節で生じる。歯突起の骨折や靭帯損傷は生命に関わる重篤な損傷となりうる。"
+  },
+  {
+    "id": "j_cervical_spine",
+    "name_ja": "頸椎椎間関節",
+    "name_en": "Cervical spine (C2-C7)",
+    "type": "plane",
+    "bones": [
+      "b_c2",
+      "b_c3",
+      "b_c4",
+      "b_c5",
+      "b_c6",
+      "b_c7"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "lateral_flexion",
+      "rotation"
+    ],
+    "region": "head_neck",
+    "description": "C2-C7間の椎間関節で、関節面は約45°の角度を持つ平面関節。屈曲・伸展・側屈・回旋の複合運動を許容する。",
+    "trivia": "頸椎は脊柱で最も可動性が高い部位で、約80°の屈曲伸展と約90°の回旋が可能。"
+  },
+  {
+    "id": "j_thoracic_spine",
+    "name_ja": "胸椎椎間関節",
+    "name_en": "Thoracic spine",
+    "type": "plane",
+    "bones": [
+      "b_t1",
+      "b_t6",
+      "b_t12"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "lateral_flexion",
+      "rotation"
+    ],
+    "region": "trunk",
+    "description": "T1-T12間の椎間関節。関節面はほぼ前額面に位置し、肋骨との結合により可動性が制限される。",
+    "trivia": "胸椎は肋骨の存在により最も可動性が低い脊柱区分だが、回旋運動は比較的大きく約35°可能。"
+  },
+  {
+    "id": "j_lumbar_spine",
+    "name_ja": "腰椎椎間関節",
+    "name_en": "Lumbar spine",
+    "type": "plane",
+    "bones": [
+      "b_l1",
+      "b_l3",
+      "b_l5"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "lateral_flexion",
+      "rotation"
+    ],
+    "region": "trunk",
+    "description": "L1-L5間の椎間関節。関節面は矢状面に近い方向を向き、屈曲・伸展に優れるが回旋は制限される。",
+    "trivia": "腰椎の椎間板は体重の荷重を受ける最大の無血管組織で、起床時と就寝時で身長が約1〜2cm変わる原因となる。"
+  },
+  {
+    "id": "j_costovertebral",
+    "name_ja": "肋椎関節",
+    "name_en": "Costovertebral joints",
+    "type": "plane",
+    "bones": [
+      "b_rib1",
+      "b_t1"
+    ],
+    "motions": [
+      "elevation",
+      "depression"
+    ],
+    "region": "trunk",
+    "description": "肋骨頭関節と肋横突関節の総称。肋骨と胸椎を連結し、呼吸時の肋骨運動を可能にする。",
+    "trivia": "上位肋骨はポンプハンドル運動、下位肋骨はバケツハンドル運動と呼ばれる異なる動きで胸郭を拡張する。"
+  },
+  {
+    "id": "j_lumbosacral",
+    "name_ja": "腰仙関節",
+    "name_en": "Lumbosacral joint",
+    "type": "plane",
+    "bones": [
+      "b_l5",
+      "b_sacrum"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "lateral_flexion"
+    ],
+    "region": "pelvis",
+    "description": "第5腰椎と仙骨の間の関節。体幹と骨盤を連結する移行部で、大きな剪断力がかかる。",
+    "trivia": "腰仙角は通常約30°で、この角度が大きいほど第5腰椎の前方すべりのリスクが高まる。"
+  },
+  {
+    "id": "j_sternoclavicular",
+    "name_ja": "胸鎖関節",
+    "name_en": "Sternoclavicular joint",
+    "type": "saddle",
+    "bones": [
+      "b_sternum",
+      "b_clavicle"
+    ],
+    "motions": [
+      "elevation",
+      "depression",
+      "protraction",
+      "retraction"
+    ],
+    "region": "upper_limb",
+    "description": "胸骨柄と鎖骨内側端を結ぶ鞍関節。上肢帯と体幹を直接連結する唯一の関節。",
+    "trivia": "この関節は上肢の全ての動きの基点となるが、脱臼することは極めて稀で、鎖骨骨折の方がはるかに多い。"
+  },
+  {
+    "id": "j_acromioclavicular",
+    "name_ja": "肩鎖関節",
+    "name_en": "Acromioclavicular joint",
+    "type": "plane",
+    "bones": [
+      "b_clavicle",
+      "b_scapula"
+    ],
+    "motions": [
+      "rotation"
+    ],
+    "region": "upper_limb",
+    "description": "鎖骨外側端と肩甲骨肩峰を結ぶ平面関節。肩甲骨の回旋や傾斜を補助する。",
+    "trivia": "ラグビーや柔道などのコンタクトスポーツで最も損傷しやすい関節の一つで、いわゆる「肩の分離」はこの関節の損傷。"
+  },
+  {
+    "id": "j_scapulothoracic",
+    "name_ja": "肩甲胸郭関節",
+    "name_en": "Scapulothoracic joint",
+    "type": "plane",
+    "bones": [
+      "b_scapula"
+    ],
+    "motions": [
+      "elevation",
+      "depression",
+      "protraction",
+      "retraction",
+      "upward_rotation",
+      "downward_rotation"
+    ],
+    "region": "upper_limb",
+    "description": "肩甲骨と胸郭の間の機能的関節（解剖学的には真の滑膜関節ではない）。肩甲骨の滑走・回旋・傾斜を許容する。",
+    "trivia": "肩を挙上する際、最初の30°は主に肩関節が動き、それ以降は上腕骨と肩甲骨が2:1の比率で動く（肩甲上腕リズム）。"
+  },
+  {
+    "id": "j_shoulder",
+    "name_ja": "肩関節",
+    "name_en": "Glenohumeral joint",
+    "type": "ball_and_socket",
+    "bones": [
+      "b_scapula",
+      "b_humerus"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "abduction",
+      "adduction",
+      "internal_rotation",
+      "external_rotation",
+      "horizontal_adduction",
+      "horizontal_abduction"
+    ],
+    "region": "upper_limb",
+    "description": "上腕骨頭と肩甲骨の関節窩で構成される球関節。人体で最も可動域が大きい関節で、回旋筋腱板が安定性を提供する。",
+    "trivia": "肩関節の関節窩は上腕骨頭の約1/3しかカバーせず、ゴルフのティーにボールを載せた状態に例えられる。"
+  },
+  {
+    "id": "j_elbow",
+    "name_ja": "肘関節",
+    "name_en": "Elbow joint",
+    "type": "hinge",
+    "bones": [
+      "b_humerus",
+      "b_ulna",
+      "b_radius"
+    ],
+    "motions": [
+      "flexion",
+      "extension"
+    ],
+    "region": "upper_limb",
+    "description": "上腕骨滑車と尺骨滑車切痕、上腕骨小頭と橈骨頭で構成される蝶番関節。屈曲・伸展を主運動とする。",
+    "trivia": "肘を伸展した際にわずかに外反する角度を運搬角（carrying angle）といい、男性で約5〜10°、女性で約10〜15°。"
+  },
+  {
+    "id": "j_proximal_radioulnar",
+    "name_ja": "近位橈尺関節",
+    "name_en": "Proximal radioulnar joint",
+    "type": "pivot",
+    "bones": [
+      "b_radius",
+      "b_ulna"
+    ],
+    "motions": [
+      "pronation",
+      "supination"
+    ],
+    "region": "upper_limb",
+    "description": "橈骨頭と尺骨の橈骨切痕で構成される車軸関節。輪状靭帯が橈骨頭を保持し、前腕の回内・回外を可能にする。",
+    "trivia": "小児に多い「肘内障」は、この関節の輪状靭帯から橈骨頭が亜脱臼する状態で、腕を引っ張られた際に起こる。"
+  },
+  {
+    "id": "j_distal_radioulnar",
+    "name_ja": "遠位橈尺関節",
+    "name_en": "Distal radioulnar joint",
+    "type": "pivot",
+    "bones": [
+      "b_radius",
+      "b_ulna"
+    ],
+    "motions": [
+      "pronation",
+      "supination"
+    ],
+    "region": "upper_limb",
+    "description": "橈骨の尺骨切痕と尺骨頭で構成される車軸関節。近位橈尺関節と連動して前腕の回内・回外を行う。",
+    "trivia": "回内・回外時、橈骨が尺骨の周りを約150°回転する。この運動はドアノブを回す動作の基盤となる。"
+  },
+  {
+    "id": "j_wrist",
+    "name_ja": "手関節",
+    "name_en": "Wrist (radiocarpal) joint",
+    "type": "condyloid",
+    "bones": [
+      "b_radius",
+      "b_scaphoid",
+      "b_lunate",
+      "b_triquetrum"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "radial_deviation",
+      "ulnar_deviation"
+    ],
+    "region": "upper_limb",
+    "description": "橈骨遠位端と近位手根骨列（舟状骨・月状骨・三角骨）で構成される楕円関節。掌屈・背屈・橈屈・尺屈を行う。",
+    "trivia": "手関節の可動域は掌屈約80°・背屈約70°・橈屈約20°・尺屈約30°で、機能的に最も重要なのは背屈45°。"
+  },
+  {
+    "id": "j_cmc1",
+    "name_ja": "第1手根中手関節",
+    "name_en": "1st carpometacarpal joint",
+    "type": "saddle",
+    "bones": [
+      "b_trapezium",
+      "b_mc1"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "abduction",
+      "adduction",
+      "opposition"
+    ],
+    "region": "upper_limb",
+    "description": "大菱形骨と第1中手骨で構成される鞍関節。母指の対立運動を可能にし、手の把握機能の要。",
+    "trivia": "この関節の形状が霊長類の精密把握を可能にした。変形性関節症の好発部位で、特に閉経後の女性に多い。"
+  },
+  {
+    "id": "j_mcp",
+    "name_ja": "中手指節関節",
+    "name_en": "Metacarpophalangeal joints",
+    "type": "condyloid",
+    "bones": [
+      "b_mc2",
+      "b_index_pp"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "abduction",
+      "adduction"
+    ],
+    "region": "upper_limb",
+    "description": "中手骨頭と基節骨底で構成される顆状関節。屈曲・伸展・外転・内転が可能。",
+    "trivia": "MCP関節の側副靭帯は屈曲位で緊張するため、ギプス固定は必ず屈曲位で行う（伸展位だと拘縮を起こす）。"
+  },
+  {
+    "id": "j_pip_hand",
+    "name_ja": "近位指節間関節（手）",
+    "name_en": "PIP joints (hand)",
+    "type": "hinge",
+    "bones": [
+      "b_index_pp",
+      "b_index_mp"
+    ],
+    "motions": [
+      "flexion",
+      "extension"
+    ],
+    "region": "upper_limb",
+    "description": "基節骨頭と中節骨底で構成される蝶番関節。屈曲・伸展のみの1軸運動を行う。",
+    "trivia": "PIP関節は手指で最も損傷しやすい関節で、バレーボールなどの球技による突き指の多くはこの関節の損傷。"
+  },
+  {
+    "id": "j_dip_hand",
+    "name_ja": "遠位指節間関節（手）",
+    "name_en": "DIP joints (hand)",
+    "type": "hinge",
+    "bones": [
+      "b_index_mp",
+      "b_index_dp"
+    ],
+    "motions": [
+      "flexion",
+      "extension"
+    ],
+    "region": "upper_limb",
+    "description": "中節骨頭と末節骨底で構成される蝶番関節。屈曲・伸展の1軸運動を行い、可動域はPIP関節より小さい。",
+    "trivia": "ヘバーデン結節と呼ばれるDIP関節の変形性関節症は、40歳以上の女性に多く、遺伝的要因が強い。"
+  },
+  {
+    "id": "j_sacroiliac",
+    "name_ja": "仙腸関節",
+    "name_en": "Sacroiliac joint",
+    "type": "plane",
+    "bones": [
+      "b_sacrum",
+      "b_ilium"
+    ],
+    "motions": [],
+    "region": "pelvis",
+    "description": "仙骨と腸骨の耳状面で構成される半関節。強靭な靭帯群により安定し、わずかな可動性（数mm〜数°）しか持たない。",
+    "trivia": "妊娠中はリラキシンホルモンにより靭帯が弛緩し、仙腸関節の可動性が増大して産道を広げる。"
+  },
+  {
+    "id": "j_hip",
+    "name_ja": "股関節",
+    "name_en": "Hip joint",
+    "type": "ball_and_socket",
+    "bones": [
+      "b_ilium",
+      "b_ischium",
+      "b_pubis",
+      "b_femur"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "abduction",
+      "adduction",
+      "internal_rotation",
+      "external_rotation"
+    ],
+    "region": "lower_limb",
+    "description": "大腿骨頭と寛骨臼で構成される臼状関節。肩関節に次ぐ広い可動域を持ちながら、高い安定性を兼ね備える。",
+    "trivia": "大腿骨頭の約2/3が寛骨臼に覆われ、さらに関節唇が深さを増す。立位で体重の約2.5〜3倍の荷重がかかる。"
+  },
+  {
+    "id": "j_knee",
+    "name_ja": "膝関節",
+    "name_en": "Knee joint",
+    "type": "hinge",
+    "bones": [
+      "b_femur",
+      "b_tibia",
+      "b_patella"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "internal_rotation",
+      "external_rotation"
+    ],
+    "region": "lower_limb",
+    "description": "大腿骨と脛骨の顆間関節に膝蓋大腿関節を加えた複合関節。屈曲・伸展に加え、屈曲位でわずかな回旋が可能。",
+    "trivia": "半月板は膝関節への荷重を約50%分散する。膝関節は人体最大の関節で、階段下降時には体重の約3.5倍の力がかかる。"
+  },
+  {
+    "id": "j_proximal_tibiofibular",
+    "name_ja": "近位脛腓関節",
+    "name_en": "Proximal tibiofibular joint",
+    "type": "plane",
+    "bones": [
+      "b_tibia",
+      "b_fibula"
+    ],
+    "motions": [],
+    "region": "lower_limb",
+    "description": "脛骨外側顆と腓骨頭で構成される平面関節。わずかな滑走運動のみを行い、腓骨の上下動を許容する。",
+    "trivia": "総腓骨神経が腓骨頭の後方を走行するため、この部位の外傷で下垂足を生じることがある。"
+  },
+  {
+    "id": "j_ankle",
+    "name_ja": "足関節",
+    "name_en": "Talocrural (ankle) joint",
+    "type": "hinge",
+    "bones": [
+      "b_tibia",
+      "b_fibula",
+      "b_talus"
+    ],
+    "motions": [
+      "dorsiflexion",
+      "plantarflexion"
+    ],
+    "region": "lower_limb",
+    "description": "脛骨・腓骨の下端が作る関節窩と距骨滑車で構成される蝶番関節。背屈・底屈を主運動とする。",
+    "trivia": "足関節捻挫は全スポーツ外傷の約25%を占め、最も頻度の高い外傷。底屈位で最も不安定になる。"
+  },
+  {
+    "id": "j_subtalar",
+    "name_ja": "距骨下関節",
+    "name_en": "Subtalar joint",
+    "type": "plane",
+    "bones": [
+      "b_talus",
+      "b_calcaneus"
+    ],
+    "motions": [
+      "inversion",
+      "eversion"
+    ],
+    "region": "lower_limb",
+    "description": "距骨と踵骨の間の関節。内反・外反を主運動とし、不整地での足部の適応に重要な役割を果たす。",
+    "trivia": "距骨は筋肉の付着がない唯一の足根骨で、血行が乏しいため骨折後の壊死リスクが高い。"
+  },
+  {
+    "id": "j_transverse_tarsal",
+    "name_ja": "横足根関節",
+    "name_en": "Transverse tarsal (Chopart) joint",
+    "type": "plane",
+    "bones": [
+      "b_talus",
+      "b_navicular_foot",
+      "b_calcaneus",
+      "b_cuboid"
+    ],
+    "motions": [
+      "inversion",
+      "eversion"
+    ],
+    "region": "lower_limb",
+    "description": "距舟関節と踵立方関節の総称（ショパール関節）。距骨下関節と連動して足部の回内・回外を行う。",
+    "trivia": "フランスの外科医ショパールが18世紀に足部切断のランドマークとして記載したことからショパール関節と呼ばれる。"
+  },
+  {
+    "id": "j_mtp",
+    "name_ja": "中足趾節関節",
+    "name_en": "Metatarsophalangeal joints",
+    "type": "condyloid",
+    "bones": [
+      "b_mt1",
+      "b_great_toe_pp"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "abduction",
+      "adduction"
+    ],
+    "region": "lower_limb",
+    "description": "中足骨頭と基節骨底で構成される顆状関節。歩行時の蹴り出しに重要な背屈運動を行う。",
+    "trivia": "第1MTP関節の外反は「外反母趾」の本態で、特にハイヒール着用者に多い。正常な背屈可動域は約65°。"
+  },
+  {
+    "id": "j_ip_foot",
+    "name_ja": "趾節間関節",
+    "name_en": "IP joints (foot)",
+    "type": "hinge",
+    "bones": [
+      "b_great_toe_pp",
+      "b_great_toe_dp"
+    ],
+    "motions": [
+      "flexion",
+      "extension"
+    ],
+    "region": "lower_limb",
+    "description": "足趾の基節骨・中節骨・末節骨間の蝶番関節。屈曲・伸展の1軸運動を行い、地面を掴む機能を持つ。",
+    "trivia": "母趾のIP関節は1つだが、第2〜5趾はPIPとDIPの2つを持つ。ハンマートウはPIP関節の屈曲変形。"
+  },
+  {
+    "id": "j_distal_tibiofibular",
+    "name_ja": "遠位脛腓関節",
+    "name_en": "Distal tibiofibular joint",
+    "type": "syndesmosis",
+    "bones": [
+      "b_tibia",
+      "b_fibula"
+    ],
+    "motions": [],
+    "region": "lower_limb",
+    "description": "脛骨の腓骨切痕と腓骨遠位端が骨間靱帯（前脛腓靱帯・後脛腓靱帯・骨間靱帯）によって結合される線維性関節。足関節の安定性を保つ果間関節面の幅を維持する。",
+    "trivia": "足関節捻挫の約10%で遠位脛腓靱帯結合が損傷され（高位捻挫）、通常の外側靱帯損傷より回復に2〜3倍の時間を要する。不安定性が残ると変形性関節症のリスクが高まる。"
+  },
+  {
+    "id": "j_tarsometatarsal",
+    "name_ja": "足根中足関節",
+    "name_en": "Tarsometatarsal joint (Lisfranc joint)",
+    "type": "plane",
+    "bones": [
+      "b_med_cuneiform",
+      "b_int_cuneiform",
+      "b_lat_cuneiform",
+      "b_cuboid",
+      "b_mt1",
+      "b_mt2",
+      "b_mt3",
+      "b_mt4",
+      "b_mt5"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "inversion",
+      "eversion"
+    ],
+    "region": "lower_limb",
+    "description": "足根骨遠位列（内側・中間・外側楔状骨および立方骨）と第1〜5中足骨基部が構成する平面関節群。リスフラン靱帯（内側楔状骨と第2中足骨基部を結ぶ）が安定性の鍵となる。",
+    "trivia": "リスフラン関節の名称はナポレオンの軍医Jacques Lisfrancに由来し、彼は凍傷の壊疽に対してこの関節での切断術を行った。見逃されやすい損傷として有名で、初期X線で約20%が診断されない。"
+  },
+  {
+    "id": "j_pubic_symphysis",
+    "name_ja": "恥骨結合",
+    "name_en": "Pubic symphysis",
+    "type": "symphysis",
+    "bones": [
+      "b_pubis"
+    ],
+    "motions": [],
+    "region": "pelvis",
+    "description": "左右の恥骨が線維軟骨性の恥骨間円板を介して結合する軟骨性関節。骨盤環の前方安定性に寄与し、通常はわずかな可動性（1〜2mm）しか持たない。",
+    "trivia": "妊娠中はリラキシンの作用により恥骨結合が弛緩し、最大10mmまで開大して産道を拡大する。分離が10mmを超えると恥骨結合離開となり強い疼痛を生じる。法医学では恥骨結合面の変化パターンから年齢推定が可能。"
+  },
+  {
+    "id": "j_midcarpal",
+    "name_ja": "手根間関節",
+    "name_en": "Midcarpal joint",
+    "type": "condyloid",
+    "bones": [
+      "b_scaphoid",
+      "b_lunate",
+      "b_triquetrum",
+      "b_trapezium",
+      "b_trapezoid",
+      "b_capitate",
+      "b_hamate"
+    ],
+    "motions": [
+      "flexion",
+      "extension",
+      "radial_deviation",
+      "ulnar_deviation"
+    ],
+    "region": "upper_limb",
+    "description": "手根骨の近位列（舟状骨・月状骨・三角骨）と遠位列（大菱形骨・小菱形骨・有頭骨・有鈎骨）の間に形成される顆状関節。橈骨手根関節と協調して手関節の複合運動を担う。",
+    "trivia": "手関節の屈曲は手根間関節が約60%、橈骨手根関節が約40%を担い、伸展ではこの比率が逆転する。手根間関節の不安定性は掌側正中手根不安定症として手首のクリック（clunk）で検出される。"
+  },
+  {
+    "id": "j_sternocostal",
+    "name_ja": "胸肋関節",
+    "name_en": "Sternocostal joints",
+    "type": "plane",
+    "bones": [
+      "b_sternum",
+      "b_rib1",
+      "b_rib2",
+      "b_rib3",
+      "b_rib4",
+      "b_rib5",
+      "b_rib6",
+      "b_rib7"
+    ],
+    "motions": [],
+    "region": "trunk",
+    "description": "第1〜7肋軟骨と胸骨の間に形成される関節群。第1胸肋関節は軟骨結合（不動）、第2〜7胸肋関節は滑膜性平面関節で、呼吸時の胸郭運動（ポンプハンドル・バケツハンドル運動）に関与する。",
+    "trivia": "Tietze症候群は胸肋関節（特に第2〜3）の有痛性腫脹で、胸痛の鑑別疾患として重要。肋軟骨炎との違いは目に見える腫脹の有無。心筋梗塞との鑑別が臨床的に最も重要である。"
+  },
+  {
+    "id": "j_cmc2_5",
+    "name_ja": "第2-5手根中手関節",
+    "name_en": "2nd-5th carpometacarpal joints",
+    "type": "plane",
+    "bones": [
+      "b_trapezoid",
+      "b_capitate",
+      "b_hamate",
+      "b_mc2",
+      "b_mc3",
+      "b_mc4",
+      "b_mc5"
+    ],
+    "motions": [
+      "flexion",
+      "extension"
+    ],
+    "region": "upper_limb",
+    "description": "手根骨遠位列（小菱形骨・有頭骨・有鈎骨）と第2〜5中手骨基部が構成する平面関節群。第2・3関節はほぼ不動、第4・5関節は徐々に可動性が増し、特に第5は約15°の屈曲が可能。",
+    "trivia": "第4・5手根中手関節の可動性は握り動作のカッピング（手掌を丸める動き）に不可欠であり、この関節の固定術後にはパワーグリップが大幅に低下する。ボクサー骨折は第5中手骨頸部の骨折だが、CMC関節脱臼の見逃しにも注意が必要。"
+  },
+  {
+    "id": "j_ip_thumb",
+    "name_ja": "母指指節間関節",
+    "name_en": "Interphalangeal joint of thumb",
+    "type": "hinge",
+    "bones": [
+      "b_thumb_pp",
+      "b_thumb_dp"
+    ],
+    "motions": [
+      "flexion",
+      "extension"
+    ],
+    "region": "upper_limb",
+    "description": "母指の近位指骨と遠位指骨が構成する蝶番関節。滑車状の関節面と側副靱帯により屈曲・伸展の単軸運動のみを許容する。長母指屈筋・長母指伸筋が主動作筋。",
+    "trivia": "母指IP関節の過伸展可動域は個人差が大きく、-30°から+90°まで様々である。ゲームキーパー母指（スキーヤー母指）で知られるUCL損傷はMCP関節の病態だが、IP関節の代償的過可動が臨床上問題になることがある。"
+  }
+]

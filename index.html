@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHK - 筋骨神経データベース</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header id="header">
+      <div class="header-left">
+        <h1>SHK</h1>
+        <span class="subtitle">筋骨神経データベース</span>
+      </div>
+      <div class="header-center">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="筋・骨・神経を検索（日本語 / English）" autocomplete="off">
+          <div id="search-results" class="search-results hidden"></div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="stats" id="stats"></div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <div id="main">
+      <!-- Left sidebar: filters -->
+      <aside id="sidebar">
+        <div class="filter-section">
+          <h3>表示フィルタ</h3>
+          <div class="filter-group">
+            <label class="filter-label">ノードタイプ</label>
+            <label class="checkbox"><input type="checkbox" id="show-muscles" checked><span class="node-badge muscle">筋</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-bones" checked><span class="node-badge bone">骨</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-nerves" checked><span class="node-badge nerve">神経</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-joints" checked><span class="node-badge joint">関節</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-ligaments" checked><span class="node-badge ligament">靱帯</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-skin" checked><span class="node-badge skin">皮膚</span></label>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label">部位</label>
+            <select id="region-filter">
+              <option value="">すべて</option>
+              <option value="head_neck">頭頸部</option>
+              <option value="upper_limb">上肢</option>
+              <option value="lower_limb">下肢</option>
+              <option value="trunk">体幹</option>
+              <option value="back">背部</option>
+              <option value="pelvis">骨盤・会陰</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label">エッジタイプ</label>
+            <label class="checkbox"><input type="checkbox" id="show-origin" checked><span class="edge-badge origin">起始</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-insertion" checked><span class="edge-badge insertion">停止</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-innervation" checked><span class="edge-badge innervation">神経支配</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-articulation" checked><span class="edge-badge articulation">関節結合</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-ligament-attach" checked><span class="edge-badge ligament-attach">靱帯付着</span></label>
+            <label class="checkbox"><input type="checkbox" id="show-sensory-innervation" checked><span class="edge-badge sensory-innervation">感覚支配</span></label>
+          </div>
+        </div>
+        <div class="filter-section">
+          <h3>逆引き検索</h3>
+          <div class="reverse-lookup">
+            <button class="lookup-btn" data-type="spinal">脊髄レベル → 筋</button>
+            <button class="lookup-btn" data-type="motion">運動 → 筋</button>
+            <button class="lookup-btn" data-type="nerve">神経 → 支配筋</button>
+          </div>
+        </div>
+        <div class="filter-section">
+          <h3>レイアウト</h3>
+          <select id="layout-select">
+            <option value="cluster">クラスター</option>
+            <option value="concentric">同心円</option>
+            <option value="grid">グリッド</option>
+          </select>
+          <button id="relayout-btn" class="btn">再配置</button>
+        </div>
+      </aside>
+
+      <!-- Graph area -->
+      <div id="graph-container">
+        <div id="cy"></div>
+        <div id="graph-controls">
+          <button id="zoom-in" class="graph-btn" title="ズームイン">+</button>
+          <button id="zoom-out" class="graph-btn" title="ズームアウト">−</button>
+          <button id="fit-btn" class="graph-btn" title="全体表示">⊡</button>
+        </div>
+      </div>
+
+      <!-- Right panel: detail -->
+      <aside id="detail-panel" class="hidden">
+        <button id="close-detail" class="close-btn">閉じる</button>
+        <div id="detail-content"></div>
+      </aside>
+    </div>
+
+    <!-- Reverse lookup modal -->
+    <div id="lookup-modal" class="modal hidden">
+      <div class="modal-content">
+        <button class="close-btn modal-close">&times;</button>
+        <h2 id="modal-title"></h2>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/graph.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

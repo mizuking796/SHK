@@ -1,0 +1,327 @@
+[
+  {
+    "id": "sk_forehead",
+    "name_ja": "前額部・眼窩上部",
+    "name_en": "Forehead & supraorbital region",
+    "region": "head_neck",
+    "nerves": [
+      "n_cn5_v1"
+    ],
+    "area": "前頭部、上眼瞼、鼻背、鼻尖",
+    "description": "三叉神経第1枝（眼神経）が支配する領域。眼窩上神経・滑車上神経・鼻毛様体神経の分枝が前額部から鼻背にかけての皮膚感覚を担う。",
+    "trivia": "帯状疱疹がV1領域に再活性化すると眼部帯状疱疹となり、角膜炎を合併するリスクがある。ハッチンソン徴候（鼻尖の水疱）は眼合併症の予測因子。"
+  },
+  {
+    "id": "sk_midface",
+    "name_ja": "中顔面部",
+    "name_en": "Midface region",
+    "region": "head_neck",
+    "nerves": [
+      "n_cn5_v2"
+    ],
+    "area": "頬部、上唇、下眼瞼、鼻翼、上顎歯肉",
+    "description": "三叉神経第2枝（上顎神経）が支配する領域。眼窩下神経・頬骨神経の分枝が中顔面の皮膚感覚を担う。",
+    "trivia": "歯科での上顎の局所麻酔は主にV2の分枝を標的とする。眼窩下孔ブロックで上唇・鼻翼・下眼瞼の感覚が消失する。"
+  },
+  {
+    "id": "sk_chin_jaw",
+    "name_ja": "下顔面・オトガイ部",
+    "name_en": "Lower face & chin",
+    "region": "head_neck",
+    "nerves": [
+      "n_cn5_v3"
+    ],
+    "area": "下唇、オトガイ部、下顎歯肉、側頭部、外耳前部",
+    "description": "三叉神経第3枝（下顎神経）の感覚枝が支配する領域。オトガイ神経・耳介側頭神経・頬神経の分枝が下顔面の皮膚感覚を担う。",
+    "trivia": "下歯槽神経ブロック（伝達麻酔）は歯科で最も一般的な神経ブロックの一つ。下顎智歯抜歯時にオトガイ神経が損傷されると下唇の永続的なしびれが生じうる。"
+  },
+  {
+    "id": "sk_posterior_scalp",
+    "name_ja": "後頭部",
+    "name_en": "Posterior scalp",
+    "region": "head_neck",
+    "nerves": [
+      "n_greater_occipital"
+    ],
+    "area": "後頭部から頭頂部にかけての頭皮",
+    "description": "大後頭神経（C2後枝の内側枝）が支配する領域。後頭部から頭頂部にかけての広い範囲の皮膚感覚を担う。",
+    "trivia": "大後頭神経痛は後頭部から頭頂部にかけての電撃様疼痛を特徴とし、片頭痛との鑑別が重要。大後頭神経ブロックは難治性頭痛の治療に用いられる。"
+  },
+  {
+    "id": "sk_lateral_shoulder",
+    "name_ja": "肩外側部（レジメンタルバッジ領域）",
+    "name_en": "Lateral shoulder (regimental badge area)",
+    "region": "upper_limb",
+    "nerves": [
+      "n_axillary"
+    ],
+    "area": "三角筋表面の皮膚（肩峰下約5cm四方）",
+    "description": "腋窩神経の上外側上腕皮神経枝が支配する領域。三角筋直上の限局した領域の感覚を担う。",
+    "trivia": "レジメンタルバッジ領域と呼ばれるのは、軍服の連隊章（regimental badge）を付ける位置に一致するため。腋窩神経麻痺の感覚検査で最初に調べる部位。"
+  },
+  {
+    "id": "sk_medial_arm",
+    "name_ja": "上腕内側部",
+    "name_en": "Medial arm",
+    "region": "upper_limb",
+    "nerves": [
+      "n_medial_brachial_cutaneous"
+    ],
+    "area": "上腕の内側面（腋窩から肘まで）",
+    "description": "内側上腕皮神経（C8-T1）が支配する領域。腕神経叢内側神経束から直接分岐し、上腕内側面の皮膚感覚を担う。",
+    "trivia": "肋間上腕神経（T2）と吻合して支配域が重なるため、単独損傷では感覚脱失が目立ちにくい。乳房手術時のリンパ節郭清で損傷されることがある。"
+  },
+  {
+    "id": "sk_lateral_forearm",
+    "name_ja": "前腕外側部",
+    "name_en": "Lateral forearm",
+    "region": "upper_limb",
+    "nerves": [
+      "n_musculocutaneous"
+    ],
+    "area": "前腕の外側面（橈側）",
+    "description": "筋皮神経の終末枝である外側前腕皮神経が支配する領域。上腕二頭筋の外側を貫通した後、前腕橈側の皮膚感覚を担う。",
+    "trivia": "筋皮神経は上腕の筋（上腕二頭筋・烏口腕筋・上腕筋）を支配した後、外側前腕皮神経として前腕の感覚を担う。運動と感覚を兼ねる典型的な混合神経。"
+  },
+  {
+    "id": "sk_medial_forearm",
+    "name_ja": "前腕内側部",
+    "name_en": "Medial forearm",
+    "region": "upper_limb",
+    "nerves": [
+      "n_medial_antebrachial_cutaneous"
+    ],
+    "area": "前腕の内側面（尺側）",
+    "description": "内側前腕皮神経（C8-T1）が支配する領域。腕神経叢内側神経束から直接分岐し、前腕尺側の皮膚感覚を担う。",
+    "trivia": "肘部での静脈穿刺や動脈血ガス採取の際に損傷されることがある。前腕内側のしびれや異常感覚の原因として見逃されやすい。"
+  },
+  {
+    "id": "sk_dorsal_hand_radial",
+    "name_ja": "手背橈側部",
+    "name_en": "Dorsal hand (radial side)",
+    "region": "upper_limb",
+    "nerves": [
+      "n_radial_superficial"
+    ],
+    "area": "手背の橈側（母指・示指・中指の背側と手背橈側半分）",
+    "description": "橈骨神経浅枝が支配する領域。前腕遠位で腕橈骨筋の深部から浅層に出て、手背橈側の皮膚感覚を担う。",
+    "trivia": "Wartenberg症候群は橈骨神経浅枝の絞扼性神経障害で、手首バンドや手錠の圧迫で生じうる。手背橈側のしびれと疼痛が主症状。"
+  },
+  {
+    "id": "sk_palm_radial",
+    "name_ja": "手掌橈側部",
+    "name_en": "Palmar hand (radial side)",
+    "region": "upper_limb",
+    "nerves": [
+      "n_median"
+    ],
+    "area": "手掌の橈側3指半（母指・示指・中指・環指橈側半分）の掌側",
+    "description": "正中神経の掌側指神経枝が支配する領域。手根管を通過した後、母指から環指橈側半分の掌側皮膚感覚を担う。",
+    "trivia": "手根管症候群の初期症状は夜間の手指のしびれ・疼痛で、正中神経支配域（母指〜環指橈側）に一致する。ファーレンテストやティネル徴候で診断する。"
+  },
+  {
+    "id": "sk_palm_ulnar",
+    "name_ja": "手掌尺側部",
+    "name_en": "Palmar hand (ulnar side)",
+    "region": "upper_limb",
+    "nerves": [
+      "n_ulnar"
+    ],
+    "area": "手掌の尺側1指半（環指尺側半分・小指）の掌側と手掌尺側縁",
+    "description": "尺骨神経の浅枝が支配する領域。ギヨン管を通過した後に分岐し、環指尺側半分と小指の掌側皮膚感覚を担う。",
+    "trivia": "尺骨神経は肘部管とギヨン管の2箇所で絞扼されやすい。環指の感覚が橈側半分（正中神経）と尺側半分（尺骨神経）で異なるのは臨床的に重要な境界。"
+  },
+  {
+    "id": "sk_anterior_thigh",
+    "name_ja": "大腿前面部",
+    "name_en": "Anterior thigh",
+    "region": "lower_limb",
+    "nerves": [
+      "n_femoral"
+    ],
+    "area": "大腿前面（鼠径部から膝上まで）",
+    "description": "大腿神経の前皮枝（中間・内側大腿皮神経）が支配する領域。大腿前面の広い範囲の皮膚感覚を担う。",
+    "trivia": "大腿神経ブロックは膝関節手術や大腿骨骨折の疼痛管理に広く用いられる。大腿前面の感覚消失は腰椎L2-L4神経根障害の指標となる。"
+  },
+  {
+    "id": "sk_lateral_thigh",
+    "name_ja": "大腿外側部",
+    "name_en": "Lateral thigh",
+    "region": "lower_limb",
+    "nerves": [
+      "n_lateral_femoral_cutaneous"
+    ],
+    "area": "大腿の外側面（上前腸骨棘下方から膝上外側まで）",
+    "description": "外側大腿皮神経（L2-L3）が支配する領域。鼠径靱帯下を通過して大腿外側面の皮膚感覚を担う純感覚神経。",
+    "trivia": "外側大腿皮神経の絞扼による感覚異常性大腿痛（meralgia paresthetica）は、肥満・妊娠・きつめのベルトで生じる。大腿外側のしびれ・灼熱感が特徴。"
+  },
+  {
+    "id": "sk_medial_thigh",
+    "name_ja": "大腿内側部",
+    "name_en": "Medial thigh",
+    "region": "lower_limb",
+    "nerves": [
+      "n_obturator"
+    ],
+    "area": "大腿の内側面",
+    "description": "閉鎖神経の皮枝が支配する領域。内転筋群を支配した後、大腿内側面の皮膚感覚を担う。",
+    "trivia": "閉鎖神経の皮枝は変異が大きく、約60%の症例でしか認められない。閉鎖孔ヘルニアでは大腿内側の疼痛（Howship-Romberg徴候）が診断の手がかりとなる。"
+  },
+  {
+    "id": "sk_posterior_thigh",
+    "name_ja": "大腿後面部",
+    "name_en": "Posterior thigh",
+    "region": "lower_limb",
+    "nerves": [
+      "n_posterior_femoral_cutaneous"
+    ],
+    "area": "大腿後面（殿溝から膝窩まで）と殿部下方",
+    "description": "後大腿皮神経（S1-S3）が支配する領域。坐骨神経に伴走し、大腿後面から膝窩にかけての皮膚感覚を担う純感覚神経。",
+    "trivia": "後大腿皮神経は殿部下方（殿溝付近）の皮膚も支配する。梨状筋症候群では坐骨神経とともに圧迫され、大腿後面の感覚異常を伴うことがある。"
+  },
+  {
+    "id": "sk_medial_leg",
+    "name_ja": "下腿内側部",
+    "name_en": "Medial leg",
+    "region": "lower_limb",
+    "nerves": [
+      "n_saphenous"
+    ],
+    "area": "膝内側から下腿内側面、内果、足背内側縁まで",
+    "description": "伏在神経（大腿神経の最長の皮枝）が支配する領域。内転筋管を通過した後、下腿内側から足背内側にかけての皮膚感覚を担う純感覚神経。",
+    "trivia": "伏在神経は人体で最長の純感覚神経。大伏在静脈ストリッピング手術時に損傷されやすく、術後に下腿内側のしびれが残ることがある。"
+  },
+  {
+    "id": "sk_lateral_leg",
+    "name_ja": "下腿外側・足背部",
+    "name_en": "Lateral leg & dorsal foot",
+    "region": "lower_limb",
+    "nerves": [
+      "n_superficial_fibular"
+    ],
+    "area": "下腿外側面の下部と足背の大部分",
+    "description": "浅腓骨神経の皮枝が支配する領域。下腿外側コンパートメントの筋を支配した後、足背のほとんどの皮膚感覚を担う。",
+    "trivia": "足背の感覚は主に浅腓骨神経が担うが、第1趾間（母趾と第2趾の間）だけは深腓骨神経が支配する。腓骨頸部骨折で総腓骨神経が損傷されると足背の感覚が消失する。"
+  },
+  {
+    "id": "sk_posterolateral_leg",
+    "name_ja": "下腿後外側部",
+    "name_en": "Posterolateral leg & lateral foot",
+    "region": "lower_limb",
+    "nerves": [
+      "n_sural"
+    ],
+    "area": "下腿の後外側面、外果後方、足背外側縁",
+    "description": "腓腹神経が支配する領域。脛骨神経の内側腓腹皮神経と総腓骨神経の外側腓腹皮神経が合流して形成される純感覚神経。",
+    "trivia": "腓腹神経は神経伝導検査で最も一般的に検査される感覚神経の一つ。また、神経移植のドナーとしても利用される（採取しても足外側の限局した感覚消失のみ）。"
+  },
+  {
+    "id": "sk_first_webspace",
+    "name_ja": "第1趾間部",
+    "name_en": "First web space of foot",
+    "region": "lower_limb",
+    "nerves": [
+      "n_deep_fibular"
+    ],
+    "area": "母趾と第2趾の間の背側皮膚",
+    "description": "深腓骨神経の終末皮枝が支配する領域。前脛骨区画の筋を支配した後、足背で唯一この狭い領域の感覚を担う。",
+    "trivia": "深腓骨神経の感覚支配域は第1趾間のみという極めて限局した領域。前方コンパートメント症候群の早期徴候として、この部位の感覚低下をチェックする。"
+  },
+  {
+    "id": "sk_medial_sole",
+    "name_ja": "足底内側部",
+    "name_en": "Medial sole",
+    "region": "lower_limb",
+    "nerves": [
+      "n_medial_plantar"
+    ],
+    "area": "足底の内側（母趾〜第4趾内側半分の足底面）",
+    "description": "内側足底神経（脛骨神経の終末枝）が支配する領域。手の正中神経に相当し、足底内側の皮膚感覚と足趾底側の感覚を担う。",
+    "trivia": "内側足底神経の絞扼（ジョガーズフット）はランナーに好発し、足底内側の疼痛・しびれが特徴。手の正中神経支配域と類似のパターンを示す。"
+  },
+  {
+    "id": "sk_lateral_sole",
+    "name_ja": "足底外側部",
+    "name_en": "Lateral sole",
+    "region": "lower_limb",
+    "nerves": [
+      "n_lateral_plantar"
+    ],
+    "area": "足底の外側（第4趾外側半分・第5趾の足底面と足底外側縁）",
+    "description": "外側足底神経（脛骨神経の終末枝）が支配する領域。手の尺骨神経に相当し、足底外側の皮膚感覚を担う。",
+    "trivia": "外側足底神経の第1枝（バクスター神経）の絞扼は、慢性踵部痛の原因として見過ごされやすい。足底腱膜炎と鑑別が必要。"
+  },
+  {
+    "id": "sk_thoracic_wall",
+    "name_ja": "胸壁皮膚",
+    "name_en": "Thoracic wall skin",
+    "region": "trunk",
+    "nerves": [
+      "n_intercostal"
+    ],
+    "area": "前胸壁・側胸壁（T1-T11の肋間に沿った帯状の皮膚）",
+    "description": "肋間神経（T1-T11）の外側皮枝と前皮枝が支配する領域。各肋間神経は対応するデルマトームに沿って帯状の感覚支配域を持つ。",
+    "trivia": "T4デルマトームは乳頭の高さに対応し、脊髄損傷の感覚レベル評価で重要な指標。帯状疱疹は肋間神経に沿って片側性の帯状水疱を形成する。"
+  },
+  {
+    "id": "sk_lower_abdomen",
+    "name_ja": "下腹壁皮膚",
+    "name_en": "Lower abdominal wall skin",
+    "region": "trunk",
+    "nerves": [
+      "n_subcostal",
+      "n_iliohypogastric"
+    ],
+    "area": "下腹壁（臍下〜鼠径部上方）と側腹部下方",
+    "description": "肋下神経（T12）と腸骨下腹神経（L1）が支配する領域。下腹壁の皮膚感覚を担い、腸骨稜上方から鼠径部にかけて分布する。",
+    "trivia": "臍のレベル（T10）は虫垂炎の初期疼痛の放散部位として知られる。帝王切開のPfannenstiel切開ではT12-L1の皮枝が切断され、切開線下方のしびれが残ることがある。"
+  },
+  {
+    "id": "sk_inguinal",
+    "name_ja": "鼠径部皮膚",
+    "name_en": "Inguinal region skin",
+    "region": "trunk",
+    "nerves": [
+      "n_ilioinguinal"
+    ],
+    "area": "鼠径部、陰嚢・大陰唇前部、大腿上内側部",
+    "description": "腸骨鼠径神経（L1）が支配する領域。鼠径管を通過し、外鼠径輪から出て鼠径部と外陰部前部の皮膚感覚を担う。",
+    "trivia": "鼠径ヘルニア手術時に腸骨鼠径神経が損傷されると術後の慢性疼痛（術後鼠径部痛）の原因となる。術後鼠径部痛は鼠径ヘルニア手術の重要な合併症。"
+  },
+  {
+    "id": "sk_upper_medial_thigh",
+    "name_ja": "大腿上内側部",
+    "name_en": "Upper medial thigh",
+    "region": "lower_limb",
+    "nerves": [
+      "n_genitofemoral"
+    ],
+    "area": "大腿上部の前内側（大腿三角付近）",
+    "description": "陰部大腿神経の大腿枝（L1-L2）が支配する領域。鼠径靱帯下を通過し、大腿三角付近の限局した皮膚感覚を担う。",
+    "trivia": "陰部大腿神経の陰部枝は精巣挙筋反射（挙睾反射）の遠心路を担う。大腿内側を擦ると同側の精巣が挙上するこの反射は、L1-L2脊髄レベルの評価に用いられる。"
+  },
+  {
+    "id": "sk_posterior_trunk",
+    "name_ja": "背部皮膚",
+    "name_en": "Posterior trunk skin",
+    "region": "back",
+    "nerves": [
+      "n_dorsal_rami"
+    ],
+    "area": "項部から仙骨部にかけての正中線近傍の背部皮膚",
+    "description": "脊髄神経後枝の内側枝（上位）と外側枝（下位）が支配する領域。脊柱の両側に沿って縦走する帯状の感覚支配域を持つ。",
+    "trivia": "上殿皮神経（L1-L3後枝の外側枝）は腸骨稜を乗り越える部位で絞扼され、腰痛の原因となることがある。腰痛患者の約14%がこの神経の絞扼に起因するとの報告がある。"
+  },
+  {
+    "id": "sk_perineum",
+    "name_ja": "会陰部皮膚",
+    "name_en": "Perineal skin",
+    "region": "pelvis",
+    "nerves": [
+      "n_pudendal"
+    ],
+    "area": "会陰部（肛門周囲・外陰部・陰嚢/大陰唇後部）",
+    "description": "陰部神経（S2-S4）の会陰神経枝と下直腸神経が支配する領域。会陰部と外陰部の皮膚感覚および肛門周囲の感覚を担う。",
+    "trivia": "陰部神経管（アルコック管）内で陰部神経が絞扼されると陰部神経痛が生じ、座位で悪化する会陰部痛が特徴。分娩時の会陰神経ブロックは産科麻酔で重要。"
+  }
+]

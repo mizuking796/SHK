@@ -1,0 +1,653 @@
+[
+  {
+    "id": "lg_transverse_atlas",
+    "name_ja": "環椎横靱帯",
+    "name_en": "Transverse ligament of atlas",
+    "region": "head_neck",
+    "bones": [
+      "b_c1"
+    ],
+    "joints": [
+      "j_atlanto_axial"
+    ],
+    "description": "環椎（C1）の内側面を横断し、軸椎の歯突起を後方から押さえる。環軸関節の最も重要な安定化構造。",
+    "trivia": "断裂すると歯突起が脊髄を圧迫し、四肢麻痺や突然死に至りうる。関節リウマチ患者の約25%に環軸椎不安定性がみられ、全身麻酔時の挿管に注意が必要。"
+  },
+  {
+    "id": "lg_alar",
+    "name_ja": "翼状靱帯",
+    "name_en": "Alar ligaments",
+    "region": "head_neck",
+    "bones": [
+      "b_c2",
+      "b_occipital"
+    ],
+    "joints": [
+      "j_atlanto_axial",
+      "j_atlanto_occipital"
+    ],
+    "description": "軸椎の歯突起先端から後頭骨の後頭顆の内側面に走る左右一対の靱帯。頭部の過度な回旋を制限する。",
+    "trivia": "交通事故によるむち打ち損傷で断裂することがあり、MRIでの評価が重要。断裂すると頭部の回旋が50%以上増大する。"
+  },
+  {
+    "id": "lg_nuchal",
+    "name_ja": "項靱帯",
+    "name_en": "Ligamentum nuchae",
+    "region": "head_neck",
+    "bones": [
+      "b_occipital",
+      "b_c7"
+    ],
+    "joints": [
+      "j_cervical_spine"
+    ],
+    "description": "外後頭隆起からC7棘突起にかけて正中を走る強靭な弾性靱帯。頭部の前屈を制限し、直立位での頭部保持を補助する。",
+    "trivia": "四足動物では非常に発達しており、馬では頭部の重量を支える主要構造。ヒトでは退化しているが、僧帽筋や菱形筋の付着部として機能的に重要。"
+  },
+  {
+    "id": "lg_lateral_tmj",
+    "name_ja": "外側靱帯（顎関節）",
+    "name_en": "Lateral ligament of TMJ",
+    "region": "head_neck",
+    "bones": [
+      "b_temporal",
+      "b_mandible"
+    ],
+    "joints": [
+      "j_tmj"
+    ],
+    "description": "側頭骨の関節結節から下顎骨の関節突起頸部に走る。顎関節の外側面を補強し、下顎の後退を制限する。",
+    "trivia": "顎関節脱臼は通常前方脱臼で、この靱帯が後方脱臼を防いでいる。大あくびや歯科治療中の過開口で脱臼が生じやすい。"
+  },
+  {
+    "id": "lg_anterior_longitudinal",
+    "name_ja": "前縦靱帯",
+    "name_en": "Anterior longitudinal ligament",
+    "region": "back",
+    "bones": [
+      "b_c2",
+      "b_sacrum"
+    ],
+    "joints": [
+      "j_cervical_spine",
+      "j_thoracic_spine",
+      "j_lumbar_spine",
+      "j_lumbosacral"
+    ],
+    "description": "軸椎前面から仙骨前面まで脊柱の前面を走る、人体で最も長い靱帯。椎体と椎間板の前面に強固に付着する。",
+    "trivia": "脊柱の過伸展を制限する。強直性脊椎炎ではこの靱帯が骨化（bamboo spine）し、脊柱の可動性が著しく低下する。"
+  },
+  {
+    "id": "lg_posterior_longitudinal",
+    "name_ja": "後縦靱帯",
+    "name_en": "Posterior longitudinal ligament",
+    "region": "back",
+    "bones": [
+      "b_c2",
+      "b_sacrum"
+    ],
+    "joints": [
+      "j_cervical_spine",
+      "j_thoracic_spine",
+      "j_lumbar_spine",
+      "j_lumbosacral"
+    ],
+    "description": "軸椎後面から仙骨まで椎体の後面（脊柱管前面）を走る靱帯。椎間板の後方突出を制限する。",
+    "trivia": "後縦靱帯骨化症（OPLL）は日本人に好発する疾患で、脊柱管狭窄と脊髄症の原因となる。厚生労働省の指定難病の一つ。"
+  },
+  {
+    "id": "lg_ligamentum_flavum",
+    "name_ja": "黄色靱帯",
+    "name_en": "Ligamentum flavum",
+    "region": "back",
+    "bones": [
+      "b_c2",
+      "b_l5",
+      "b_sacrum"
+    ],
+    "joints": [
+      "j_cervical_spine",
+      "j_thoracic_spine",
+      "j_lumbar_spine",
+      "j_lumbosacral"
+    ],
+    "description": "隣接する椎弓間を連結する弾性靱帯。高い弾性線維含有率のため黄色を呈する。脊柱管の後壁を構成する。",
+    "trivia": "名前の由来は豊富な弾性線維による黄色い外観。加齢により肥厚すると脊柱管狭窄症の原因となる。硬膜外麻酔の際、針がこの靱帯を貫通する感触（loss of resistance法）が硬膜外腔到達の指標。"
+  },
+  {
+    "id": "lg_interspinous",
+    "name_ja": "棘間靱帯",
+    "name_en": "Interspinous ligaments",
+    "region": "back",
+    "bones": [
+      "b_c7",
+      "b_l5"
+    ],
+    "joints": [
+      "j_cervical_spine",
+      "j_thoracic_spine",
+      "j_lumbar_spine"
+    ],
+    "description": "隣接する棘突起間を連結する膜状の靱帯。脊柱の過屈曲を制限する。",
+    "trivia": "腰椎穿刺（ルンバールパンクチャー）の際、穿刺針はこの靱帯を貫通して硬膜外腔に到達する。L3/L4またはL4/L5間が一般的な穿刺部位。"
+  },
+  {
+    "id": "lg_supraspinous",
+    "name_ja": "棘上靱帯",
+    "name_en": "Supraspinous ligament",
+    "region": "back",
+    "bones": [
+      "b_c7",
+      "b_sacrum"
+    ],
+    "joints": [
+      "j_cervical_spine",
+      "j_thoracic_spine",
+      "j_lumbar_spine"
+    ],
+    "description": "C7から仙骨にかけて各棘突起の先端を連結する靱帯。頸部では項靱帯に移行する。",
+    "trivia": "脊柱の屈曲制限に寄与する。棘突起間の触診で棘間靱帯とともに硬く触れ、脊柱の正中確認に用いられる。"
+  },
+  {
+    "id": "lg_costoclavicular",
+    "name_ja": "肋鎖靱帯",
+    "name_en": "Costoclavicular ligament",
+    "region": "trunk",
+    "bones": [
+      "b_rib1",
+      "b_clavicle"
+    ],
+    "joints": [
+      "j_sternoclavicular"
+    ],
+    "description": "第1肋骨から鎖骨下面に走り、胸鎖関節の安定化に寄与する。鎖骨の過度な挙上を制限する。",
+    "trivia": "胸郭出口症候群の一因となりうる。鎖骨と第1肋骨の間で鎖骨下動脈・静脈や腕神経叢が圧迫される肋鎖間隙症候群（costoclavicular syndrome）の原因構造。"
+  },
+  {
+    "id": "lg_coracoclavicular",
+    "name_ja": "烏口鎖骨靱帯",
+    "name_en": "Coracoclavicular ligament",
+    "region": "upper_limb",
+    "bones": [
+      "b_scapula",
+      "b_clavicle"
+    ],
+    "joints": [
+      "j_acromioclavicular"
+    ],
+    "description": "肩甲骨の烏口突起から鎖骨下面に走る強靭な靱帯。円錐靱帯と菱形靱帯の2部から成り、肩鎖関節の垂直安定性を担う。",
+    "trivia": "肩鎖関節脱臼（Tossy分類III以上）ではこの靱帯が断裂し、鎖骨遠位端が上方に突出する。ラグビーやアメフトなどのコンタクトスポーツで好発する。"
+  },
+  {
+    "id": "lg_acromioclavicular",
+    "name_ja": "肩鎖靱帯",
+    "name_en": "Acromioclavicular ligament",
+    "region": "upper_limb",
+    "bones": [
+      "b_scapula",
+      "b_clavicle"
+    ],
+    "joints": [
+      "j_acromioclavicular"
+    ],
+    "description": "肩峰と鎖骨遠位端を連結する靱帯。肩鎖関節の水平安定性を担う。",
+    "trivia": "肩鎖関節損傷のTossy分類：I度は肩鎖靱帯の捻挫、II度は肩鎖靱帯断裂＋烏口鎖骨靱帯の捻挫、III度は両靱帯の完全断裂。"
+  },
+  {
+    "id": "lg_coracoacromial",
+    "name_ja": "烏口肩峰靱帯",
+    "name_en": "Coracoacromial ligament",
+    "region": "upper_limb",
+    "bones": [
+      "b_scapula"
+    ],
+    "joints": [
+      "j_shoulder"
+    ],
+    "description": "肩甲骨の烏口突起と肩峰を連結し、肩峰下アーチ（烏口肩峰アーチ）を形成する。上腕骨頭の上方脱臼を防ぐ。",
+    "trivia": "肩峰下インピンジメント症候群の原因構造の一つ。腕を挙上する際、腱板（特に棘上筋腱）がこの靱帯と肩峰の下で挟み込まれる。"
+  },
+  {
+    "id": "lg_glenohumeral_inferior",
+    "name_ja": "下関節上腕靱帯",
+    "name_en": "Inferior glenohumeral ligament",
+    "region": "upper_limb",
+    "bones": [
+      "b_scapula",
+      "b_humerus"
+    ],
+    "joints": [
+      "j_shoulder"
+    ],
+    "description": "関節窩下縁の関節唇から上腕骨の解剖頸に走る。肩関節の前方・下方安定性を担う最も重要な静的安定構造。",
+    "trivia": "外転・外旋位での前方脱臼（バンカート損傷）で関節唇ごと剥離する。反復性肩関節脱臼の主因で、バンカート修復術の対象。"
+  },
+  {
+    "id": "lg_ulnar_collateral_elbow",
+    "name_ja": "内側側副靱帯（肘）",
+    "name_en": "Ulnar collateral ligament of elbow",
+    "region": "upper_limb",
+    "bones": [
+      "b_humerus",
+      "b_ulna"
+    ],
+    "joints": [
+      "j_elbow"
+    ],
+    "description": "上腕骨内側上顆から尺骨の鉤状突起と肘頭に走る。前束・後束・横束の3部から成り、肘関節の外反安定性を担う。",
+    "trivia": "野球の投球動作で反復的な外反ストレスを受け、損傷すると投球障害の原因となる。トミー・ジョン手術（UCL再建術）で有名。1974年にFrank Jobe医師が初めて施行した。"
+  },
+  {
+    "id": "lg_radial_collateral_elbow",
+    "name_ja": "外側側副靱帯（肘）",
+    "name_en": "Radial collateral ligament of elbow",
+    "region": "upper_limb",
+    "bones": [
+      "b_humerus",
+      "b_radius"
+    ],
+    "joints": [
+      "j_elbow"
+    ],
+    "description": "上腕骨外側上顆から橈骨輪状靱帯に走る。肘関節の内反安定性を担う。",
+    "trivia": "外側側副靱帯複合体の断裂は後外側回旋不安定性（PLRI）の原因となる。テニス肘の手術治療時にこの靱帯を損傷しないよう注意が必要。"
+  },
+  {
+    "id": "lg_annular",
+    "name_ja": "橈骨輪状靱帯",
+    "name_en": "Annular ligament",
+    "region": "upper_limb",
+    "bones": [
+      "b_ulna",
+      "b_radius"
+    ],
+    "joints": [
+      "j_proximal_radioulnar"
+    ],
+    "description": "尺骨の橈骨切痕の前縁から後縁に橈骨頭を取り囲むように走る輪状の靱帯。回内・回外時の橈骨頭の安定性を維持する。",
+    "trivia": "小児の肘内障（橈骨頭亜脱臼）は、この靱帯が未成熟な橈骨頭を保持しきれずに起こる。5歳以下の小児に多く、腕を引っ張られた後に発症する。"
+  },
+  {
+    "id": "lg_radial_collateral_wrist",
+    "name_ja": "橈側側副靱帯（手関節）",
+    "name_en": "Radial collateral ligament of wrist",
+    "region": "upper_limb",
+    "bones": [
+      "b_radius",
+      "b_scaphoid"
+    ],
+    "joints": [
+      "j_wrist"
+    ],
+    "description": "橈骨茎状突起から舟状骨に走り、手関節の橈側安定性を担う。",
+    "trivia": "舟状骨骨折はスポーツ外傷で多く、解剖学的嗅ぎタバコ入れ（anatomical snuffbox）の圧痛が特徴的所見。この靱帯損傷も合併しうる。"
+  },
+  {
+    "id": "lg_ulnar_collateral_wrist",
+    "name_ja": "尺側側副靱帯（手関節）",
+    "name_en": "Ulnar collateral ligament of wrist",
+    "region": "upper_limb",
+    "bones": [
+      "b_ulna",
+      "b_triquetrum"
+    ],
+    "joints": [
+      "j_wrist"
+    ],
+    "description": "尺骨茎状突起から三角骨と豆状骨に走り、手関節の尺側安定性を担う。",
+    "trivia": "三角線維軟骨複合体（TFCC）の一部として機能し、TFCC損傷は手関節尺側痛の主要原因。手をついて転倒した際に損傷しやすい。"
+  },
+  {
+    "id": "lg_scapholunate",
+    "name_ja": "舟状月状骨間靱帯",
+    "name_en": "Scapholunate ligament",
+    "region": "upper_limb",
+    "bones": [
+      "b_scaphoid",
+      "b_lunate"
+    ],
+    "joints": [
+      "j_midcarpal"
+    ],
+    "description": "舟状骨と月状骨の間を連結する骨間靱帯。近位手根列の安定性を担う最重要靱帯。",
+    "trivia": "断裂すると舟状月状骨解離が生じ、手関節の不安定性と変形性関節症（SLAC wrist）に進行する。手関節靱帯損傷で最も臨床的に重要。"
+  },
+  {
+    "id": "lg_ucl_thumb",
+    "name_ja": "母指尺側側副靱帯",
+    "name_en": "Ulnar collateral ligament of thumb",
+    "region": "upper_limb",
+    "bones": [
+      "b_mc1",
+      "b_thumb_pp"
+    ],
+    "joints": [
+      "j_mcp"
+    ],
+    "description": "第1中手骨頭から母指基節骨基部の尺側に走り、母指MP関節の尺側安定性を担う。",
+    "trivia": "スキーヤーズサム（gamekeeper's thumb）はこの靱帯の損傷。スキーのストックを握ったまま転倒し、母指が外転強制されて発症する。ステナー損傷（断裂端が母指内転筋腱膜に引っかかる）では手術が必要。"
+  },
+  {
+    "id": "lg_sacroiliac_anterior",
+    "name_ja": "前仙腸靱帯",
+    "name_en": "Anterior sacroiliac ligament",
+    "region": "pelvis",
+    "bones": [
+      "b_sacrum",
+      "b_ilium"
+    ],
+    "joints": [
+      "j_sacroiliac"
+    ],
+    "description": "仙骨の前面から腸骨に走り、仙腸関節の前面を補強する。後仙腸靱帯より薄い。",
+    "trivia": "仙腸関節障害は腰痛の15〜30%に関与するとされる。仙腸関節は「動かない関節」ではなく、わずかな可動性（2〜4°）がある。"
+  },
+  {
+    "id": "lg_sacroiliac_posterior",
+    "name_ja": "後仙腸靱帯",
+    "name_en": "Posterior sacroiliac ligament",
+    "region": "pelvis",
+    "bones": [
+      "b_sacrum",
+      "b_ilium"
+    ],
+    "joints": [
+      "j_sacroiliac"
+    ],
+    "description": "仙骨後面から腸骨後面に走る非常に強靭な靱帯。人体で最も強い靱帯の一つで、体幹の荷重を下肢に伝達する。",
+    "trivia": "妊娠中はリラキシンの分泌によりこの靱帯が弛緩し、仙腸関節の可動性が増大する。産後の骨盤痛の原因となることがある。"
+  },
+  {
+    "id": "lg_sacrospinous",
+    "name_ja": "仙棘靱帯",
+    "name_en": "Sacrospinous ligament",
+    "region": "pelvis",
+    "bones": [
+      "b_sacrum",
+      "b_ischium"
+    ],
+    "joints": [
+      "j_sacroiliac"
+    ],
+    "description": "仙骨・尾骨の外側から坐骨棘に走る三角形の靱帯。仙結節靱帯とともに大坐骨孔と小坐骨孔の境界を形成する。",
+    "trivia": "大坐骨孔を梨状筋が通過し、小坐骨孔を内閉鎖筋腱と陰部神経が通過する。経膣的仙棘靱帯固定術は骨盤臓器脱の治療に用いられる。"
+  },
+  {
+    "id": "lg_sacrotuberous",
+    "name_ja": "仙結節靱帯",
+    "name_en": "Sacrotuberous ligament",
+    "region": "pelvis",
+    "bones": [
+      "b_sacrum",
+      "b_ischium"
+    ],
+    "joints": [
+      "j_sacroiliac"
+    ],
+    "description": "仙骨後面と腸骨後部から坐骨結節に走る非常に強靭な靱帯。仙棘靱帯とともに大坐骨孔を形成する。",
+    "trivia": "大殿筋の一部の線維がこの靱帯に付着する。ハムストリングス付着部炎（坐骨結節痛）の鑑別診断で、この靱帯の圧痛を確認することがある。"
+  },
+  {
+    "id": "lg_iliofemoral",
+    "name_ja": "腸骨大腿靱帯",
+    "name_en": "Iliofemoral ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_ilium",
+      "b_femur"
+    ],
+    "joints": [
+      "j_hip"
+    ],
+    "description": "下前腸骨棘から大腿骨の転子間線に走るY字型の靱帯。人体で最も強靭な靱帯で、股関節の前面を補強する。",
+    "trivia": "Bigelow靱帯とも呼ばれ、人体最強の靱帯で引張強度は約350kg。立位での股関節の過伸展を防ぎ、直立姿勢の維持に不可欠。股関節後方脱臼が前方脱臼より多いのは、前方にこの強靱な靱帯があるため。"
+  },
+  {
+    "id": "lg_pubofemoral",
+    "name_ja": "恥骨大腿靱帯",
+    "name_en": "Pubofemoral ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_pubis",
+      "b_femur"
+    ],
+    "joints": [
+      "j_hip"
+    ],
+    "description": "恥骨上枝から大腿骨の小転子付近に走る靱帯。股関節の過度な外転と伸展を制限する。",
+    "trivia": "腸骨大腿靱帯・坐骨大腿靱帯とともに股関節の関節包を螺旋状に補強する。この3靱帯は関節包靱帯として股関節の安定性に不可欠。"
+  },
+  {
+    "id": "lg_ischiofemoral",
+    "name_ja": "坐骨大腿靱帯",
+    "name_en": "Ischiofemoral ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_ischium",
+      "b_femur"
+    ],
+    "joints": [
+      "j_hip"
+    ],
+    "description": "坐骨体から大腿骨の大転子基部に走る靱帯。股関節の過度な内旋と伸展を制限する。",
+    "trivia": "坐骨大腿靱帯インピンジメントは大転子と坐骨間で狭小化が生じる病態で、股関節後方の疼痛の原因となることがある。近年MRIの進歩で認識が広がった。"
+  },
+  {
+    "id": "lg_teres",
+    "name_ja": "大腿骨頭靱帯",
+    "name_en": "Ligament of head of femur",
+    "region": "lower_limb",
+    "bones": [
+      "b_femur",
+      "b_pubis",
+      "b_ischium"
+    ],
+    "joints": [
+      "j_hip"
+    ],
+    "description": "大腿骨頭窩から寛骨臼横靱帯と寛骨臼切痕に走る関節内靱帯。大腿骨頭への血液供給路を含む。",
+    "trivia": "小児期には大腿骨頭への重要な血液供給路（大腿骨頭動脈）を含むが、成人では血流の寄与は少ない。股関節脱臼時にこの靱帯とともに血管が断裂すると、大腿骨頭壊死のリスクが高まる。"
+  },
+  {
+    "id": "lg_acl",
+    "name_ja": "前十字靱帯",
+    "name_en": "Anterior cruciate ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_femur",
+      "b_tibia"
+    ],
+    "joints": [
+      "j_knee"
+    ],
+    "description": "大腿骨外側顆の内側面から脛骨顆間隆起の前方に走る。脛骨の前方移動と膝の回旋を制限する膝関節の主要安定構造。",
+    "trivia": "スポーツ外傷で最も注目される靱帯。年間約20万件（米国）の損傷が発生する。受傷時の「ポップ音」と膝崩れが特徴。前方引き出しテストとラックマンテストで診断する。"
+  },
+  {
+    "id": "lg_pcl",
+    "name_ja": "後十字靱帯",
+    "name_en": "Posterior cruciate ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_femur",
+      "b_tibia"
+    ],
+    "joints": [
+      "j_knee"
+    ],
+    "description": "大腿骨内側顆の外側面から脛骨顆間隆起の後方に走る。前十字靱帯より太く強靭で、脛骨の後方移動を制限する。",
+    "trivia": "ACLの約2倍の強度があり、膝関節で最も強い靱帯。ダッシュボード損傷（交通事故で膝が前方から衝突）が典型的受傷機転。後方引き出しテストで評価する。"
+  },
+  {
+    "id": "lg_mcl",
+    "name_ja": "内側側副靱帯（膝）",
+    "name_en": "Medial collateral ligament of knee",
+    "region": "lower_limb",
+    "bones": [
+      "b_femur",
+      "b_tibia"
+    ],
+    "joints": [
+      "j_knee"
+    ],
+    "description": "大腿骨内側上顆から脛骨内側面の近位部に走る幅広い靱帯。浅層と深層から成り、膝関節の外反安定性を担う。",
+    "trivia": "膝靱帯損傷で最も頻度が高い。「不幸の三徴」（unhappy triad）はACL＋MCL＋内側半月板の同時損傷を指し、コンタクトスポーツで膝外側からの外力で発生する。"
+  },
+  {
+    "id": "lg_lcl",
+    "name_ja": "外側側副靱帯（膝）",
+    "name_en": "Lateral collateral ligament of knee",
+    "region": "lower_limb",
+    "bones": [
+      "b_femur",
+      "b_fibula"
+    ],
+    "joints": [
+      "j_knee"
+    ],
+    "description": "大腿骨外側上顆から腓骨頭に走る索状の靱帯。MCLと異なり半月板とは結合しない。膝関節の内反安定性を担う。",
+    "trivia": "MCLより損傷頻度は低いが、断裂すると膝の後外側不安定性（posterolateral corner injury）を伴うことが多く、治療が複雑化する。"
+  },
+  {
+    "id": "lg_patellar",
+    "name_ja": "膝蓋靱帯",
+    "name_en": "Patellar ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_patella",
+      "b_tibia"
+    ],
+    "joints": [
+      "j_knee"
+    ],
+    "description": "膝蓋骨下端から脛骨粗面に走る強靭な靱帯。大腿四頭筋腱の延長であり、膝関節伸展の最終共通路。",
+    "trivia": "解剖学的には「靱帯」ではなく大腿四頭筋の「腱」であるが、慣習的に膝蓋靱帯と呼ばれる。膝蓋腱炎（ジャンパー膝）はバレーボールやバスケットボール選手に好発する。"
+  },
+  {
+    "id": "lg_deltoid_ankle",
+    "name_ja": "三角靱帯",
+    "name_en": "Deltoid ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_tibia",
+      "b_talus",
+      "b_calcaneus",
+      "b_navicular_foot"
+    ],
+    "joints": [
+      "j_ankle",
+      "j_subtalar"
+    ],
+    "description": "脛骨内果から距骨・踵骨・舟状骨に扇状に広がる足関節内側の靱帯複合体。前脛距靱帯・脛舟靱帯・脛踵靱帯・後脛距靱帯の4部から成る。",
+    "trivia": "外側靱帯より遙かに強靭なため、足関節捻挫の85%は外側靱帯損傷（内反捻挫）。三角靱帯の損傷は高エネルギー外傷を示唆し、しばしば骨折を伴う。"
+  },
+  {
+    "id": "lg_anterior_talofibular",
+    "name_ja": "前距腓靱帯",
+    "name_en": "Anterior talofibular ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_fibula",
+      "b_talus"
+    ],
+    "joints": [
+      "j_ankle"
+    ],
+    "description": "腓骨外果の前縁から距骨頸部に走る。足関節外側靱帯の中で最も弱く、最も損傷されやすい。",
+    "trivia": "足関節捻挫で最初に損傷される靱帯。全スポーツ外傷の約25%を占め、人体で最も損傷頻度が高い靱帯。前方引き出しテストで評価する。"
+  },
+  {
+    "id": "lg_calcaneofibular",
+    "name_ja": "踵腓靱帯",
+    "name_en": "Calcaneofibular ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_fibula",
+      "b_calcaneus"
+    ],
+    "joints": [
+      "j_ankle",
+      "j_subtalar"
+    ],
+    "description": "腓骨外果の先端から踵骨外側面に走る。前距腓靱帯と後距腓靱帯の間に位置し、足関節と距骨下関節の両方の安定性に寄与する。",
+    "trivia": "重度の足関節内反捻挫では前距腓靱帯に続いてこの靱帯も断裂する（grade II以上）。距骨傾斜テスト（talar tilt test）で評価する。"
+  },
+  {
+    "id": "lg_posterior_talofibular",
+    "name_ja": "後距腓靱帯",
+    "name_en": "Posterior talofibular ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_fibula",
+      "b_talus"
+    ],
+    "joints": [
+      "j_ankle"
+    ],
+    "description": "腓骨外果の後縁から距骨後面の外側結節に走る。足関節外側靱帯の中で最も強靭。",
+    "trivia": "外側靱帯3本の中で最も強く、損傷は稀。断裂するのは足関節の完全脱臼に近い重度損傷のみ。背屈位で最も緊張する。"
+  },
+  {
+    "id": "lg_spring",
+    "name_ja": "底側踵舟靱帯（スプリング靱帯）",
+    "name_en": "Spring ligament (plantar calcaneonavicular)",
+    "region": "lower_limb",
+    "bones": [
+      "b_calcaneus",
+      "b_navicular_foot"
+    ],
+    "joints": [
+      "j_subtalar",
+      "j_transverse_tarsal"
+    ],
+    "description": "踵骨の載距突起から舟状骨下面に走る。距骨頭を下方から支え、足の内側縦アーチの要となる。",
+    "trivia": "「スプリング」の名は弾性による復元力に由来するが、実際にはそれほど弾性に富むわけではない。後脛骨筋機能不全ではこの靱帯に過負荷がかかり、成人後天性扁平足の進行に関与する。"
+  },
+  {
+    "id": "lg_bifurcate",
+    "name_ja": "二分靱帯",
+    "name_en": "Bifurcate ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_calcaneus",
+      "b_navicular_foot",
+      "b_cuboid"
+    ],
+    "joints": [
+      "j_transverse_tarsal"
+    ],
+    "description": "踵骨前方から舟状骨と立方骨にY字型に分岐する靱帯。横足根関節（ショパール関節）の安定化に重要。",
+    "trivia": "足関節捻挫の際に同時損傷されることがある。外側靱帯損傷と症状が重なるため見逃されやすい。「ナットクラッカー骨折」（立方骨圧迫骨折）の合併に注意。"
+  },
+  {
+    "id": "lg_long_plantar",
+    "name_ja": "長足底靱帯",
+    "name_en": "Long plantar ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_calcaneus",
+      "b_cuboid"
+    ],
+    "joints": [
+      "j_tarsometatarsal",
+      "j_transverse_tarsal"
+    ],
+    "description": "踵骨下面から立方骨を越えて第2-5中足骨底に走る、足底で最も長い靱帯。足の縦アーチの維持に寄与する。",
+    "trivia": "長腓骨筋腱が立方骨溝を通過する際にこの靱帯が腱のトンネルを形成する。足底腱膜とともに足のアーチ構造を支える重要な静的支持組織。"
+  },
+  {
+    "id": "lg_anterior_tibiofibular",
+    "name_ja": "前脛腓靱帯",
+    "name_en": "Anterior inferior tibiofibular ligament",
+    "region": "lower_limb",
+    "bones": [
+      "b_tibia",
+      "b_fibula"
+    ],
+    "joints": [
+      "j_distal_tibiofibular"
+    ],
+    "description": "脛骨遠位前面から腓骨遠位前面に走り、遠位脛腓関節（脛腓靱帯結合）の前面を補強する。足関節の「ほぞ穴」構造の安定性を維持する。",
+    "trivia": "高位足関節捻挫（syndesmosis injury）で損傷される。通常の足関節捻挫より回復に時間がかかり、アメフトやサッカーの選手に多い。スクイーズテストで診断する。"
+  }
+]

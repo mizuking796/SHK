@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "n_cn1",
+    "name_ja": "嗅神経 (CN I)",
+    "name_en": "Olfactory nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "嗅粘膜から篩板を通り嗅球に至る純感覚神経。嗅覚を伝達する唯一の脳神経。",
+    "trivia": "嗅神経は脳神経で唯一、視床を経由せずに大脳皮質に直接投射する。人間は約1万種の匂いを識別可能とされてきたが、2014年のScience誌の研究で1兆種以上との推定が報告された。"
+  },
+  {
+    "id": "n_cn2",
+    "name_ja": "視神経 (CN II)",
+    "name_en": "Optic nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "網膜神経節細胞の軸索が視神経管を通り視交叉に至る純感覚神経。視覚情報を伝達する。",
+    "trivia": "視神経は約120万本の神経線維を含み、発生学的には中枢神経系（脳の一部）に分類される。"
+  },
+  {
+    "id": "n_cn3",
+    "name_ja": "動眼神経 (CN III)",
+    "name_en": "Oculomotor nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "中脳から出て上眼窩裂を通過する混合神経。上直筋・下直筋・内側直筋・下斜筋と眼瞼挙筋を支配する。",
+    "trivia": "動眼神経麻痺では眼球が外下方を向く（外転神経と滑車神経のみ残存するため）。副交感神経線維が瞳孔括約筋も支配。"
+  },
+  {
+    "id": "n_cn4",
+    "name_ja": "滑車神経 (CN IV)",
+    "name_en": "Trochlear nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "中脳背側から出る脳神経で最も細い。上斜筋のみを支配する純運動神経。",
+    "trivia": "滑車神経は唯一、脳幹の背側から出る脳神経で、走行距離も最長。「滑車」は上斜筋腱が通る眼窩の滑車構造に由来。"
+  },
+  {
+    "id": "n_cn5",
+    "name_ja": "三叉神経 (CN V)",
+    "name_en": "Trigeminal nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "脳神経中最大の神経で、顔面の感覚と咀嚼筋の運動を司る。眼神経(V1)・上顎神経(V2)・下顎神経(V3)の3枝に分かれる。",
+    "trivia": "三叉神経痛は「最も激しい痛み」の一つとされ、電撃様の激痛が特徴。洗顔や食事で誘発されることがある。"
+  },
+  {
+    "id": "n_cn5_v3",
+    "name_ja": "下顎神経 (V3)",
+    "name_en": "Mandibular nerve (V3)",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn5",
+    "region": "head_neck",
+    "description": "三叉神経第3枝で唯一の混合神経。下顎の感覚と咀嚼筋（咬筋・側頭筋・翼突筋）の運動を担う。",
+    "trivia": "下顎神経は卵円孔を通過する。歯科の下歯槽神経ブロック麻酔はこの枝の分枝を標的とする。"
+  },
+  {
+    "id": "n_cn6",
+    "name_ja": "外転神経 (CN VI)",
+    "name_en": "Abducens nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "橋から出て海綿静脈洞を通過し上眼窩裂から眼窩に入る。外側直筋のみを支配する純運動神経。",
+    "trivia": "外転神経は頭蓋底を最も長く走行する脳神経で、頭蓋内圧亢進時に最初に障害されやすい（偽性局在徴候）。"
+  },
+  {
+    "id": "n_cn7",
+    "name_ja": "顔面神経 (CN VII)",
+    "name_en": "Facial nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "橋から出て内耳道・顔面神経管を通る混合神経。表情筋の運動、舌前2/3の味覚、涙腺・唾液腺の分泌を司る。",
+    "trivia": "顔面神経はヘルペスウイルスの再活性化でベル麻痺を起こすことがある。表情筋は皮膚に直接付着する珍しい筋群。"
+  },
+  {
+    "id": "n_cn7_temporal",
+    "name_ja": "顔面神経側頭枝",
+    "name_en": "Temporal branch of facial nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn7",
+    "region": "head_neck",
+    "description": "顔面神経の末梢枝の一つ。前頭筋・眼輪筋上部を支配し、額のしわ寄せと瞬目に関与する。",
+    "trivia": "中枢性顔面神経麻痺と末梢性の鑑別に額のしわ寄せが使われる。中枢性では両側支配のため額の動きが保たれる。"
+  },
+  {
+    "id": "n_cn7_zygomatic",
+    "name_ja": "顔面神経頬骨枝",
+    "name_en": "Zygomatic branch of facial nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn7",
+    "region": "head_neck",
+    "description": "顔面神経の頬骨枝。眼輪筋下部を支配し、力強い閉眼に関与する。",
+    "trivia": "頬骨枝と頬筋枝の間には吻合があり、一方が損傷されても機能がある程度保たれることがある。"
+  },
+  {
+    "id": "n_cn7_buccal",
+    "name_ja": "顔面神経頬筋枝",
+    "name_en": "Buccal branch of facial nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn7",
+    "region": "head_neck",
+    "description": "顔面神経の頬筋枝。頬筋・上唇の筋を支配し、口角の挙上や頬を膨らませる動作に関与する。",
+    "trivia": "三叉神経の頬神経（感覚枝）と名前が似ているが全く別の神経。頬筋枝は運動神経で口元の表情を担う。"
+  },
+  {
+    "id": "n_cn7_marginal",
+    "name_ja": "顔面神経下顎縁枝",
+    "name_en": "Marginal mandibular branch of facial nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn7",
+    "region": "head_neck",
+    "description": "顔面神経の下顎縁枝。下唇下制筋・オトガイ筋を支配し、下唇を引き下げる動作を担う。",
+    "trivia": "耳下腺手術で最も損傷されやすい枝。損傷されると下唇を引き下げられず、笑顔の左右非対称が目立つ。"
+  },
+  {
+    "id": "n_cn7_cervical",
+    "name_ja": "顔面神経頸枝",
+    "name_en": "Cervical branch of facial nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn7",
+    "region": "head_neck",
+    "description": "顔面神経の頸枝。広頸筋を支配する末梢枝。",
+    "trivia": "広頸筋は頸部前面を覆う薄い皮筋で、緊張や恐怖の表情で収縮が見られる。"
+  },
+  {
+    "id": "n_cn8",
+    "name_ja": "内耳神経 (CN VIII)",
+    "name_en": "Vestibulocochlear nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "蝸牛神経と前庭神経からなる純感覚神経。聴覚と平衡感覚を内耳から脳幹に伝達する。",
+    "trivia": "前庭神経の異常は激しいめまいを引き起こす。蝸牛は約15,000個の有毛細胞で20Hz〜20kHzの音を感知する。"
+  },
+  {
+    "id": "n_cn9",
+    "name_ja": "舌咽神経 (CN IX)",
+    "name_en": "Glossopharyngeal nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "延髄から出て頸静脈孔を通過する混合神経。咽頭の感覚・舌後1/3の味覚・耳下腺分泌・茎突咽頭筋の運動を担う。",
+    "trivia": "嚥下反射の求心路を構成する。舌咽神経痛は三叉神経痛に似た激痛を咽頭に生じる稀な疾患。"
+  },
+  {
+    "id": "n_cn10",
+    "name_ja": "迷走神経 (CN X)",
+    "name_en": "Vagus nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "脳神経中最も広い分布域を持つ混合神経。咽頭・喉頭の運動、心臓・肺・消化管の副交感神経支配を担う。",
+    "trivia": "迷走神経は「wandering nerve」の意味で、頸部から腹腔まで走行する。迷走神経刺激装置はてんかんやうつ病の治療に使用される。"
+  },
+  {
+    "id": "n_cn10_rln",
+    "name_ja": "反回神経",
+    "name_en": "Recurrent laryngeal nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn10",
+    "region": "head_neck",
+    "description": "迷走神経の枝で喉頭の大部分の筋を支配する。左は大動脈弓を、右は鎖骨下動脈をループして上行する。",
+    "trivia": "左反回神経は右より長い走行のため損傷されやすい。甲状腺手術での損傷は声帯麻痺による嗄声の原因となる。"
+  },
+  {
+    "id": "n_cn10_sln",
+    "name_ja": "上喉頭神経",
+    "name_en": "Superior laryngeal nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn10",
+    "region": "head_neck",
+    "description": "迷走神経の枝で輪状甲状筋を支配する外枝と、喉頭粘膜の感覚を担う内枝に分かれる。",
+    "trivia": "輪状甲状筋は声帯を緊張させて高音を出す筋で、この神経の損傷により声域の高音部が失われる。"
+  },
+  {
+    "id": "n_cn11",
+    "name_ja": "副神経 (CN XI)",
+    "name_en": "Accessory nerve",
+    "type": "cranial",
+    "root_levels": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "parent": null,
+    "region": "head_neck",
+    "description": "延髄根と脊髄根からなる純運動神経。僧帽筋と胸鎖乳突筋を支配する。",
+    "trivia": "副神経は脳神経で唯一、脊髄からの根を持つ。頸部リンパ節生検での損傷は僧帽筋麻痺による翼状肩甲を生じうる。"
+  },
+  {
+    "id": "n_cn12",
+    "name_ja": "舌下神経 (CN XII)",
+    "name_en": "Hypoglossal nerve",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": null,
+    "region": "head_neck",
+    "description": "延髄から舌下神経管を通る純運動神経。舌の内在筋と大部分の外在筋を支配する。",
+    "trivia": "舌下神経麻痺では舌を出すと患側に偏位する。これは健側の筋が患側を押すため。"
+  },
+  {
+    "id": "n_cervical_plexus",
+    "name_ja": "頸神経叢",
+    "name_en": "Cervical plexus",
+    "type": "plexus",
+    "root_levels": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "parent": null,
+    "region": "head_neck",
+    "description": "C1-C4前枝で構成される神経叢。頸部・後頭部の皮膚感覚と一部の頸部筋の運動を担う。",
+    "trivia": "頸神経叢からの皮枝は胸鎖乳突筋の後縁中点（Erbの点）に集中し、この部位は頸部の神経ブロックのランドマーク。"
+  },
+  {
+    "id": "n_phrenic",
+    "name_ja": "横隔神経",
+    "name_en": "Phrenic nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "parent": "n_cervical_plexus",
+    "region": "trunk",
+    "description": "主にC4（C3・C5も寄与）から起始する混合神経。横隔膜の唯一の運動神経であり、呼吸に不可欠。",
+    "trivia": "横隔神経は「C3, 4, 5 keeps the diaphragm alive」という語呂合わせで有名。横隔膜の刺激がしゃっくりの原因となる。"
+  },
+  {
+    "id": "n_ansa_cervicalis",
+    "name_ja": "頸神経ワナ",
+    "name_en": "Ansa cervicalis",
+    "type": "peripheral",
+    "root_levels": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "parent": "n_cervical_plexus",
+    "region": "head_neck",
+    "description": "C1-C3前枝からなる神経ループ。舌骨下筋群（胸骨舌骨筋・胸骨甲状筋・肩甲舌骨筋）を支配する。",
+    "trivia": "頸神経ワナの「ワナ（ansa）」はラテン語で「取っ手・ループ」の意味。頸動脈鞘の前面に位置する。"
+  },
+  {
+    "id": "n_brachial_plexus",
+    "name_ja": "腕神経叢",
+    "name_en": "Brachial plexus",
+    "type": "plexus",
+    "root_levels": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "T1"
+    ],
+    "parent": null,
+    "region": "upper_limb",
+    "description": "C5-T1前枝で構成される上肢の主要神経叢。幹・束・枝に分かれ、上肢全体の運動と感覚を支配する。",
+    "trivia": "腕神経叢の損傷パターンは部位で異なり、上位型（Erb-Duchenne）はウェイターチップ肢位、下位型（Klumpke）は鷲手を呈する。"
+  },
+  {
+    "id": "n_dorsal_scapular",
+    "name_ja": "肩甲背神経",
+    "name_en": "Dorsal scapular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5前枝から分岐する運動神経。菱形筋と肩甲挙筋を支配し、肩甲骨の内転と挙上に関与する。",
+    "trivia": "肩甲背神経は中斜角筋を貫通して走行することが多く、この部位での絞扼が肩甲骨内側の痛みの原因となることがある。"
+  },
+  {
+    "id": "n_long_thoracic",
+    "name_ja": "長胸神経",
+    "name_en": "Long thoracic nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C7前枝から起始する運動神経。前鋸筋を支配し、肩甲骨を胸壁に固定する。",
+    "trivia": "長胸神経の損傷は翼状肩甲の代表的原因。重い荷物の運搬や手術時の過度な牽引で損傷されうる。"
+  },
+  {
+    "id": "n_suprascapular",
+    "name_ja": "肩甲上神経",
+    "name_en": "Suprascapular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C6から起始し肩甲切痕を通過する。棘上筋と棘下筋を支配する混合神経。",
+    "trivia": "肩甲上神経は肩甲切痕で絞扼されやすく、バレーボール選手やテニス選手に多い（肩甲上神経絞扼症候群）。"
+  },
+  {
+    "id": "n_subscapular_upper",
+    "name_ja": "上肩甲下神経",
+    "name_en": "Upper subscapular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C6の後束から分岐。肩甲下筋上部を支配する運動神経。",
+    "trivia": "上肩甲下神経と下肩甲下神経は短い走行距離のため、損傷されることは比較的稀。"
+  },
+  {
+    "id": "n_subscapular_lower",
+    "name_ja": "下肩甲下神経",
+    "name_en": "Lower subscapular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C6の後束から分岐。肩甲下筋下部と大円筋を支配する運動神経。",
+    "trivia": "大円筋は広背筋と協調して上腕の内旋・内転を行い、「広背筋の小さなヘルパー」と呼ばれることがある。"
+  },
+  {
+    "id": "n_thoracodorsal",
+    "name_ja": "胸背神経",
+    "name_en": "Thoracodorsal nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C6-C8の後束から分岐。広背筋を支配する運動神経。",
+    "trivia": "胸背神経は腋窩リンパ節郭清時に同定・温存される重要な神経。広背筋は乳房再建術の皮弁として使用される。"
+  },
+  {
+    "id": "n_pectoral_lateral",
+    "name_ja": "外側胸筋神経",
+    "name_en": "Lateral pectoral nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C7の外側束から分岐。主に大胸筋鎖骨部を支配する運動神経。",
+    "trivia": "名前の「外側」は解剖学的位置ではなく、腕神経叢の外側束から起始することに由来する。"
+  },
+  {
+    "id": "n_pectoral_medial",
+    "name_ja": "内側胸筋神経",
+    "name_en": "Medial pectoral nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C8",
+      "T1"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C8-T1の内側束から分岐。小胸筋と大胸筋胸肋部を支配する運動神経。",
+    "trivia": "内側胸筋神経は小胸筋を貫通して大胸筋に達することがあり、小胸筋切除時に注意が必要。"
+  },
+  {
+    "id": "n_axillary",
+    "name_ja": "腋窩神経",
+    "name_en": "Axillary nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C6の後束から分岐。三角筋と小円筋を支配し、肩外側の感覚も担う。",
+    "trivia": "肩関節前方脱臼で最も損傷されやすい神経。三角筋の麻痺は肩の外転障害と特徴的な肩の扁平化を生じる。"
+  },
+  {
+    "id": "n_musculocutaneous",
+    "name_ja": "筋皮神経",
+    "name_en": "Musculocutaneous nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C7の外側束から分岐。烏口腕筋・上腕二頭筋・上腕筋を支配し、前腕外側の感覚も担う。",
+    "trivia": "筋皮神経は烏口腕筋を貫通して走行する特徴的な経路を取る。損傷されると肘屈曲が著明に弱化する。"
+  },
+  {
+    "id": "n_median",
+    "name_ja": "正中神経",
+    "name_en": "Median nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C6",
+      "C7",
+      "C8",
+      "T1"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C6-T1の外側束・内側束が合流して形成。前腕屈筋群の大部分と母指球筋を支配する。",
+    "trivia": "手根管症候群は正中神経の最も一般的な絞扼性神経障害で、手のしびれや母指球の萎縮を起こす。デスクワーカーに多い。"
+  },
+  {
+    "id": "n_median_ain",
+    "name_ja": "前骨間神経",
+    "name_en": "Anterior interosseous nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C8",
+      "T1"
+    ],
+    "parent": "n_median",
+    "region": "upper_limb",
+    "description": "正中神経の純運動枝。長母指屈筋・深指屈筋橈側・方形回内筋を支配する。",
+    "trivia": "前骨間神経症候群では「涙のしずくサイン」が陽性となる（母指と示指でO.K.サインが作れない）。"
+  },
+  {
+    "id": "n_ulnar",
+    "name_ja": "尺骨神経",
+    "name_en": "Ulnar nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C8",
+      "T1"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C8-T1の内側束から分岐。前腕尺側の屈筋と手内在筋の大部分を支配する。",
+    "trivia": "尺骨神経は肘の内側上顆後方の尺骨神経溝を走行し、ぶつけると電気が走る感覚がある（ファニーボーン）。"
+  },
+  {
+    "id": "n_ulnar_deep",
+    "name_ja": "尺骨神経深枝",
+    "name_en": "Deep branch of ulnar nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C8",
+      "T1"
+    ],
+    "parent": "n_ulnar",
+    "region": "upper_limb",
+    "description": "尺骨神経の深枝で手内在筋（骨間筋・虫様筋3-4・母指内転筋）を支配する純運動枝。",
+    "trivia": "ギヨン管症候群ではこの深枝が圧迫され、手内在筋の麻痺による鷲手変形が見られる。"
+  },
+  {
+    "id": "n_radial",
+    "name_ja": "橈骨神経",
+    "name_en": "Radial nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "T1"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-T1の後束から分岐。上肢の全ての伸筋を支配する最大の腕神経叢の枝。",
+    "trivia": "上腕骨骨幹部骨折で最も損傷されやすい神経（橈骨神経溝を走行するため）。損傷で下垂手を生じる。"
+  },
+  {
+    "id": "n_radial_deep",
+    "name_ja": "後骨間神経",
+    "name_en": "Posterior interosseous nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C7",
+      "C8"
+    ],
+    "parent": "n_radial",
+    "region": "upper_limb",
+    "description": "橈骨神経の深枝（後骨間神経）。回外筋を貫通し、前腕伸筋群を支配する純運動枝。",
+    "trivia": "後骨間神経症候群は回外筋のFrohseのアーケードでの絞扼が原因で、指の伸展障害を生じる。"
+  },
+  {
+    "id": "n_radial_superficial",
+    "name_ja": "橈骨神経浅枝",
+    "name_en": "Superficial branch of radial nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "C6",
+      "C7"
+    ],
+    "parent": "n_radial",
+    "region": "upper_limb",
+    "description": "橈骨神経の浅枝で、手背橈側の感覚を担う純感覚神経。",
+    "trivia": "橈骨神経浅枝は腕橈骨筋の深層を走行し、手背の「解剖学的嗅ぎタバコ入れ」の底を通過する。"
+  },
+  {
+    "id": "n_intercostal",
+    "name_ja": "肋間神経",
+    "name_en": "Intercostal nerves",
+    "type": "peripheral",
+    "root_levels": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11"
+    ],
+    "parent": null,
+    "region": "trunk",
+    "description": "T1-T11の脊髄神経前枝。肋間筋を支配するとともに、胸壁と腹壁の皮膚感覚を担う。",
+    "trivia": "肋間神経の皮膚分節はT4が乳頭、T10が臍のレベルに対応し、脊髄損傷の高位診断に使われる。"
+  },
+  {
+    "id": "n_subcostal",
+    "name_ja": "肋下神経",
+    "name_en": "Subcostal nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "T12"
+    ],
+    "parent": null,
+    "region": "trunk",
+    "description": "T12の脊髄神経前枝。第12肋骨下方を走行し、腹壁の筋と皮膚感覚を支配する。",
+    "trivia": "肋下神経は解剖学的には最下位の肋間神経だが、2本の肋骨の間（intercostal）ではなく第12肋骨の下（subcostal）を走行するため別名で呼ばれる。"
+  },
+  {
+    "id": "n_lumbar_plexus",
+    "name_ja": "腰神経叢",
+    "name_en": "Lumbar plexus",
+    "type": "plexus",
+    "root_levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "parent": null,
+    "region": "lower_limb",
+    "description": "L1-L4前枝で構成される神経叢。大腰筋の中で形成され、下肢前面の運動と感覚を担う枝を出す。",
+    "trivia": "腰神経叢は大腰筋の筋内で形成されるため、大腰筋の過緊張が神経叢の絞扼症状を引き起こすことがある。"
+  },
+  {
+    "id": "n_iliohypogastric",
+    "name_ja": "腸骨下腹神経",
+    "name_en": "Iliohypogastric nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "T12",
+      "L1"
+    ],
+    "parent": "n_lumbar_plexus",
+    "region": "trunk",
+    "description": "L1前枝から分岐。下腹部の筋と皮膚感覚を支配する。",
+    "trivia": "腸骨下腹神経は虫垂切除術や帝王切開の皮膚切開で損傷されることがあり、術後の慢性疼痛の原因となりうる。"
+  },
+  {
+    "id": "n_ilioinguinal",
+    "name_ja": "腸骨鼠径神経",
+    "name_en": "Ilioinguinal nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L1"
+    ],
+    "parent": "n_lumbar_plexus",
+    "region": "trunk",
+    "description": "L1前枝から分岐。鼠径管を通過し、鼠径部と外陰部の感覚を担う。",
+    "trivia": "鼠径ヘルニア手術時に損傷されやすく、術後の鼠径部痛の原因となる。精巣挙筋反射の求心路を構成する。"
+  },
+  {
+    "id": "n_genitofemoral",
+    "name_ja": "陰部大腿神経",
+    "name_en": "Genitofemoral nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L1",
+      "L2"
+    ],
+    "parent": "n_lumbar_plexus",
+    "region": "lower_limb",
+    "description": "L1-L2前枝から分岐。大腿枝（大腿前面の感覚）と陰部枝（外陰部の感覚・精巣挙筋の運動）に分かれる。",
+    "trivia": "陰部枝は精巣挙筋反射の遠心路を構成し、大腿内側を擦ると精巣が挙上する反射として臨床的に検査される。"
+  },
+  {
+    "id": "n_lateral_femoral_cutaneous",
+    "name_ja": "外側大腿皮神経",
+    "name_en": "Lateral femoral cutaneous nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L2",
+      "L3"
+    ],
+    "parent": "n_lumbar_plexus",
+    "region": "lower_limb",
+    "description": "L2-L3前枝から分岐する純感覚神経。大腿外側の皮膚感覚を担う。",
+    "trivia": "鼠径靭帯下方での絞扼は「知覚異常性大腿痛（meralgia paresthetica）」を起こし、肥満やきつい衣服が原因となる。"
+  },
+  {
+    "id": "n_femoral",
+    "name_ja": "大腿神経",
+    "name_en": "Femoral nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "parent": "n_lumbar_plexus",
+    "region": "lower_limb",
+    "description": "L2-L4前枝から分岐する腰神経叢最大の枝。大腿四頭筋・縫工筋・腸骨筋を支配する。",
+    "trivia": "大腿神経は膝蓋腱反射（L3-L4）の求心・遠心路を構成する。この反射は脊髄の機能評価に最も汎用される深部腱反射。"
+  },
+  {
+    "id": "n_obturator",
+    "name_ja": "閉鎖神経",
+    "name_en": "Obturator nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "parent": "n_lumbar_plexus",
+    "region": "lower_limb",
+    "description": "L2-L4前枝から分岐。閉鎖孔を通過し、大腿内転筋群を支配する。",
+    "trivia": "閉鎖神経は骨盤手術や分娩で損傷されることがある。内転筋の痙縮が強い脳性麻痺児では閉鎖神経ブロックが行われる。"
+  },
+  {
+    "id": "n_sacral_plexus",
+    "name_ja": "仙骨神経叢",
+    "name_en": "Sacral plexus",
+    "type": "plexus",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "parent": null,
+    "region": "lower_limb",
+    "description": "L4-S3前枝で構成される神経叢。梨状筋の前面で形成され、下肢後面と殿部の運動・感覚を担う。",
+    "trivia": "仙骨神経叢は人体最大の神経である坐骨神経を含む。骨盤骨折や仙骨腫瘍で損傷されると下肢の広範な障害を生じる。"
+  },
+  {
+    "id": "n_superior_gluteal",
+    "name_ja": "上殿神経",
+    "name_en": "Superior gluteal nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "L4-S1から分岐し梨状筋上方の大坐骨孔を通過。中殿筋・小殿筋・大腿筋膜張筋を支配する。",
+    "trivia": "上殿神経の損傷はトレンデレンブルグ歩行（患側立脚時に骨盤が健側に傾く）の原因となる。"
+  },
+  {
+    "id": "n_inferior_gluteal",
+    "name_ja": "下殿神経",
+    "name_en": "Inferior gluteal nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L5",
+      "S1",
+      "S2"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "L5-S2から分岐し梨状筋下方の大坐骨孔を通過。大殿筋のみを支配する運動神経。",
+    "trivia": "大殿筋は人体最大の筋で、階段昇段や椅子からの立ち上がりなどの抗重力活動に重要。"
+  },
+  {
+    "id": "n_sciatic",
+    "name_ja": "坐骨神経",
+    "name_en": "Sciatic nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "L4-S3から構成される人体最大の末梢神経。脛骨神経と総腓骨神経が一つの神経鞘に包まれた構造。",
+    "trivia": "坐骨神経は直径約2cmで小指ほどの太さ。臀部注射は上外側1/4に行うのは坐骨神経損傷を避けるため。"
+  },
+  {
+    "id": "n_tibial",
+    "name_ja": "脛骨神経",
+    "name_en": "Tibial nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "parent": "n_sciatic",
+    "region": "lower_limb",
+    "description": "坐骨神経の内側成分（L4-S3）。膝窩で分離し、下腿後面の筋群と足底の感覚・運動を支配する。",
+    "trivia": "足根管症候群は脛骨神経の足根管での絞扼で、手根管症候群の足版に相当する。"
+  },
+  {
+    "id": "n_medial_plantar",
+    "name_ja": "内側足底神経",
+    "name_en": "Medial plantar nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1"
+    ],
+    "parent": "n_tibial",
+    "region": "lower_limb",
+    "description": "脛骨神経の終枝。母趾外転筋・短趾屈筋・短母趾屈筋・第1虫様筋を支配し、足底内側の感覚を担う。",
+    "trivia": "内側足底神経は手の正中神経に相当する分布パターンを持ち、足底の内側3.5趾の感覚を担う。"
+  },
+  {
+    "id": "n_lateral_plantar",
+    "name_ja": "外側足底神経",
+    "name_en": "Lateral plantar nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "S1",
+      "S2"
+    ],
+    "parent": "n_tibial",
+    "region": "lower_limb",
+    "description": "脛骨神経の終枝。足底の残りの筋群を支配し、足底外側の感覚を担う。",
+    "trivia": "外側足底神経は手の尺骨神経に相当する分布パターンを持つ。足底の外側1.5趾の感覚を担う。"
+  },
+  {
+    "id": "n_common_fibular",
+    "name_ja": "総腓骨神経",
+    "name_en": "Common fibular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1",
+      "S2"
+    ],
+    "parent": "n_sciatic",
+    "region": "lower_limb",
+    "description": "坐骨神経の外側成分（L4-S2）。腓骨頭を回って浅腓骨神経と深腓骨神経に分岐する。",
+    "trivia": "腓骨頭部での圧迫は下垂足の最も一般的な原因。足を組む習慣やギプスの圧迫で起こりうる。"
+  },
+  {
+    "id": "n_deep_fibular",
+    "name_ja": "深腓骨神経",
+    "name_en": "Deep fibular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1"
+    ],
+    "parent": "n_common_fibular",
+    "region": "lower_limb",
+    "description": "総腓骨神経の深枝。前脛骨筋・長母趾伸筋・長趾伸筋・第三腓骨筋を支配する。",
+    "trivia": "深腓骨神経は第1・第2趾間のwebスペースの感覚を担う。前足根管症候群ではこの狭い領域のしびれが特徴。"
+  },
+  {
+    "id": "n_superficial_fibular",
+    "name_ja": "浅腓骨神経",
+    "name_en": "Superficial fibular nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1"
+    ],
+    "parent": "n_common_fibular",
+    "region": "lower_limb",
+    "description": "総腓骨神経の浅枝。長腓骨筋と短腓骨筋を支配し、下腿外側から足背の感覚を担う。",
+    "trivia": "浅腓骨神経は下腿外側の筋膜を貫通する部位で絞扼されることがあり、足首の反復捻挫がリスク因子。"
+  },
+  {
+    "id": "n_pudendal",
+    "name_ja": "陰部神経",
+    "name_en": "Pudendal nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "pelvis",
+    "description": "S2-S4から分岐。陰部の運動・感覚と外肛門括約筋の支配を担う。",
+    "trivia": "陰部神経ブロック（Alcock管ブロック）は分娩時の会陰部の麻酔に使用される。自転車の長時間乗車で圧迫されることがある。"
+  },
+  {
+    "id": "n_nerve_to_obturator_internus",
+    "name_ja": "内閉鎖筋神経",
+    "name_en": "Nerve to obturator internus",
+    "type": "peripheral",
+    "root_levels": [
+      "L5",
+      "S1",
+      "S2"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "L5-S2から分岐。内閉鎖筋と上双子筋を支配する運動神経。",
+    "trivia": "内閉鎖筋は骨盤内面から小坐骨孔を通り大転子に付着するユニークな走行を持ち、走行中に90°方向転換する。"
+  },
+  {
+    "id": "n_nerve_to_piriformis",
+    "name_ja": "梨状筋神経",
+    "name_en": "Nerve to piriformis",
+    "type": "peripheral",
+    "root_levels": [
+      "S1",
+      "S2"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "S1-S2から分岐。梨状筋を支配する短い運動神経。",
+    "trivia": "梨状筋症候群は坐骨神経が梨状筋の下（または筋内を貫通する変異で）圧迫される状態で、坐骨神経痛に似た症状を呈する。"
+  },
+  {
+    "id": "n_nerve_to_quadratus_femoris",
+    "name_ja": "大腿方形筋神経",
+    "name_en": "Nerve to quadratus femoris",
+    "type": "peripheral",
+    "root_levels": [
+      "L4",
+      "L5",
+      "S1"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "L4-S1から分岐。大腿方形筋と下双子筋を支配する運動神経。",
+    "trivia": "大腿方形筋は大腿骨頭の後方を覆い、股関節の安定性に寄与する。この神経は股関節後方アプローチの手術で損傷リスクがある。"
+  },
+  {
+    "id": "n_dorsal_rami",
+    "name_ja": "脊髄神経後枝",
+    "name_en": "Dorsal rami of spinal nerves",
+    "type": "peripheral",
+    "root_levels": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "parent": null,
+    "region": "back",
+    "description": "各脊髄神経の後枝の総称。傍脊柱筋群（脊柱起立筋・多裂筋など）の運動と背部の皮膚感覚を担う。",
+    "trivia": "後枝は前枝に比べて細く、支配領域も小さいが、脊柱の安定化に重要な深層筋を支配する。"
+  },
+  {
+    "id": "n_suboccipital",
+    "name_ja": "後頭下神経",
+    "name_en": "Suboccipital nerve (C1 dorsal ramus)",
+    "type": "peripheral",
+    "root_levels": [
+      "C1"
+    ],
+    "parent": "n_dorsal_rami",
+    "region": "head_neck",
+    "description": "C1後枝で後頭下三角の筋群（大・小後頭直筋、上・下頭斜筋）を支配する純運動神経。",
+    "trivia": "後頭下神経は感覚枝を持たない珍しい後枝。後頭下三角は椎骨動脈が走行する臨床的に重要な領域。"
+  },
+  {
+    "id": "n_greater_occipital",
+    "name_ja": "大後頭神経",
+    "name_en": "Greater occipital nerve (C2 dorsal ramus)",
+    "type": "peripheral",
+    "root_levels": [
+      "C2"
+    ],
+    "parent": "n_dorsal_rami",
+    "region": "head_neck",
+    "description": "C2後枝の内側枝。後頭部の皮膚感覚を担う最大の後枝の感覚枝。",
+    "trivia": "大後頭神経は緊張型頭痛や後頭神経痛の原因となり、大後頭神経ブロックがこれらの治療に使用される。"
+  },
+  {
+    "id": "n_nerve_to_subclavius",
+    "name_ja": "鎖骨下筋神経",
+    "name_en": "Nerve to subclavius",
+    "type": "peripheral",
+    "root_levels": [
+      "C5",
+      "C6"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "C5-C6から分岐する短い運動神経。鎖骨下筋を支配する。",
+    "trivia": "鎖骨下筋神経から横隔神経への副交通枝が存在することがあり、横隔神経損傷時の代償経路となりうる。"
+  },
+  {
+    "id": "n_levator_ani_nerve",
+    "name_ja": "肛門挙筋神経",
+    "name_en": "Nerve to levator ani",
+    "type": "peripheral",
+    "root_levels": [
+      "S3",
+      "S4"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "pelvis",
+    "description": "S3-S4から分岐。肛門挙筋を支配し、骨盤底の支持機能に関与する。",
+    "trivia": "肛門挙筋は骨盤底筋群の中核をなし、排便・排尿の制御と骨盤内臓器の支持に不可欠。分娩での損傷が尿失禁の一因。"
+  },
+  {
+    "id": "n_saphenous",
+    "name_ja": "伏在神経",
+    "name_en": "Saphenous nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "L3",
+      "L4"
+    ],
+    "parent": "n_femoral",
+    "region": "lower_limb",
+    "description": "大腿神経の最長の純感覚枝で、内転筋管を通過した後に大伏在静脈とともに下腿内側を下行し、足部内側まで分布する。膝関節内側および下腿から足部内側の皮膚感覚を担う。",
+    "trivia": "伏在神経は人体で最長の純感覚神経であり、全長約40cmに及ぶ。大伏在静脈ストリッピング術の合併症として伏在神経損傷による下腿内側のしびれがよく知られている。"
+  },
+  {
+    "id": "n_sural",
+    "name_ja": "腓腹神経",
+    "name_en": "Sural nerve",
+    "type": "peripheral",
+    "root_levels": [
+      "S1",
+      "S2"
+    ],
+    "parent": "n_tibial",
+    "region": "lower_limb",
+    "description": "脛骨神経の内側腓腹皮神経と総腓骨神経の外側腓腹皮神経交通枝が下腿中央付近で合流して形成される純感覚神経。小伏在静脈とともに外果後方を回り足部外側に分布する。",
+    "trivia": "腓腹神経は臨床で最も頻繁に生検される末梢神経であり、血管炎やアミロイドーシスなどの全身性疾患の診断に利用される。生検後の外側足部のしびれは比較的許容されやすい。"
+  },
+  {
+    "id": "n_posterior_femoral_cutaneous",
+    "name_ja": "後大腿皮神経",
+    "name_en": "Posterior cutaneous nerve of thigh",
+    "type": "peripheral",
+    "root_levels": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "parent": "n_sacral_plexus",
+    "region": "lower_limb",
+    "description": "仙骨神経叢（S1-S3）から起始し、梨状筋下孔を坐骨神経とともに通過する純感覚神経。大殿筋深面から大腿後面を下行し、臀部下部・会陰部・大腿後面の広い皮膚領域に分布する。",
+    "trivia": "梨状筋症候群の鑑別では坐骨神経だけでなくこの神経の絞扼も考慮すべきである。大腿後面のしびれ・灼熱感が主訴の場合、本神経の障害が疑われる。"
+  },
+  {
+    "id": "n_medial_antebrachial_cutaneous",
+    "name_ja": "内側前腕皮神経",
+    "name_en": "Medial cutaneous nerve of forearm",
+    "type": "peripheral",
+    "root_levels": [
+      "C8",
+      "T1"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "腕神経叢の内側神経束から直接起始する純感覚神経。上腕内側を下行し肘関節付近で前枝と後枝に分かれ、前腕内側の皮膚感覚を支配する。",
+    "trivia": "肘部管症候群（尺骨神経障害）との鑑別に重要で、本神経支配域の感覚が正常であれば障害高位は肘以遠と推定できる。静脈穿刺時に損傷されることがある。"
+  },
+  {
+    "id": "n_medial_brachial_cutaneous",
+    "name_ja": "内側上腕皮神経",
+    "name_en": "Medial cutaneous nerve of arm",
+    "type": "peripheral",
+    "root_levels": [
+      "C8",
+      "T1"
+    ],
+    "parent": "n_brachial_plexus",
+    "region": "upper_limb",
+    "description": "腕神経叢の内側神経束から起始する最小の枝で、純感覚神経。腋窩動脈の内側を通り上腕内側の皮膚感覚を支配する。第2肋間上腕神経と吻合することが多い。",
+    "trivia": "腕神経叢の最小の枝であるにもかかわらず、腋窩郭清術後の上腕内側のしびれの原因となりうる。乳癌手術での腋窩リンパ節郭清時に温存が試みられる。"
+  },
+  {
+    "id": "n_cn10_pharyngeal",
+    "name_ja": "咽頭神経叢",
+    "name_en": "Pharyngeal plexus",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn10",
+    "region": "head_neck",
+    "description": "迷走神経の咽頭枝と舌咽神経の咽頭枝、および頸部交感神経幹の枝が中咽頭収縮筋の表面で形成する神経叢。口蓋帆挙筋を含むほぼ全ての軟口蓋筋と咽頭収縮筋を運動支配する。",
+    "trivia": "咽頭神経叢の運動線維の大部分は実際には副神経（CN XI）の延髄根に由来し、迷走神経を経由して咽頭に到達する。嚥下障害のリハビリにおいて重要な神経構造。"
+  },
+  {
+    "id": "n_cn5_v1",
+    "name_ja": "眼神経 (V1)",
+    "name_en": "Ophthalmic nerve (V1)",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn5",
+    "region": "head_neck",
+    "description": "三叉神経の第1枝で、純感覚神経。三叉神経節から上眼窩裂を通り眼窩に入る。前頭神経・涙腺神経・鼻毛様体神経に分岐し、前頭部・上眼瞼・眼球・鼻背の感覚を支配する。",
+    "trivia": "帯状疱疹の好発部位であり、V1領域の帯状疱疹（眼部帯状疱疹）は角膜炎や虹彩炎を合併し視力障害を起こしうる。鼻尖部の水疱（Hutchinson徴候）は眼合併症の予測因子。"
+  },
+  {
+    "id": "n_cn5_v2",
+    "name_ja": "上顎神経 (V2)",
+    "name_en": "Maxillary nerve (V2)",
+    "type": "cranial",
+    "root_levels": [],
+    "parent": "n_cn5",
+    "region": "head_neck",
+    "description": "三叉神経の第2枝で、純感覚神経。三叉神経節から正円孔を通り翼口蓋窩に入る。眼窩下神経・上歯槽神経・頬骨神経などに分岐し、上顎歯・鼻腔・口蓋・頬部の感覚を支配する。",
+    "trivia": "歯科における上顎神経ブロック麻酔は翼口蓋窩で施行される。上顎洞手術後のしびれは眼窩下神経（V2の終枝）の損傷によることが多い。"
+  }
+]
