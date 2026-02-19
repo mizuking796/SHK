@@ -586,18 +586,6 @@ const SHKApp = {
 
     modal.classList.remove('hidden');
 
-    // Add event listeners for dynamic selects
-    body.querySelectorAll('.modal-select').forEach(sel => {
-      sel.addEventListener('change', () => {
-        const targetId = sel.dataset.target;
-        const value = sel.value;
-        const target = document.getElementById(targetId);
-        if (target && this[`updateLookup_${type}`]) {
-          this[`updateLookup_${type}`](value, target);
-        }
-      });
-    });
-
     body.querySelectorAll('.detail-link').forEach(el => {
       el.addEventListener('click', () => {
         modal.classList.add('hidden');

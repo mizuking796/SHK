@@ -478,8 +478,6 @@ const SHKGraph = {
       this.placeInCircle(groups.skin, center, baseRadius * 1.1, baseRadius * 1.3);
     });
 
-    // Animate to positions
-    this.cy.nodes().animate({ duration: 600 });
     this.cy.fit(undefined, 30);
   },
 

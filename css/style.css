@@ -250,7 +250,8 @@ select {
 }
 .close-btn:hover { background: rgba(231,76,60,0.3); border-color: #e74c3c; color: #e74c3c; }
 #close-detail {
-  display: none;
+  display: block;
+  margin-bottom: 8px;
 }
 
 /* Detail content */
@@ -397,5 +398,6 @@ select {
 @media (max-width: 768px) {
   #sidebar { display: none; }
   #detail-panel { width: 100%; position: absolute; right: 0; top: 0; bottom: 0; z-index: 50; }
+  #close-detail { display: block; font-size: 16px; padding: 8px 16px; }
   .header-center { max-width: none; }
 }
