@@ -5,13 +5,15 @@
 Cytoscape.jsによるインタラクティブグラフで、要素間の関係（起始・停止・神経支配・関節結合・靱帯付着・感覚支配）を探索できる。
 
 ## URL
-- **ローカル**: `file:///Users/mizukishirai/claude/services/SHK/index.html`
-- GitHub未デプロイ（ローカル専用）
+- **本番**: `https://mizuking796.github.io/SHK/`（**更新時はgit pushまで実施**）
+- **GitHub**: `mizuking796/SHK`（public）
+- **ソース**: `/Users/mizukishirai/claude/services/SHK/`
 
 ## ファイル構成
 ```
 SHK/
-├── index.html          — HTML（ヘッダー/サイドバー/グラフ/詳細パネル/モーダル）116行
+├── index.html          — HTML（ヘッダー/サイドバー/グラフ/詳細パネル/モーダル）
+├── favicon.svg         — ファビコン（SVG）
 ├── css/
 │   └── style.css       — 全CSS（カラー変数/レイアウト/バッジ/レスポンシブ）400行
 ├── js/
@@ -30,7 +32,8 @@ SHK/
 
 ## 技術スタック
 - 静的HTML/CSS/JS（フレームワーク不使用、ビルドステップなし）
-- **Cytoscape.js v3.28.1**（CDN: unpkg）— グラフ可視化ライブラリ
+- **Cytoscape.js v3.28.1**（CDN: cdnjs.cloudflare.com）— グラフ可視化ライブラリ
+- **GitHub Pages**（mainブランチ直接配信）
 - フォント: system-ui + Hiragino Sans + Noto Sans JP
 
 ## データ規模
@@ -193,11 +196,12 @@ SHK/
 - **ノード選択**: クリックで詳細パネル表示 + 関連ノードハイライト
 - **キーボード**: `/` 検索、`Esc` 閉じる
 
-## 情報源
+## データ品質
 - Claudeのトレーニングデータ（解剖学教科書等）から生成
-- Wikipedia英語版で主要データのファクトチェック実施済み
-  - 靱帯10件検証: 1件エラー修正（腸骨大腿靱帯 引張強度）、3件MINOR指摘あり
-  - 筋/骨/神経/関節: トリビア17件の誤り修正済み（解剖学的事実の確認）
+- **5ラウンドのハルシネーションチェック**で計58件のエラーを修正
+  - R1: 32件、R2: 19件、R3: 4件、R4: 3件、R5: 0件（収束確認）
+  - 検証手法: 6並列エージェントがWikipedia/Kenhub/StatPearls等で全542エントリを照合
+  - 参照整合性バリデーション: 全ラウンドでOK確認
 
 ## 新タイプ追加手順
 1. `data/xxx.json` — 新JSONデータファイル作成
