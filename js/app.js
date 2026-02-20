@@ -68,7 +68,7 @@ const SHKApp = {
     };
 
     this.data.muscles.forEach(m => add(m, 'muscle'));
-    this.data.bones.forEach(b => add(b, 'bone'));
+    this.data.bones.forEach(b => add(b, b.structure_type === 'soft_tissue' ? 'soft_tissue' : 'bone'));
     this.data.nerves.forEach(n => add(n, 'nerve'));
     this.data.joints.forEach(j => add(j, 'joint'));
     this.data.skin.forEach(s => add(s, 'skin'));
@@ -127,7 +127,7 @@ const SHKApp = {
     });
 
     // Filters
-    const filterIds = ['show-muscles', 'show-bones', 'show-nerves', 'show-joints', 'show-skin', 'show-ligaments',
+    const filterIds = ['show-muscles', 'show-bones', 'show-soft-tissue', 'show-nerves', 'show-joints', 'show-skin', 'show-ligaments',
                        'show-origin', 'show-insertion', 'show-innervation', 'show-articulation', 'show-ligament-attach', 'show-sensory-innervation'];
     filterIds.forEach(id => {
       document.getElementById(id).addEventListener('change', () => this.applyFilters());
@@ -191,6 +191,7 @@ const SHKApp = {
     const filters = {
       showMuscles: document.getElementById('show-muscles').checked,
       showBones: document.getElementById('show-bones').checked,
+      showSoftTissue: document.getElementById('show-soft-tissue').checked,
       showNerves: document.getElementById('show-nerves').checked,
       showJoints: document.getElementById('show-joints').checked,
       showSkin: document.getElementById('show-skin').checked,
@@ -210,7 +211,7 @@ const SHKApp = {
   updateStats() {
     const s = SHKGraph.getStats();
     document.getElementById('stats').textContent =
-      `筋${s.muscles} 骨${s.bones} 神経${s.nerves} 関節${s.joints} 靱帯${s.ligaments} 皮膚${s.skin} 関係${s.edges}`;
+      `筋${s.muscles} 骨${s.bones} 組織${s.soft_tissue} 神経${s.nerves} 関節${s.joints} 靱帯${s.ligaments} 皮膚${s.skin} 関係${s.edges}`;
   },
 
   // Detail panel
@@ -223,6 +224,7 @@ const SHKApp = {
     switch (nodeData.type) {
       case 'muscle': data = this.muscleMap.get(nodeData.id); break;
       case 'bone': data = this.boneMap.get(nodeData.id); break;
+      case 'soft_tissue': data = this.boneMap.get(nodeData.id); break;
       case 'nerve': data = this.nerveMap.get(nodeData.id); break;
       case 'joint': data = this.jointMap.get(nodeData.id); break;
       case 'skin': data = this.skinMap.get(nodeData.id); break;
@@ -242,6 +244,7 @@ const SHKApp = {
           html = this.renderMuscleDetail(data);
           break;
         case 'bone':
+        case 'soft_tissue':
           html = this.renderBoneDetail(data);
           break;
         case 'nerve':
@@ -344,8 +347,9 @@ const SHKApp = {
   },
 
   renderBoneDetail(b) {
-    const typeColor = this.getTypeColor('bone');
-    const typeBg = this.getTypeBg('bone');
+    const nodeType = b.structure_type === 'soft_tissue' ? 'soft_tissue' : 'bone';
+    const typeColor = this.getTypeColor(nodeType);
+    const typeBg = this.getTypeBg(nodeType);
 
     // Find attached muscles
     const attachedMuscles = this.data.muscles.filter(m =>
@@ -703,13 +707,14 @@ const SHKApp = {
   },
 
   getTypeColor(type) {
-    return { muscle: '#c47878', bone: '#8a9aa6', nerve: '#b89a30', joint: '#5da578', ligament: '#5a9aab', skin: '#9b7cb5' }[type] || '#777';
+    return { muscle: '#c47878', bone: '#8a9aa6', soft_tissue: '#b0967e', nerve: '#b89a30', joint: '#5da578', ligament: '#5a9aab', skin: '#9b7cb5' }[type] || '#777';
   },
 
   getTypeBg(type) {
     return {
       muscle: 'rgba(196,120,120,0.15)',
       bone: 'rgba(138,154,166,0.15)',
+      soft_tissue: 'rgba(176,150,126,0.15)',
       nerve: 'rgba(184,154,48,0.15)',
       joint: 'rgba(93,165,120,0.15)',
       ligament: 'rgba(90,154,171,0.15)',
@@ -718,7 +723,7 @@ const SHKApp = {
   },
 
   getTypeLabel(type) {
-    return { muscle: '筋', bone: '骨', nerve: '神経', joint: '関節', ligament: '靱帯', skin: '皮膚' }[type] || type;
+    return { muscle: '筋', bone: '骨', soft_tissue: '組織', nerve: '神経', joint: '関節', ligament: '靱帯', skin: '皮膚' }[type] || type;
   },
 };
 

@@ -17,6 +17,8 @@
   --joint-bg: rgba(93, 165, 120, 0.15);
   --ligament: #5a9aab;
   --ligament-bg: rgba(90, 154, 171, 0.15);
+  --soft-tissue: #b0967e;
+  --soft-tissue-bg: rgba(176, 150, 126, 0.15);
   --skin: #9b7cb5;
   --skin-bg: rgba(155, 124, 181, 0.15);
   --origin: #b88040;
@@ -168,6 +170,7 @@ select {
 }
 .node-badge.muscle { background: var(--muscle-bg); color: var(--muscle); }
 .node-badge.bone { background: var(--bone-bg); color: var(--bone); }
+.node-badge.soft-tissue { background: var(--soft-tissue-bg); color: var(--soft-tissue); }
 .node-badge.nerve { background: var(--nerve-bg); color: var(--nerve); }
 .node-badge.joint { background: var(--joint-bg); color: var(--joint); }
 .node-badge.ligament { background: var(--ligament-bg); color: var(--ligament); }

@@ -18,6 +18,7 @@ const SHKGraph = {
     articulation: '#5da578',
     sensory_innervation: '#9b7cb5',
     ligament_attach: '#5a9aab',
+    soft_tissue: '#b0967e',
   },
 
   init(container) {
@@ -122,6 +123,19 @@ const SHKGraph = {
           'border-color': 'transparent',
         },
       },
+      // Soft tissue nodes (顔面皮膚, 眼球, 舌, 帽状腱膜, etc.)
+      {
+        selector: 'node[type="soft_tissue"]',
+        style: {
+          'background-color': this.colors.soft_tissue,
+          'shape': 'barrel',
+          'width': 'mapData(degree, 1, 20, 16, 40)',
+          'height': 'mapData(degree, 1, 20, 12, 30)',
+          'color': '#4a4540',
+          'border-width': 0,
+          'border-color': 'transparent',
+        },
+      },
       // Skin nodes
       {
         selector: 'node[type="skin"]',
@@ -220,13 +234,13 @@ const SHKGraph = {
   loadData(muscles, bones, nerves, joints, skin, ligaments) {
     const elements = [];
 
-    // Add bone nodes
+    // Add bone nodes (soft tissue entries get distinct type)
     bones.forEach(b => {
       elements.push({
         data: {
           id: b.id,
           label: b.name_ja,
-          type: 'bone',
+          type: b.structure_type === 'soft_tissue' ? 'soft_tissue' : 'bone',
           region: b.region,
           fullData: b,
         },
@@ -569,6 +583,7 @@ const SHKGraph = {
     // Node type filters
     if (!filters.showMuscles) this.cy.nodes('[type="muscle"]').addClass('hidden');
     if (!filters.showBones) this.cy.nodes('[type="bone"]').addClass('hidden');
+    if (!filters.showSoftTissue) this.cy.nodes('[type="soft_tissue"]').addClass('hidden');
     if (!filters.showNerves) this.cy.nodes('[type="nerve"]').addClass('hidden');
     if (!filters.showJoints) this.cy.nodes('[type="joint"]').addClass('hidden');
     if (!filters.showSkin) this.cy.nodes('[type="skin"]').addClass('hidden');
@@ -608,6 +623,7 @@ const SHKGraph = {
     return {
       muscles: visible.nodes('[type="muscle"]').length,
       bones: visible.nodes('[type="bone"]').length,
+      soft_tissue: visible.nodes('[type="soft_tissue"]').length,
       nerves: visible.nodes('[type="nerve"]').length,
       joints: visible.nodes('[type="joint"]').length,
       skin: visible.nodes('[type="skin"]').length,
