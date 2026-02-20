@@ -190,7 +190,7 @@
       "大角",
       "小角"
     ],
-    "description": "頸部前面に位置するU字型の骨。他の骨と直接関節せず、筋と靭帯のみで懸垂される。",
+    "description": "頸部前面に位置するU字型の骨。他の骨と直接関節せず、筋と靱帯のみで懸垂される。",
     "trivia": "舌骨は人体で唯一、他の骨と関節しない骨。法医学では絞殺の証拠として舌骨骨折の有無が検査される。"
   },
   {
@@ -1598,12 +1598,12 @@
   },
   {
     "id": "b_iliotibial_band",
-    "name_ja": "腸脛靭帯",
+    "name_ja": "腸脛靱帯",
     "name_en": "Iliotibial band",
     "region": "lower_limb",
     "landmarks": [],
     "description": "大腿外側を縦走する強靭な線維帯。",
-    "trivia": "腸脛靭帯摩擦症候群（ランナーズニー）はランナーに多い膝外側の痛み。"
+    "trivia": "腸脛靱帯摩擦症候群（ランナーズニー）はランナーに多い膝外側の痛み。"
   },
   {
     "id": "b_flexor_retinaculum_hand",
@@ -1611,7 +1611,7 @@
     "name_en": "Flexor retinaculum (hand)",
     "region": "upper_limb",
     "landmarks": [],
-    "description": "手根管の屋根を形成する強靭な靭帯。",
+    "description": "手根管の屋根を形成する強靭な靱帯。",
     "trivia": "手根管症候群の手術ではこの屈筋支帯を切開して正中神経の圧迫を解除する。"
   },
   {
@@ -1625,12 +1625,12 @@
   },
   {
     "id": "b_inguinal_ligament",
-    "name_ja": "鼠径靭帯",
+    "name_ja": "鼠径靱帯",
     "name_en": "Inguinal ligament",
     "region": "trunk",
     "landmarks": [],
-    "description": "上前腸骨棘から恥骨結節に至る靭帯。鼠径管の床を形成する。",
-    "trivia": "鼠径靭帯の下を大腿動静脈・大腿神経が通過する。鼠径ヘルニアの発生部位。"
+    "description": "上前腸骨棘から恥骨結節に至る靱帯。鼠径管の床を形成する。",
+    "trivia": "鼠径靱帯の下を大腿動静脈・大腿神経が通過する。鼠径ヘルニアの発生部位。"
   },
   {
     "id": "b_interosseous_membrane_forearm",
