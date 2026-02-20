@@ -67,6 +67,10 @@
       {
         "bone": "b_t1",
         "landmark": "棘突起"
+      },
+      {
+        "bone": "b_t5",
+        "landmark": "棘突起"
       }
     ],
     "insertions": [
@@ -2868,6 +2872,14 @@
       {
         "bone": "b_l5",
         "landmark": "横突起"
+      },
+      {
+        "bone": "b_l5",
+        "landmark": "椎体"
+      },
+      {
+        "bone": "b_l1",
+        "landmark": "横突起"
       }
     ],
     "insertions": [
@@ -3205,6 +3217,10 @@
       {
         "bone": "b_ischium",
         "landmark": "閉鎖膜内面"
+      },
+      {
+        "bone": "b_pubis",
+        "landmark": "閉鎖膜内面"
       }
     ],
     "insertions": [
@@ -3243,6 +3259,10 @@
     "origins": [
       {
         "bone": "b_pubis",
+        "landmark": "閉鎖膜外面"
+      },
+      {
+        "bone": "b_ischium",
         "landmark": "閉鎖膜外面"
       }
     ],
@@ -3404,6 +3424,10 @@
       {
         "bone": "b_ilium",
         "landmark": "下前腸骨棘"
+      },
+      {
+        "bone": "b_ilium",
+        "landmark": "寛骨臼上縁（反転頭）"
       }
     ],
     "insertions": [
@@ -4081,7 +4105,7 @@
     "origins": [
       {
         "bone": "b_tibia",
-        "landmark": "外側顆"
+        "landmark": "外側顆・外側面上部2/3"
       },
       {
         "bone": "b_interosseous_membrane_leg",
@@ -5079,15 +5103,27 @@
     "origins": [
       {
         "bone": "b_mt2",
-        "landmark": "底"
+        "landmark": "底（斜頭）"
       },
       {
         "bone": "b_mt3",
-        "landmark": "底"
+        "landmark": "底（斜頭）"
       },
       {
         "bone": "b_mt4",
-        "landmark": "底"
+        "landmark": "底（斜頭）"
+      },
+      {
+        "bone": "b_mt3",
+        "landmark": "MTP関節底側靭帯（横頭）"
+      },
+      {
+        "bone": "b_mt4",
+        "landmark": "MTP関節底側靭帯（横頭）"
+      },
+      {
+        "bone": "b_mt5",
+        "landmark": "MTP関節底側靭帯（横頭）"
       }
     ],
     "insertions": [
@@ -8128,7 +8164,7 @@
     "insertions": [
       {
         "bone": "b_nasal",
-        "landmark": "鼻翼軟骨および鼻背腱膜"
+        "landmark": "鼻翼軟骨・鼻背腱膜（軟骨停止・骨付着なし）"
       }
     ],
     "actions": [],
@@ -9242,8 +9278,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_pubis",
-        "landmark": "会陰体"
+        "bone": "b_perineal_body",
+        "landmark": ""
       }
     ],
     "actions": [],
@@ -9302,8 +9338,8 @@
     "group": "pelvic_floor",
     "origins": [
       {
-        "bone": "b_pubis",
-        "landmark": "会陰体・正中縫線"
+        "bone": "b_perineal_body",
+        "landmark": "正中縫線"
       }
     ],
     "insertions": [
@@ -9374,8 +9410,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_pubis",
-        "landmark": "会陰体"
+        "bone": "b_perineal_body",
+        "landmark": ""
       }
     ],
     "actions": [],
@@ -9407,8 +9443,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_pubis",
-        "landmark": "会陰体・尿生殖隔膜"
+        "bone": "b_perineal_body",
+        "landmark": "尿生殖隔膜"
       }
     ],
     "actions": [],
@@ -9569,8 +9605,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_mc5",
-        "landmark": "小指側手掌皮膚"
+        "bone": "b_skin_palm",
+        "landmark": "小指球部皮膚"
       }
     ],
     "actions": [],
