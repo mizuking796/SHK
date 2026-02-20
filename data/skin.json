@@ -2,7 +2,7 @@
   {
     "id": "sk_forehead",
     "name_ja": "前額部・眼窩上部",
-    "name_en": "Forehead & supraorbital region",
+    "name_en": "Forehead and supraorbital region",
     "region": "head_neck",
     "nerves": [
       "n_cn5_v1"
@@ -26,7 +26,7 @@
   {
     "id": "sk_chin_jaw",
     "name_ja": "下顔面・オトガイ部",
-    "name_en": "Lower face & chin",
+    "name_en": "Lower face and chin",
     "region": "head_neck",
     "nerves": [
       "n_cn5_v3"
@@ -194,7 +194,7 @@
   {
     "id": "sk_lateral_leg",
     "name_ja": "下腿外側・足背部",
-    "name_en": "Lateral leg & dorsal foot",
+    "name_en": "Lateral leg and dorsal foot",
     "region": "lower_limb",
     "nerves": [
       "n_superficial_fibular"
@@ -206,7 +206,7 @@
   {
     "id": "sk_posterolateral_leg",
     "name_ja": "下腿後外側部",
-    "name_en": "Posterolateral leg & lateral foot",
+    "name_en": "Posterolateral leg and lateral foot",
     "region": "lower_limb",
     "nerves": [
       "n_sural"
