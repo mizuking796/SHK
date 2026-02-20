@@ -439,7 +439,7 @@
       {
         "joint": "j_sternoclavicular",
         "motion": "depression",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -1710,7 +1710,7 @@
       {
         "joint": "j_cmc1",
         "motion": "flexion",
-        "role": "assist"
+        "role": "prime"
       },
       {
         "joint": "j_mcp",
@@ -2162,7 +2162,7 @@
       {
         "joint": "j_cmc1",
         "motion": "extension",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -2214,7 +2214,7 @@
       {
         "joint": "j_cmc1",
         "motion": "extension",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -3045,7 +3045,7 @@
       {
         "joint": "j_hip",
         "motion": "internal_rotation",
-        "role": "assist"
+        "role": "prime"
       },
       {
         "joint": "j_hip",
@@ -3094,7 +3094,7 @@
       {
         "joint": "j_hip",
         "motion": "internal_rotation",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -3143,7 +3143,7 @@
       {
         "joint": "j_hip",
         "motion": "internal_rotation",
-        "role": "assist"
+        "role": "prime"
       },
       {
         "joint": "j_knee",
@@ -5033,7 +5033,7 @@
       {
         "joint": "j_ip_foot",
         "motion": "extension",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -6056,7 +6056,7 @@
       {
         "joint": "j_thoracic_spine",
         "motion": "rotation",
-        "role": "assist"
+        "role": "prime"
       },
       {
         "joint": "j_thoracic_spine",
@@ -6404,7 +6404,7 @@
       {
         "joint": "j_atlanto_occipital",
         "motion": "lateral_flexion",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -6844,7 +6844,7 @@
       {
         "joint": "j_atlanto_occipital",
         "motion": "lateral_flexion",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -7331,7 +7331,7 @@
       {
         "joint": "j_tmj",
         "motion": "depression",
-        "role": "assist"
+        "role": "prime"
       },
       {
         "joint": "j_tmj",
@@ -9498,7 +9498,7 @@
       {
         "joint": "j_ip_foot",
         "motion": "extension",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -9541,7 +9541,7 @@
       {
         "joint": "j_ip_foot",
         "motion": "extension",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
@@ -9584,7 +9584,7 @@
       {
         "joint": "j_ip_foot",
         "motion": "extension",
-        "role": "assist"
+        "role": "prime"
       }
     ],
     "innervation": [
