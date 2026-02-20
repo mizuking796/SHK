@@ -298,6 +298,10 @@
           "C4",
           "C5"
         ]
+      },
+      {
+        "nerve": "n_cervical_plexus",
+        "levels": []
       }
     ],
     "description": "肩甲挙筋。C1〜C4横突起から肩甲骨上角に走り、肩甲骨の挙上と下方回旋を行う。",
@@ -5256,8 +5260,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sternum",
-        "landmark": "中心腱"
+        "bone": "b_central_tendon",
+        "landmark": ""
       }
     ],
     "actions": [],
@@ -6949,7 +6953,7 @@
         ]
       }
     ],
-    "description": "オトガイ舌骨筋。下顎骨オトガイ棘から舌骨体に走り、舌骨を前上方に引いて喉頭を挙上する。",
+    "description": "オトガイ舌骨筋。下顎骨オトガイ棘から舌骨体に走り、舌骨を前上方に引いて喉頭を挙上する。運動支配はC1線維（舌下神経に随行して到達）。",
     "trivia": "C1神経（舌下神経に乗って走行）支配という独特な神経走行を持つ。嚥下障害のリハビリで舌骨挙上訓練のターゲットにされる。"
   },
   {
@@ -7079,7 +7083,7 @@
         ]
       }
     ],
-    "description": "甲状舌骨筋。甲状軟骨斜線から舌骨大角に走り、舌骨と喉頭を近づける。",
+    "description": "甲状舌骨筋。甲状軟骨斜線から舌骨大角に走り、舌骨と喉頭を近づける。運動支配はC1線維（舌下神経に随行して到達）。",
     "trivia": "C1神経（舌下神経経由）支配。嚥下の際に喉頭を舌骨に引き上げ、喉頭蓋を閉じさせる。嚥下障害の評価で喉頭挙上を観察する際に関連する筋。"
   },
   {
@@ -7313,13 +7317,13 @@
     "group": "facial",
     "origins": [
       {
-        "bone": "b_frontal",
-        "landmark": "帽状腱膜"
+        "bone": "b_galea",
+        "landmark": ""
       }
     ],
     "insertions": [
       {
-        "bone": "b_frontal",
+        "bone": "b_skin_face",
         "landmark": "眉弓上方皮膚"
       }
     ],
@@ -7352,8 +7356,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
-        "landmark": "眼瞼皮膚"
+        "bone": "b_skin_face",
+        "landmark": "眼瞼周囲皮膚"
       }
     ],
     "actions": [],
@@ -7389,8 +7393,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
-        "landmark": "口唇皮膚"
+        "bone": "b_skin_face",
+        "landmark": "口唇皮膚・粘膜"
       }
     ],
     "actions": [],
@@ -7422,8 +7426,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
-        "landmark": "口角皮膚"
+        "bone": "b_skin_face",
+        "landmark": "口角（modiolus）"
       }
     ],
     "actions": [],
@@ -7455,8 +7459,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
-        "landmark": "口角"
+        "bone": "b_skin_face",
+        "landmark": "口角（口輪筋・modiolus）"
       }
     ],
     "actions": [],
@@ -7521,6 +7525,10 @@
       {
         "bone": "b_hyoid",
         "landmark": "舌骨体"
+      },
+      {
+        "bone": "b_tongue",
+        "landmark": "舌全体（舌根から舌尖）"
       }
     ],
     "actions": [],
@@ -7552,7 +7560,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌側面"
       }
     ],
@@ -7581,7 +7589,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌側面"
       }
     ],
@@ -7829,8 +7837,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "眼球強膜（上面、角膜縁から約7.7mm）"
+        "bone": "b_eyeball",
+        "landmark": "強膜上面（角膜縁から約7.7mm）"
       }
     ],
     "actions": [],
@@ -7858,8 +7866,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "眼球強膜（下面、角膜縁から約6.5mm）"
+        "bone": "b_eyeball",
+        "landmark": "強膜下面（角膜縁から約6.5mm）"
       }
     ],
     "actions": [],
@@ -7887,8 +7895,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "眼球強膜（内側面、角膜縁から約5.5mm）"
+        "bone": "b_eyeball",
+        "landmark": "強膜内側面（角膜縁から約5.5mm）"
       }
     ],
     "actions": [],
@@ -7916,8 +7924,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "眼球強膜（外側面、角膜縁から約6.9mm）"
+        "bone": "b_eyeball",
+        "landmark": "強膜外側面（角膜縁から約6.9mm）"
       }
     ],
     "actions": [],
@@ -7945,8 +7953,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "眼球強膜（上外側面後方、滑車を経由）"
+        "bone": "b_eyeball",
+        "landmark": "強膜上外側面後方（滑車を経由）"
       }
     ],
     "actions": [],
@@ -7974,8 +7982,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "眼球強膜（下外側面後方）"
+        "bone": "b_eyeball",
+        "landmark": "強膜下外側面後方"
       }
     ],
     "actions": [],
@@ -8003,8 +8011,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_sphenoid",
-        "landmark": "上眼瞼の瞼板および皮膚"
+        "bone": "b_skin_face",
+        "landmark": "上眼瞼（瞼板および皮膚）"
       }
     ],
     "actions": [],
@@ -8032,8 +8040,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_frontal",
-        "landmark": "帽状腱膜（galea aponeurotica）"
+        "bone": "b_galea",
+        "landmark": ""
       }
     ],
     "actions": [],
@@ -8061,7 +8069,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_frontal",
+        "bone": "b_skin_face",
         "landmark": "眉部皮膚（眉中央〜外側）"
       }
     ],
@@ -8090,7 +8098,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_frontal",
+        "bone": "b_skin_face",
         "landmark": "眉間皮膚（glabella）"
       }
     ],
@@ -8148,7 +8156,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
+        "bone": "b_skin_face",
         "landmark": "上唇皮膚（鼻唇溝付近）"
       }
     ],
@@ -8177,7 +8185,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
+        "bone": "b_skin_face",
         "landmark": "上唇皮膚および口輪筋"
       }
     ],
@@ -8206,8 +8214,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
-        "landmark": "口角皮膚（modiolus）"
+        "bone": "b_skin_face",
+        "landmark": "口角（modiolus）"
       }
     ],
     "actions": [],
@@ -8235,8 +8243,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
-        "landmark": "口角皮膚（modiolus）"
+        "bone": "b_skin_face",
+        "landmark": "口角（modiolus）"
       }
     ],
     "actions": [],
@@ -8264,7 +8272,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_mandible",
+        "bone": "b_skin_face",
         "landmark": "下唇皮膚および口輪筋下部"
       }
     ],
@@ -8293,7 +8301,7 @@
     ],
     "insertions": [
       {
-        "bone": "b_mandible",
+        "bone": "b_skin_face",
         "landmark": "オトガイ部皮膚"
       }
     ],
@@ -8316,13 +8324,13 @@
     "group": "facial",
     "origins": [
       {
-        "bone": "b_mandible",
-        "landmark": "咬筋筋膜および耳下腺筋膜"
+        "bone": "b_skin_face",
+        "landmark": "耳下腺筋膜（咬筋表面）"
       }
     ],
     "insertions": [
       {
-        "bone": "b_maxilla",
+        "bone": "b_skin_face",
         "landmark": "口角皮膚（modiolus）"
       }
     ],
@@ -8351,8 +8359,8 @@
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
-        "landmark": "舌側面（舌根部の側縁）"
+        "bone": "b_tongue",
+        "landmark": "舌根部側縁"
       }
     ],
     "actions": [],
@@ -8374,13 +8382,13 @@
     "group": "tongue",
     "origins": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌根部（粘膜下層）"
       }
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌尖部（粘膜下層）"
       }
     ],
@@ -8403,13 +8411,13 @@
     "group": "tongue",
     "origins": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌根部（舌下面）"
       }
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌尖部（舌下面）"
       }
     ],
@@ -8432,13 +8440,13 @@
     "group": "tongue",
     "origins": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌中隔"
       }
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌側縁（粘膜下層）"
       }
     ],
@@ -8461,13 +8469,13 @@
     "group": "tongue",
     "origins": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌背部（粘膜下層）"
       }
     ],
     "insertions": [
       {
-        "bone": "b_hyoid",
+        "bone": "b_tongue",
         "landmark": "舌下面（粘膜下層）"
       }
     ],
