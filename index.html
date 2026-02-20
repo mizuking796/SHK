@@ -35,6 +35,15 @@
       <!-- Left sidebar: filters -->
       <aside id="sidebar">
         <div class="filter-section">
+          <h3>レイアウト</h3>
+          <select id="layout-select">
+            <option value="cluster">クラスター</option>
+            <option value="concentric">同心円</option>
+            <option value="grid">グリッド</option>
+          </select>
+          <button id="relayout-btn" class="btn">再配置</button>
+        </div>
+        <div class="filter-section">
           <h3>表示フィルタ</h3>
           <div class="filter-group">
             <label class="filter-label">ノードタイプ</label>
@@ -75,15 +84,6 @@
             <button class="lookup-btn" data-type="motion">運動 → 筋</button>
             <button class="lookup-btn" data-type="nerve">神経 → 支配筋</button>
           </div>
-        </div>
-        <div class="filter-section">
-          <h3>レイアウト</h3>
-          <select id="layout-select">
-            <option value="cluster">クラスター</option>
-            <option value="concentric">同心円</option>
-            <option value="grid">グリッド</option>
-          </select>
-          <button id="relayout-btn" class="btn">再配置</button>
         </div>
       </aside>
 
