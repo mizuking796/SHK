@@ -462,7 +462,7 @@ const SHKGraph = {
     // Group nodes by region
     visible.forEach(n => {
       const r = n.data('region') || 'trunk';
-      if (!regionNodes[r]) regionNodes[r] = { bone: [], joint: [], ligament: [], muscle: [], nerve: [], skin: [] };
+      if (!regionNodes[r]) regionNodes[r] = { bone: [], soft_tissue: [], joint: [], ligament: [], muscle: [], nerve: [], skin: [] };
       const type = n.data('type');
       if (regionNodes[r][type]) regionNodes[r][type].push(n);
     });
@@ -473,8 +473,8 @@ const SHKGraph = {
       const totalNodes = Object.values(groups).flat().length;
       const baseRadius = Math.max(40, Math.sqrt(totalNodes) * 18);
 
-      // Layer 0: Bones at center (tight cluster)
-      this.placeInCircle(groups.bone, center, baseRadius * 0.25, baseRadius * 0.55);
+      // Layer 0: Bones and soft tissue at center (tight cluster)
+      this.placeInCircle(groups.bone.concat(groups.soft_tissue), center, baseRadius * 0.25, baseRadius * 0.55);
 
       // Layer 1: Joints slightly out
       this.placeInCircle(groups.joint, center, baseRadius * 0.55, baseRadius * 0.75);

@@ -369,7 +369,7 @@ const SHKApp = {
 
     return `
       <div class="detail-header">
-        <span class="detail-type" style="background:${typeBg};color:${typeColor}">骨</span>
+        <span class="detail-type" style="background:${typeBg};color:${typeColor}">${nodeType === 'soft_tissue' ? '組織' : '骨'}</span>
         <div class="detail-name-ja">${b.name_ja}</div>
         <div class="detail-name-en">${b.name_en || ''}</div>
       </div>
