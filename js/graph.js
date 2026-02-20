@@ -406,7 +406,7 @@ const SHKGraph = {
       n.data('degree', n.degree());
     });
 
-    this.runLayout('cluster');
+    this.runLayout('concentric');
   },
 
   // Run layout
