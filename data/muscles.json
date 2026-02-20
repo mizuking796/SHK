@@ -305,7 +305,10 @@
       },
       {
         "nerve": "n_cervical_plexus",
-        "levels": []
+        "levels": [
+          "C3",
+          "C4"
+        ]
       }
     ],
     "description": "肩甲挙筋。C1〜C4横突起から肩甲骨上角に走り、肩甲骨の挙上と下方回旋を行う。",
