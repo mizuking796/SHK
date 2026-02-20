@@ -298,8 +298,6 @@
       {
         "nerve": "n_dorsal_scapular",
         "levels": [
-          "C3",
-          "C4",
           "C5"
         ]
       },
@@ -4343,8 +4341,7 @@
         "nerve": "n_superficial_fibular",
         "levels": [
           "L5",
-          "S1",
-          "S2"
+          "S1"
         ]
       }
     ],
@@ -4387,8 +4384,7 @@
         "nerve": "n_superficial_fibular",
         "levels": [
           "L5",
-          "S1",
-          "S2"
+          "S1"
         ]
       }
     ],
@@ -4885,8 +4881,7 @@
       {
         "nerve": "n_medial_plantar",
         "levels": [
-          "S1",
-          "S2"
+          "S1"
         ]
       }
     ],
@@ -4927,8 +4922,7 @@
       {
         "nerve": "n_medial_plantar",
         "levels": [
-          "S1",
-          "S2"
+          "S1"
         ]
       }
     ],
@@ -5046,8 +5040,7 @@
       {
         "nerve": "n_medial_plantar",
         "levels": [
-          "S1",
-          "S2"
+          "S1"
         ]
       }
     ],
@@ -5088,8 +5081,7 @@
       {
         "nerve": "n_medial_plantar",
         "levels": [
-          "S1",
-          "S2"
+          "S1"
         ]
       }
     ],
@@ -5146,8 +5138,7 @@
       {
         "nerve": "n_lateral_plantar",
         "levels": [
-          "S2",
-          "S3"
+          "S2"
         ]
       }
     ],
@@ -6564,7 +6555,12 @@
       {
         "nerve": "n_cervical_plexus",
         "levels": [
-          "C4",
+          "C4"
+        ]
+      },
+      {
+        "nerve": "n_brachial_plexus",
+        "levels": [
           "C5",
           "C6"
         ]
@@ -6613,7 +6609,12 @@
         "nerve": "n_cervical_plexus",
         "levels": [
           "C3",
-          "C4",
+          "C4"
+        ]
+      },
+      {
+        "nerve": "n_brachial_plexus",
+        "levels": [
           "C5",
           "C6",
           "C7",
@@ -6661,7 +6662,7 @@
     ],
     "innervation": [
       {
-        "nerve": "n_cervical_plexus",
+        "nerve": "n_brachial_plexus",
         "levels": [
           "C6",
           "C7"
@@ -6725,7 +6726,12 @@
         "levels": [
           "C2",
           "C3",
-          "C4",
+          "C4"
+        ]
+      },
+      {
+        "nerve": "n_brachial_plexus",
+        "levels": [
           "C5",
           "C6"
         ]

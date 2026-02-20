@@ -512,6 +512,8 @@
     "name_en": "Posterior interosseous nerve",
     "type": "peripheral",
     "root_levels": [
+      "C5",
+      "C6",
       "C7",
       "C8"
     ],
@@ -681,7 +683,9 @@
       "L5",
       "S1",
       "S2",
-      "S3"
+      "S3",
+      "S4",
+      "S5"
     ],
     "parent": null,
     "region": "lower_limb",
@@ -919,7 +923,8 @@
       "L5",
       "S1",
       "S2",
-      "S3"
+      "S3",
+      "S4"
     ],
     "parent": null,
     "region": "back",
