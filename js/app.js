@@ -19,6 +19,9 @@ const SHKApp = {
       SHKGraph.init(document.getElementById('cy'));
       SHKGraph.loadData(this.data.muscles, this.data.bones, this.data.nerves, this.data.joints, this.data.skin, this.data.ligaments);
 
+      // Validate data integrity
+      const errors = SHKData.validate(this.data.muscles, this.data.bones, this.data.nerves, this.data.joints, this.data.skin, this.data.ligaments);
+
       // Build search index
       this.buildSearchIndex();
 

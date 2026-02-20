@@ -54,6 +54,8 @@ const SHKData = {
     plane: { ja: '平面関節', en: 'Plane/Gliding' },
     ellipsoid: { ja: '楕円関節', en: 'Ellipsoid' },
     bicondylar: { ja: '二顆関節', en: 'Bicondylar' },
+    symphysis: { ja: '結合', en: 'Symphysis' },
+    syndesmosis: { ja: '靱帯結合', en: 'Syndesmosis' },
   },
 
   // Validate data integrity
@@ -113,6 +115,12 @@ const SHKData = {
           errors.push(`Ligament ${lg.id}: joint ${jId} not found`);
         }
       });
+    });
+
+    nerves.forEach(n => {
+      if (n.parent && !nerveIds.has(n.parent)) {
+        errors.push(`Nerve ${n.id}: parent ${n.parent} not found`);
+      }
     });
 
     if (errors.length > 0) {
